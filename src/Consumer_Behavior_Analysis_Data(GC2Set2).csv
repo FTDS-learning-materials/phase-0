@@ -1,0 +1,1001 @@
+ Age , Gender , Income_Level , Marital_Status , Education_Level , Occupation , Purchase_Category , Purchase_Amount , Frequency_of_Purchase , Purchase_Channel , Brand_Loyalty , Product_Rating , Time_Spent_on_Product_Research(hours) , Social_Media_Influence , Discount_Sensitivity , Return_Rate , Customer_Satisfaction , Engagement_with_Ads , Device_Used_for_Shopping , Payment_Method , Time_of_Purchase , Discount_Used , Customer_Loyalty_Program_Member , Purchase_Intent , Shipping_Preference , Time_to_Decision 
+22.0,Female,Middle,Married,Bachelor's,Middle,Gardening & Outdoors,$333.80 ,4.0,Mixed,5.0,5.0,2.0,,Somewhat Sensitive,1.0,7.0,,,Credit Card,3/1/2024,True,False,Need-based,No Preference,
+,,High,Married,High School,,Food & Beverages,$222.22 ,11.0,In-Store,3.0,1.0,2.0,Medium,Not Sensitive,1.0,5.0,High,Tablet,PayPal,4/16/2024,True,,Wants-based,Standard,6.0
+24.0,Female,Middle,Single,Master's,High,Office Supplies,$426.22 ,2.0,Mixed,5.0,5.0,,Low,,1.0,7.0,Low,Smartphone,Debit Card,3/15/2024,True,True,Impulsive,No Preference,3.0
+29.0,Female,Middle,Single,Master's,Middle,Home Appliances,$101.31 ,6.0,Mixed,3.0,1.0,1.0,High,,0.0,1.0,,Smartphone,Other,10/4/2024,True,True,Need-based,Express,10.0
+33.0,Female,Middle,Widowed,High School,Middle,Furniture,$211.70 ,6.0,Mixed,3.0,4.0,0.0,Medium,Not Sensitive,2.0,10.0,,,Debit Card,1/30/2024,False,,Wants-based,No Preference,4.0
+45.0,Male,Middle,Married,Master's,High,Office Supplies,$487.95 ,8.0,Mixed,3.0,3.0,0.0,High,Not Sensitive,2.0,3.0,,Tablet,Debit Card,3/19/2024,False,False,Planned,No Preference,7.0
+21.0,Female,Middle,Divorced,High School,Middle,Furniture,$486.40 ,12.0,,,5.0,1.0,High,Somewhat Sensitive,0.0,9.0,Low,Desktop,Debit Card,3/15/2024,True,False,Need-based,Express,13.0
+39.0,Male,Middle,Single,High School,Middle,Books,$218.06 ,6.0,Online,5.0,4.0,1.0,Low,Somewhat Sensitive,2.0,9.0,,Desktop,Credit Card,3/17/2024,False,True,Impulsive,No Preference,
+24.0,Female,High,Divorced,Master's,,Office Supplies,$201.96 ,,,3.0,5.0,0.0,Low,Very Sensitive,1.0,2.0,High,Desktop,Cash,6/10/2024,False,False,Need-based,Standard,7.0
+25.0,Bigender,,Married,,High,Sports & Outdoors,$418.83 ,7.0,Online,2.0,5.0,1.0,,Somewhat Sensitive,1.0,5.0,Medium,Tablet,PayPal,10/7/2024,True,False,Need-based,No Preference,13.0
+33.0,Male,Middle,,Bachelor's,Middle,Mobile Accessories,$389.70 ,12.0,In-Store,1.0,4.0,0.5,Low,Not Sensitive,0.0,4.0,High,Desktop,PayPal,7/2/2024,True,False,Planned,Express,12.0
+38.0,Female,High,Widowed,Bachelor's,Middle,Sports & Outdoors,$238.93 ,5.0,,4.0,3.0,1.0,,Very Sensitive,0.0,10.0,High,Tablet,Cash,12/27/2024,True,,Planned,No Preference,1.0
+34.0,Male,Middle,Single,Bachelor's,High,Luxury Goods,,7.0,In-Store,5.0,2.0,2.0,Low,Very Sensitive,1.0,7.0,High,Desktop,Debit Card,8/5/2024,True,True,Need-based,No Preference,5.0
+32.0,Male,High,Married,High School,Middle,Animal Feed,$79.81 ,4.0,Mixed,,5.0,0.0,High,Not Sensitive,0.0,9.0,High,Smartphone,Debit Card,7/16/2024,False,True,,Standard,14.0
+30.0,Female,High,Widowed,High School,High,Health Care,$58.51 ,2.0,Online,4.0,4.0,0.5,,,0.0,4.0,Medium,Desktop,PayPal,12/14/2024,True,True,Planned,No Preference,14.0
+40.0,Male,High,Divorced,Master's,High,,$109.29 ,3.0,Online,3.0,4.0,,Medium,Somewhat Sensitive,2.0,2.0,High,Desktop,Debit Card,8/11/2024,False,True,Wants-based,Express,11.0
+,Male,High,Single,Bachelor's,High,Furniture,$356.45 ,6.0,Mixed,5.0,5.0,2.0,Low,Very Sensitive,0.0,7.0,Medium,Smartphone,Credit Card,10/18/2024,False,True,Planned,Standard,8.0
+,Female,Middle,Divorced,Bachelor's,High,Mobile Accessories,$236.99 ,10.0,Mixed,2.0,4.0,0.0,High,Very Sensitive,0.0,8.0,,Tablet,PayPal,12/9/2024,True,True,Impulsive,No Preference,13.0
+36.0,Male,Middle,Widowed,Bachelor's,High,Packages),$454.39 ,10.0,In-Store,2.0,4.0,2.0,Medium,Not Sensitive,0.0,3.0,,Desktop,Other,7/23/2024,False,True,Impulsive,Standard,3.0
+,Female,High,Widowed,Bachelor's,Middle,Electronics,$490.75 ,10.0,In-Store,2.0,4.0,1.0,,Very Sensitive,1.0,4.0,Low,Smartphone,Debit Card,7/8/2024,False,False,Wants-based,Standard,
+21.0,Female,Middle,Widowed,High School,Middle,Software & Apps,$463.07 ,,Mixed,4.0,2.0,0.0,,,1.0,2.0,Medium,Smartphone,PayPal,7/23/2024,True,False,Wants-based,No Preference,11.0
+36.0,Female,High,Married,Master's,High,Baby Products,$56.74 ,5.0,Online,5.0,1.0,0.0,,Very Sensitive,0.0,6.0,,Smartphone,Other,7/31/2024,True,False,Impulsive,Express,
+38.0,Male,High,Divorced,Bachelor's,Middle,Toys & Games,$371.32 ,7.0,In-Store,4.0,4.0,0.7,Medium,,2.0,1.0,,Tablet,Debit Card,2/25/2024,True,True,Impulsive,Standard,
+37.0,Female,Middle,Single,Bachelor's,Middle,Software & Apps,$461.00 ,7.0,Online,2.0,4.0,1.0,High,Not Sensitive,0.0,8.0,Low,Tablet,Cash,7/10/2024,False,True,Wants-based,Standard,9.0
+33.0,Female,High,,Bachelor's,High,,$253.37 ,6.0,In-Store,4.0,1.0,1.0,,Very Sensitive,2.0,10.0,High,Tablet,,12/25/2024,True,False,Impulsive,Standard,8.0
+37.0,Male,High,,High School,High,Packages),$136.53 ,3.0,Mixed,2.0,4.0,2.0,High,Not Sensitive,1.0,3.0,High,,PayPal,5/31/2024,True,True,Planned,Standard,10.0
+31.0,Female,Middle,Single,Master's,Middle,Arts & Crafts,$489.05 ,10.0,Online,5.0,3.0,0.0,,Somewhat Sensitive,2.0,2.0,High,Desktop,PayPal,9/4/2024,True,True,Planned,,7.0
+50.0,,High,Single,Master's,High,Electronics,$81.91 ,10.0,,3.0,4.0,1.0,Medium,Very Sensitive,0.0,4.0,,Desktop,Debit Card,7/24/2024,False,True,Need-based,Express,2.0
+50.0,Male,Middle,Married,,Middle,Arts & Crafts,$135.80 ,2.0,In-Store,2.0,5.0,,Low,Somewhat Sensitive,1.0,,High,Desktop,Debit Card,,False,True,Planned,No Preference,9.0
+45.0,Female,Middle,Widowed,High School,Middle,Health Supplements,$382.24 ,12.0,In-Store,1.0,5.0,1.0,High,Very Sensitive,1.0,4.0,High,Tablet,PayPal,7/6/2024,True,True,Planned,Standard,3.0
+33.0,Female,High,Married,Bachelor's,Middle,Gardening & Outdoors,$354.70 ,5.0,Online,4.0,2.0,0.0,,Very Sensitive,2.0,7.0,,Smartphone,Other,2/10/2024,True,,Planned,Express,12.0
+24.0,Male,High,Divorced,Bachelor's,High,Mobile Accessories,$433.82 ,6.0,Online,3.0,2.0,1.0,Medium,Somewhat Sensitive,0.0,8.0,Medium,Desktop,Other,6/29/2024,False,True,Planned,Express,10.0
+39.0,Genderfluid,High,Married,Bachelor's,,Mobile Accessories,$282.13 ,5.0,Mixed,4.0,5.0,1.0,,Somewhat Sensitive,,2.0,,Tablet,Other,1/26/2024,True,False,Need-based,Standard,9.0
+48.0,Male,High,Widowed,High School,Middle,Mobile Accessories,$454.38 ,10.0,Online,3.0,4.0,0.0,,Somewhat Sensitive,0.0,,Medium,Smartphone,PayPal,6/15/2024,True,False,Impulsive,No Preference,7.0
+25.0,Male,Middle,Married,High School,High,Mobile Accessories,$138.88 ,7.0,In-Store,2.0,4.0,1.0,,Not Sensitive,1.0,3.0,,Tablet,Cash,6/8/2024,True,False,Planned,No Preference,4.0
+30.0,Female,High,Single,Bachelor's,High,Books,$52.34 ,6.0,In-Store,3.0,4.0,,Low,Somewhat Sensitive,1.0,5.0,Medium,Tablet,PayPal,5/21/2024,True,True,Planned,Express,13.0
+34.0,Male,Middle,Single,Bachelor's,High,Groceries,$338.20 ,7.0,Online,3.0,5.0,0.0,,Not Sensitive,,9.0,Medium,Tablet,Other,9/1/2024,True,False,,Standard,7.0
+21.0,Female,Middle,Widowed,High School,Middle,Toys & Games,,3.0,In-Store,1.0,5.0,1.0,High,Somewhat Sensitive,1.0,10.0,High,Tablet,Other,3/4/2024,True,False,Impulsive,Express,10.0
+36.0,Female,,Married,Master's,Middle,Software & Apps,$371.58 ,2.0,Mixed,2.0,1.0,2.0,High,,0.0,10.0,,Smartphone,Cash,9/13/2024,True,True,,,11.0
+30.0,Male,Middle,Widowed,Bachelor's,Middle,Health Care,$353.40 ,2.0,Online,2.0,3.0,2.0,Medium,Very Sensitive,0.0,1.0,Low,Tablet,Credit Card,12/6/2024,False,True,Impulsive,No Preference,3.0
+46.0,Female,Middle,,High School,,,$329.41 ,5.0,In-Store,5.0,3.0,0.0,Medium,,1.0,1.0,High,Desktop,Cash,10/21/2024,True,True,Need-based,No Preference,2.0
+46.0,Female,Middle,,Master's,Middle,Food & Beverages,$54.46 ,5.0,Online,4.0,5.0,1.0,High,Not Sensitive,1.0,1.0,Low,Tablet,Other,11/17/2024,False,False,Impulsive,,
+43.0,Male,High,Widowed,Master's,Middle,Books,$257.12 ,8.0,Online,2.0,,0.0,High,Not Sensitive,,1.0,High,Smartphone,Other,7/24/2024,True,False,Impulsive,No Preference,11.0
+43.0,Male,High,Divorced,Bachelor's,Middle,Arts & Crafts,$293.04 ,11.0,In-Store,4.0,2.0,1.0,,Very Sensitive,1.0,,Low,Desktop,PayPal,3/3/2024,True,False,Planned,Standard,6.0
+34.0,Male,High,Single,Master's,High,Books,$110.40 ,12.0,Mixed,5.0,1.0,2.0,,Somewhat Sensitive,1.0,3.0,Medium,Tablet,Debit Card,11/13/2024,False,False,Need-based,Standard,12.0
+42.0,Female,Middle,Married,Master's,High,Mobile Accessories,$76.27 ,4.0,In-Store,2.0,3.0,0.0,,,0.0,,Medium,Smartphone,Credit Card,12/24/2024,True,False,Wants-based,Standard,10.0
+40.0,Female,High,Widowed,Bachelor's,Middle,Toys & Games,$392.08 ,,Online,2.0,5.0,1.0,,Very Sensitive,2.0,,High,Tablet,Other,8/4/2024,True,,Need-based,,6.0
+25.0,Female,High,Married,Bachelor's,High,Toys & Games,$51.22 ,6.0,Online,2.0,1.0,0.0,,Very Sensitive,1.0,5.0,Medium,Tablet,Cash,8/25/2024,True,True,Planned,Standard,5.0
+38.0,Male,Middle,Divorced,Bachelor's,High,Clothing,$227.57 ,2.0,Online,1.0,2.0,0.0,High,Somewhat Sensitive,1.0,6.0,,Tablet,PayPal,8/17/2024,False,True,Wants-based,No Preference,14.0
+46.0,Female,Middle,Widowed,Bachelor's,Middle,Groceries,$378.87 ,7.0,Online,1.0,2.0,0.0,,Very Sensitive,1.0,2.0,Low,Tablet,PayPal,4/1/2024,True,False,Planned,No Preference,5.0
+24.0,Female,Middle,Widowed,High School,High,Beauty & Personal Care,$423.92 ,8.0,Mixed,3.0,1.0,,,Somewhat Sensitive,0.0,9.0,High,,Credit Card,8/24/2024,False,True,Need-based,,8.0
+43.0,Non-binary,High,Widowed,Master's,Middle,Arts & Crafts,$111.24 ,9.0,Mixed,5.0,2.0,0.0,Medium,Somewhat Sensitive,0.0,2.0,High,Smartphone,Credit Card,8/6/2024,True,False,Need-based,No Preference,12.0
+37.0,,Middle,Single,Bachelor's,Middle,Travel & Leisure (Flights,$299.31 ,7.0,Mixed,2.0,,1.0,Medium,Very Sensitive,2.0,3.0,,Desktop,Debit Card,2/1/2024,True,False,Need-based,Express,3.0
+42.0,Male,Middle,Widowed,Master's,Middle,Animal Feed,$169.28 ,7.0,Mixed,,,1.0,,Somewhat Sensitive,2.0,1.0,Low,Tablet,Cash,6/17/2024,True,True,Impulsive,,6.0
+29.0,Male,Middle,Widowed,High School,High,Office Supplies,$449.13 ,9.0,In-Store,2.0,1.0,0.5,Medium,,2.0,2.0,Low,Tablet,Credit Card,6/12/2024,False,False,Planned,No Preference,14.0
+35.0,Female,High,Married,Master's,High,Animal Feed,$427.48 ,6.0,Online,,2.0,0.0,Medium,Not Sensitive,1.0,1.0,Low,Smartphone,Debit Card,12/16/2024,True,False,Impulsive,Standard,11.0
+27.0,Female,Middle,Single,High School,High,Sports & Outdoors,$171.61 ,3.0,Online,3.0,1.0,2.0,Low,Very Sensitive,1.0,6.0,High,Desktop,Credit Card,10/31/2024,True,False,Planned,Express,8.0
+40.0,Female,High,Married,Bachelor's,High,Books,$240.28 ,3.0,Online,3.0,,2.0,High,Not Sensitive,2.0,7.0,Medium,Tablet,Cash,12/7/2024,True,True,Impulsive,Standard,4.0
+34.0,Female,High,Single,High School,High,Furniture,$310.17 ,6.0,In-Store,2.0,3.0,2.0,,Very Sensitive,0.0,10.0,,Smartphone,Debit Card,2/24/2024,False,False,Wants-based,No Preference,13.0
+25.0,Female,Middle,Married,Bachelor's,Middle,Hotels,$166.00 ,10.0,Online,5.0,3.0,0.0,,Not Sensitive,2.0,10.0,Medium,Smartphone,PayPal,6/11/2024,False,False,Impulsive,Express,5.0
+38.0,Male,High,Divorced,Bachelor's,High,Baby Products,$362.01 ,2.0,In-Store,2.0,4.0,1.0,,Somewhat Sensitive,2.0,1.0,Medium,Tablet,Debit Card,11/24/2024,False,False,Impulsive,Express,
+33.0,Polygender,High,Married,Bachelor's,Middle,Travel & Leisure (Flights,$348.50 ,3.0,Mixed,2.0,3.0,,,Not Sensitive,0.0,6.0,Medium,Smartphone,Debit Card,7/9/2024,False,False,Planned,No Preference,8.0
+32.0,Female,Middle,Married,Bachelor's,High,Animal Feed,$395.97 ,9.0,In-Store,,4.0,0.0,Medium,Very Sensitive,1.0,6.0,Low,Tablet,Debit Card,8/18/2024,True,True,Wants-based,,1.0
+50.0,Female,Middle,Widowed,High School,Middle,Sports & Outdoors,$474.99 ,9.0,Online,2.0,4.0,,,Somewhat Sensitive,0.0,8.0,High,Desktop,Credit Card,7/10/2024,True,False,Planned,Standard,5.0
+35.0,Female,Middle,Widowed,High School,Middle,Luxury Goods,$286.43 ,4.0,Mixed,1.0,3.0,0.0,High,Very Sensitive,2.0,3.0,,Desktop,Cash,7/12/2024,True,False,Wants-based,Express,14.0
+19.0,Genderfluid,High,Widowed,High School,High,Health Care,$333.32 ,8.0,Online,1.0,5.0,0.0,Low,Very Sensitive,0.0,3.0,High,Smartphone,Credit Card,10/5/2024,True,False,Planned,No Preference,3.0
+46.0,Bigender,High,Single,Master's,High,Electronics,$223.47 ,9.0,Mixed,2.0,1.0,1.0,High,Somewhat Sensitive,0.0,2.0,,Tablet,Debit Card,9/20/2024,True,True,Need-based,Standard,8.0
+23.0,Male,Middle,Divorced,Master's,Middle,Sports & Outdoors,$414.83 ,2.0,Mixed,2.0,4.0,0.5,High,Somewhat Sensitive,2.0,4.0,High,Desktop,Credit Card,7/16/2024,False,False,Planned,Express,8.0
+34.0,Female,High,Widowed,Master's,High,Books,$391.38 ,5.0,In-Store,5.0,2.0,2.0,Low,Not Sensitive,0.0,7.0,Low,Tablet,Other,4/2/2024,False,False,Need-based,No Preference,8.0
+48.0,Male,Middle,Divorced,Bachelor's,High,Furniture,$368.40 ,11.0,Online,2.0,5.0,1.0,High,Not Sensitive,0.0,3.0,High,,Credit Card,6/21/2024,False,False,Need-based,No Preference,13.0
+27.0,Bigender,Middle,Widowed,High School,Middle,Furniture,$328.36 ,11.0,In-Store,1.0,4.0,2.0,High,Very Sensitive,0.0,4.0,,Tablet,Cash,3/11/2024,False,True,Wants-based,Express,4.0
+37.0,Female,Middle,Divorced,Bachelor's,Middle,Home Appliances,$424.39 ,9.0,Mixed,3.0,1.0,1.0,High,Somewhat Sensitive,0.0,7.0,Low,Smartphone,Credit Card,2/26/2024,True,False,Wants-based,No Preference,13.0
+47.0,Male,High,Married,High School,High,,$197.12 ,10.0,In-Store,4.0,4.0,0.0,Low,Somewhat Sensitive,1.0,1.0,Medium,Tablet,Other,6/14/2024,True,True,Wants-based,Standard,10.0
+45.0,Male,High,Single,Bachelor's,High,Books,$454.57 ,9.0,Mixed,2.0,5.0,1.0,Low,Somewhat Sensitive,0.0,1.0,Medium,Smartphone,Debit Card,3/24/2024,True,True,Wants-based,Express,1.0
+37.0,Male,Middle,Divorced,High School,,Electronics,$298.38 ,4.0,Mixed,3.0,4.0,2.0,High,Very Sensitive,0.0,2.0,Low,,Cash,4/27/2024,False,True,Need-based,Standard,3.0
+36.0,Male,High,Divorced,High School,High,Clothing,$111.70 ,6.0,Online,4.0,5.0,0.0,Medium,Somewhat Sensitive,2.0,5.0,High,Tablet,Credit Card,11/7/2024,False,False,Planned,Standard,7.0
+34.0,Male,Middle,Married,Bachelor's,Middle,Clothing,$373.69 ,10.0,Online,3.0,2.0,2.0,Medium,Not Sensitive,1.0,8.0,,Tablet,Credit Card,12/4/2024,False,True,Impulsive,Express,14.0
+37.0,Male,High,Widowed,Master's,Middle,Jewelry & Accessories,$354.87 ,,In-Store,1.0,1.0,0.0,,Not Sensitive,2.0,4.0,,Desktop,Cash,4/18/2024,False,True,,Express,
+18.0,Female,Middle,Widowed,Bachelor's,High,Mobile Accessories,$214.48 ,2.0,Online,4.0,2.0,2.0,,Very Sensitive,1.0,3.0,,Tablet,Cash,4/21/2024,True,True,Wants-based,Express,2.0
+20.0,Male,High,Divorced,Bachelor's,Middle,Software & Apps,$399.58 ,6.0,In-Store,3.0,4.0,0.0,,Very Sensitive,1.0,8.0,Low,Tablet,Other,9/25/2024,True,False,Need-based,Standard,7.0
+27.0,Female,High,Widowed,,Middle,Luxury Goods,$380.99 ,7.0,Mixed,1.0,2.0,1.0,Low,Somewhat Sensitive,0.0,,Medium,Desktop,Cash,12/9/2024,True,,Need-based,No Preference,8.0
+36.0,Male,Middle,Married,High School,High,Food & Beverages,$79.00 ,10.0,Online,1.0,2.0,1.0,Medium,Very Sensitive,2.0,6.0,Low,Smartphone,Cash,9/14/2024,False,True,Planned,Standard,7.0
+46.0,Female,Middle,Married,Bachelor's,Middle,Groceries,$113.88 ,2.0,Online,5.0,2.0,2.0,Medium,Not Sensitive,2.0,4.0,High,Tablet,PayPal,3/29/2024,False,False,Wants-based,Express,9.0
+26.0,,Middle,Married,High School,Middle,Travel & Leisure (Flights,$121.57 ,,Mixed,1.0,5.0,0.0,High,Not Sensitive,0.0,4.0,High,Desktop,Other,6/6/2024,,True,Impulsive,No Preference,13.0
+21.0,Female,High,Divorced,High School,Middle,Health Supplements,$215.54 ,11.0,Online,3.0,1.0,2.0,Low,Somewhat Sensitive,2.0,6.0,High,Desktop,Credit Card,4/8/2024,True,True,Planned,No Preference,10.0
+43.0,,High,Married,Bachelor's,High,Furniture,$87.03 ,10.0,Mixed,1.0,1.0,0.0,Low,,1.0,5.0,High,Desktop,,8/11/2024,False,True,Need-based,,
+19.0,Male,High,Divorced,High School,High,Travel & Leisure (Flights,$111.75 ,4.0,In-Store,1.0,4.0,0.0,High,Not Sensitive,1.0,6.0,High,Tablet,Debit Card,10/10/2024,False,,Impulsive,Standard,8.0
+41.0,Female,High,Widowed,Master's,High,Office Supplies,$136.20 ,2.0,Mixed,3.0,2.0,2.0,Low,Not Sensitive,0.0,1.0,High,Tablet,PayPal,,True,True,Need-based,Express,9.0
+48.0,Male,Middle,Married,High School,Middle,Food & Beverages,$439.31 ,,In-Store,3.0,2.0,1.0,Medium,Very Sensitive,0.0,6.0,Medium,Smartphone,Debit Card,8/11/2024,False,True,Wants-based,No Preference,7.0
+19.0,Female,Middle,Married,Bachelor's,Middle,Health Care,,9.0,Online,4.0,4.0,1.0,,Somewhat Sensitive,0.0,4.0,,Tablet,Other,3/28/2024,True,True,Impulsive,No Preference,5.0
+29.0,Male,Middle,Widowed,Master's,High,Food & Beverages,$377.67 ,8.0,,5.0,3.0,0.0,,Very Sensitive,2.0,1.0,High,Desktop,PayPal,5/13/2024,True,False,Need-based,No Preference,14.0
+26.0,,High,Single,Master's,High,Beauty & Personal Care,$108.61 ,10.0,In-Store,3.0,2.0,0.0,,Very Sensitive,0.0,3.0,Low,Smartphone,Cash,11/23/2024,True,True,Need-based,No Preference,14.0
+20.0,Female,Middle,Married,Bachelor's,Middle,Health Care,$366.77 ,7.0,Mixed,4.0,3.0,2.0,Low,Not Sensitive,0.0,9.0,,Smartphone,Debit Card,9/18/2024,False,False,Impulsive,Standard,1.0
+31.0,Female,High,Divorced,Master's,Middle,Jewelry & Accessories,$178.04 ,5.0,In-Store,5.0,1.0,2.0,,Somewhat Sensitive,0.0,5.0,High,Tablet,Credit Card,7/16/2024,False,False,Need-based,No Preference,12.0
+23.0,Female,High,Divorced,High School,High,Toys & Games,$461.09 ,8.0,Online,4.0,1.0,0.0,Medium,Somewhat Sensitive,0.0,4.0,Medium,Smartphone,Debit Card,8/3/2024,True,False,Need-based,No Preference,8.0
+19.0,Female,High,,High School,Middle,Hotels,$211.16 ,5.0,In-Store,2.0,3.0,1.0,High,Very Sensitive,0.0,3.0,,Smartphone,PayPal,6/28/2024,,False,Planned,Standard,2.0
+23.0,Female,Middle,Widowed,Bachelor's,High,Animal Feed,$421.95 ,8.0,Mixed,3.0,5.0,0.0,Medium,Not Sensitive,1.0,1.0,,Smartphone,Other,3/18/2024,False,True,Need-based,No Preference,7.0
+49.0,Female,,Divorced,Bachelor's,High,Furniture,$378.59 ,5.0,Online,2.0,1.0,0.0,,Somewhat Sensitive,0.0,4.0,,Desktop,Other,10/15/2024,False,False,Wants-based,No Preference,14.0
+,Non-binary,High,Divorced,High School,High,Office Supplies,$268.93 ,,Mixed,5.0,,1.0,Medium,Very Sensitive,1.0,3.0,,,,11/23/2024,False,False,Impulsive,,8.0
+42.0,Male,Middle,Divorced,Bachelor's,High,Health Care,,11.0,Online,5.0,4.0,0.0,Medium,Not Sensitive,,8.0,Low,Desktop,Other,11/29/2024,False,False,Wants-based,No Preference,7.0
+18.0,Female,High,Widowed,Bachelor's,High,Beauty & Personal Care,$160.82 ,7.0,In-Store,3.0,1.0,1.0,High,Somewhat Sensitive,0.0,1.0,High,Smartphone,Cash,7/9/2024,True,True,Wants-based,No Preference,3.0
+35.0,Male,High,Single,Master's,Middle,Hotels,$494.18 ,6.0,Mixed,4.0,5.0,1.0,Medium,Not Sensitive,1.0,2.0,,Desktop,Cash,8/3/2024,False,False,Need-based,Standard,14.0
+22.0,,Middle,,Bachelor's,,Home Appliances,$177.05 ,5.0,Online,3.0,1.0,1.0,,Somewhat Sensitive,2.0,1.0,Low,Tablet,,12/4/2024,True,True,Impulsive,Standard,1.0
+28.0,Female,Middle,Married,Master's,High,Food & Beverages,$450.66 ,7.0,In-Store,2.0,5.0,0.0,High,Somewhat Sensitive,2.0,4.0,Medium,Tablet,Credit Card,6/13/2024,False,True,Need-based,No Preference,9.0
+42.0,Female,High,Married,Bachelor's,Middle,Arts & Crafts,$164.27 ,6.0,Online,5.0,3.0,2.0,High,Not Sensitive,2.0,7.0,Low,Desktop,PayPal,7/13/2024,True,False,Wants-based,No Preference,14.0
+37.0,Female,Middle,Widowed,Master's,High,Food & Beverages,$346.36 ,12.0,Mixed,4.0,5.0,0.0,Medium,Somewhat Sensitive,0.0,7.0,Medium,,Credit Card,9/4/2024,False,,Need-based,Standard,14.0
+33.0,Female,Middle,Widowed,,High,Animal Feed,,9.0,Mixed,4.0,2.0,1.0,Medium,Not Sensitive,1.0,5.0,Medium,Tablet,Credit Card,8/26/2024,True,True,Impulsive,Standard,3.0
+46.0,Female,Middle,Widowed,High School,Middle,Travel & Leisure (Flights,$163.41 ,2.0,In-Store,5.0,,2.0,Low,Not Sensitive,1.0,8.0,High,Desktop,Other,2/25/2024,True,True,Need-based,Express,4.0
+30.0,Female,Middle,Divorced,Master's,Middle,Hotels,$467.58 ,10.0,Mixed,1.0,2.0,0.0,,Somewhat Sensitive,1.0,6.0,Low,Desktop,PayPal,,True,True,Wants-based,Standard,7.0
+39.0,Female,Middle,Widowed,Bachelor's,High,Books,$247.51 ,10.0,Mixed,2.0,1.0,2.0,Low,Somewhat Sensitive,1.0,8.0,Low,Tablet,Credit Card,7/1/2024,True,False,Impulsive,Standard,2.0
+25.0,Female,Middle,Single,High School,High,Office Supplies,$365.10 ,3.0,In-Store,2.0,3.0,0.0,,Not Sensitive,1.0,3.0,High,Desktop,Debit Card,8/30/2024,False,True,Wants-based,,1.0
+38.0,Female,High,Single,Master's,Middle,Health Care,$485.42 ,5.0,Online,1.0,2.0,2.0,High,Somewhat Sensitive,1.0,6.0,High,Desktop,Other,11/13/2024,True,False,Wants-based,,4.0
+41.0,Female,Middle,Widowed,,High,,$250.54 ,4.0,In-Store,3.0,3.0,1.0,High,Not Sensitive,2.0,,,Desktop,Credit Card,12/27/2024,False,False,Wants-based,No Preference,3.0
+49.0,Female,Middle,Divorced,High School,,Jewelry & Accessories,,5.0,Mixed,5.0,4.0,0.0,Low,Somewhat Sensitive,1.0,2.0,,Desktop,Debit Card,8/7/2024,True,True,Planned,No Preference,1.0
+21.0,Male,High,Divorced,Bachelor's,Middle,Gardening & Outdoors,$162.31 ,8.0,In-Store,5.0,1.0,1.0,High,Very Sensitive,1.0,2.0,Medium,Tablet,Credit Card,10/5/2024,False,False,Need-based,No Preference,11.0
+37.0,Male,Middle,Widowed,Master's,High,Office Supplies,$328.21 ,7.0,Mixed,5.0,5.0,2.0,Low,Not Sensitive,2.0,2.0,Low,Smartphone,Credit Card,,False,False,Need-based,No Preference,12.0
+30.0,,High,Married,Master's,,Sports & Outdoors,$268.59 ,4.0,Online,3.0,3.0,1.0,High,Very Sensitive,1.0,1.0,Medium,Desktop,Debit Card,4/5/2024,True,,Need-based,Standard,
+18.0,Female,High,Divorced,High School,High,Electronics,$257.37 ,7.0,Online,3.0,3.0,0.0,Medium,Very Sensitive,2.0,5.0,Medium,Smartphone,PayPal,2/1/2024,True,False,Wants-based,Express,13.0
+41.0,Female,,Single,High School,High,Office Supplies,$205.49 ,4.0,In-Store,5.0,,2.0,Low,Somewhat Sensitive,2.0,2.0,High,Tablet,Cash,11/9/2024,True,False,Need-based,Express,11.0
+,Male,High,Divorced,Master's,High,Mobile Accessories,$407.91 ,7.0,In-Store,2.0,5.0,0.0,Low,,0.0,5.0,,Tablet,Other,6/17/2024,True,True,Need-based,Standard,14.0
+33.0,Female,High,Divorced,Bachelor's,High,Food & Beverages,$254.73 ,6.0,Online,4.0,3.0,0.0,Medium,Very Sensitive,0.0,3.0,Low,Smartphone,Other,6/1/2024,True,True,Impulsive,Express,3.0
+30.0,Female,Middle,Divorced,Bachelor's,High,Clothing,$397.78 ,12.0,Online,3.0,3.0,1.0,Medium,Not Sensitive,2.0,7.0,,Smartphone,PayPal,9/24/2024,False,True,Impulsive,No Preference,11.0
+33.0,Female,High,Married,Bachelor's,High,Electronics,$305.29 ,3.0,Online,2.0,3.0,1.0,Medium,Very Sensitive,1.0,,Medium,Desktop,Debit Card,9/5/2024,True,True,Impulsive,Standard,10.0
+45.0,Male,Middle,Divorced,High School,High,Food & Beverages,$257.86 ,6.0,Online,2.0,2.0,0.0,,Somewhat Sensitive,0.0,4.0,High,Tablet,PayPal,6/12/2024,True,True,Need-based,Express,1.0
+42.0,Female,High,Single,High School,Middle,Jewelry & Accessories,$393.45 ,12.0,In-Store,3.0,1.0,0.0,Low,Somewhat Sensitive,2.0,10.0,Medium,Desktop,Credit Card,10/6/2024,False,False,Need-based,Express,12.0
+30.0,,High,Married,Bachelor's,Middle,Health Supplements,$58.49 ,6.0,Online,2.0,,0.0,Medium,Very Sensitive,0.0,8.0,High,Tablet,Other,7/29/2024,True,True,Planned,Express,7.0
+42.0,Male,Middle,Single,High School,Middle,Beauty & Personal Care,$226.48 ,,In-Store,5.0,3.0,2.0,,Not Sensitive,2.0,7.0,High,Tablet,Debit Card,10/18/2024,True,False,Need-based,Express,11.0
+26.0,Female,High,Single,Master's,Middle,Health Care,$469.22 ,6.0,In-Store,1.0,1.0,1.0,High,Not Sensitive,0.0,1.0,,Tablet,Credit Card,,False,False,Wants-based,No Preference,7.0
+42.0,Female,High,Divorced,High School,High,Jewelry & Accessories,$335.32 ,6.0,Mixed,3.0,,1.0,,Not Sensitive,0.0,1.0,Low,Desktop,Other,8/12/2024,True,False,Planned,No Preference,10.0
+31.0,Male,High,Divorced,High School,Middle,Animal Feed,$184.74 ,5.0,In-Store,4.0,4.0,0.0,Medium,Very Sensitive,1.0,5.0,High,Tablet,Debit Card,11/27/2024,False,True,Impulsive,No Preference,10.0
+37.0,Genderqueer,High,Divorced,,Middle,Travel & Leisure (Flights,$442.18 ,5.0,In-Store,4.0,3.0,1.0,,Very Sensitive,2.0,10.0,High,Smartphone,,1/25/2024,False,False,Impulsive,Express,12.0
+49.0,Male,High,,High School,Middle,Health Supplements,$427.10 ,8.0,Mixed,1.0,2.0,1.0,High,Somewhat Sensitive,0.0,2.0,Medium,Desktop,PayPal,5/10/2024,False,True,Planned,No Preference,5.0
+34.0,Male,,Widowed,High School,High,Home Appliances,$326.82 ,4.0,Mixed,,2.0,1.0,High,Somewhat Sensitive,2.0,5.0,Medium,Tablet,Credit Card,4/22/2024,True,False,Planned,Standard,4.0
+41.0,Male,High,Widowed,High School,Middle,Hotels,,12.0,In-Store,2.0,5.0,2.0,,Very Sensitive,1.0,7.0,High,Tablet,Other,3/19/2024,True,True,Impulsive,No Preference,11.0
+33.0,Male,,Single,High School,High,Health Care,$77.65 ,6.0,Online,1.0,4.0,1.0,Medium,Somewhat Sensitive,2.0,3.0,,Tablet,Cash,1/24/2024,True,True,Planned,No Preference,1.0
+47.0,Female,Middle,Widowed,Master's,High,Electronics,$85.61 ,2.0,Online,4.0,2.0,1.0,High,Not Sensitive,1.0,3.0,Low,Desktop,Other,10/4/2024,True,True,Need-based,Standard,5.0
+47.0,Male,High,Widowed,High School,High,Food & Beverages,$164.79 ,4.0,,3.0,2.0,0.0,,Somewhat Sensitive,2.0,5.0,High,Tablet,Credit Card,5/23/2024,True,True,Impulsive,No Preference,1.0
+29.0,Female,High,Widowed,High School,High,Health Supplements,$235.46 ,10.0,In-Store,3.0,4.0,2.0,,Not Sensitive,0.0,7.0,,Desktop,Credit Card,11/13/2024,False,True,,No Preference,2.0
+36.0,Female,High,Widowed,Master's,Middle,Books,$245.14 ,4.0,Online,4.0,5.0,1.0,High,Very Sensitive,1.0,4.0,Medium,Smartphone,PayPal,3/3/2024,True,False,Impulsive,Standard,3.0
+43.0,Male,High,Divorced,Bachelor's,Middle,Toys & Games,$439.91 ,5.0,Online,1.0,4.0,2.0,Low,,0.0,9.0,Medium,Smartphone,Other,3/3/2024,False,False,Need-based,Express,10.0
+31.0,Male,High,Widowed,High School,High,Home Appliances,$309.22 ,5.0,Mixed,3.0,5.0,2.0,Low,Not Sensitive,2.0,4.0,,Tablet,Cash,3/24/2024,False,False,Planned,Standard,10.0
+27.0,Male,Middle,Widowed,Master's,Middle,Groceries,$146.59 ,10.0,Mixed,5.0,1.0,2.0,Low,Very Sensitive,0.0,2.0,,Smartphone,Cash,1/22/2024,False,True,,No Preference,3.0
+,,Middle,Single,High School,Middle,Hotels,$298.73 ,4.0,Online,1.0,5.0,1.0,High,Not Sensitive,0.0,2.0,Low,Tablet,Debit Card,11/2/2024,False,True,Need-based,No Preference,4.0
+,Genderqueer,High,Single,Bachelor's,High,Food & Beverages,$395.01 ,2.0,Mixed,1.0,2.0,2.0,Medium,Very Sensitive,0.0,6.0,Medium,Desktop,Credit Card,4/18/2024,True,False,Wants-based,Standard,3.0
+,Male,Middle,Married,Bachelor's,High,Electronics,$371.19 ,10.0,Mixed,1.0,2.0,2.0,High,Somewhat Sensitive,1.0,8.0,Medium,Desktop,Credit Card,,False,False,Planned,,1.0
+33.0,Female,Middle,Married,Master's,High,Electronics,$193.76 ,10.0,Mixed,4.0,3.0,1.0,Medium,,0.0,2.0,Low,Desktop,Debit Card,2/3/2024,False,False,Wants-based,No Preference,12.0
+43.0,Male,Middle,Divorced,Master's,High,Baby Products,$424.27 ,6.0,Online,1.0,4.0,2.0,,Not Sensitive,,8.0,Low,Tablet,Cash,9/15/2024,True,,Planned,Standard,12.0
+38.0,Male,High,Single,Bachelor's,High,,$496.11 ,2.0,Mixed,2.0,3.0,1.0,High,Somewhat Sensitive,2.0,8.0,High,Smartphone,PayPal,6/8/2024,True,False,Impulsive,Standard,12.0
+41.0,Male,High,Widowed,Bachelor's,Middle,Baby Products,$341.91 ,3.0,Online,4.0,4.0,0.0,Low,Not Sensitive,,9.0,,Tablet,Cash,5/31/2024,False,False,Impulsive,Express,7.0
+40.0,Male,High,Married,Master's,High,Gardening & Outdoors,$127.66 ,11.0,Online,1.0,2.0,2.0,Low,Not Sensitive,2.0,7.0,,Smartphone,Credit Card,2/23/2024,False,True,Planned,Standard,7.0
+47.0,Genderfluid,Middle,Single,Bachelor's,Middle,Software & Apps,$227.47 ,2.0,,2.0,2.0,2.0,Low,Very Sensitive,,4.0,High,Tablet,Other,,True,False,Need-based,Express,9.0
+35.0,Male,High,Widowed,Bachelor's,High,Health Supplements,$342.99 ,3.0,In-Store,4.0,2.0,2.0,Low,Very Sensitive,0.0,6.0,Medium,Smartphone,Other,11/22/2024,,True,Impulsive,Express,6.0
+49.0,Non-binary,High,Married,Master's,Middle,Packages),$306.48 ,5.0,Mixed,1.0,3.0,0.0,,Very Sensitive,0.0,9.0,Low,Tablet,Credit Card,9/15/2024,False,True,Need-based,Standard,14.0
+22.0,,Middle,Divorced,Master's,High,Home Appliances,$308.54 ,3.0,Mixed,1.0,3.0,0.0,High,Not Sensitive,,5.0,High,Desktop,Credit Card,9/29/2024,False,True,Wants-based,Standard,7.0
+49.0,Male,High,Single,Master's,Middle,Travel & Leisure (Flights,$124.17 ,12.0,Mixed,5.0,2.0,2.0,High,Very Sensitive,2.0,4.0,High,Smartphone,Debit Card,11/16/2024,True,True,Planned,Standard,6.0
+27.0,Female,Middle,Married,Master's,Middle,Travel & Leisure (Flights,$78.00 ,5.0,Online,1.0,5.0,0.0,,Not Sensitive,1.0,1.0,,Desktop,Debit Card,11/9/2024,True,False,Wants-based,No Preference,11.0
+27.0,Female,High,Married,Bachelor's,,Health Care,,4.0,Mixed,4.0,4.0,0.0,High,Somewhat Sensitive,1.0,3.0,Medium,Smartphone,Cash,9/3/2024,True,True,Planned,Standard,7.0
+37.0,Female,High,Single,Master's,Middle,Hotels,$102.09 ,3.0,Mixed,1.0,4.0,0.0,,Very Sensitive,1.0,9.0,Medium,Tablet,PayPal,3/13/2024,False,True,Need-based,Express,1.0
+32.0,Male,Middle,Married,Bachelor's,High,Health Care,$426.21 ,3.0,Mixed,1.0,4.0,2.0,High,,2.0,5.0,High,Smartphone,Other,4/18/2024,False,True,Wants-based,Standard,
+42.0,Male,,Widowed,Master's,High,Arts & Crafts,$140.31 ,2.0,Online,2.0,4.0,1.0,Low,Very Sensitive,2.0,5.0,,Desktop,Cash,5/21/2024,True,,Impulsive,Express,8.0
+18.0,Female,,Widowed,Master's,Middle,Software & Apps,$413.70 ,8.0,Mixed,3.0,,0.3,Low,Very Sensitive,0.0,,High,Desktop,Other,6/17/2024,False,True,Need-based,No Preference,6.0
+49.0,Male,High,Widowed,Master's,Middle,Arts & Crafts,$348.63 ,4.0,,5.0,2.0,0.0,High,Somewhat Sensitive,0.0,7.0,,Smartphone,Debit Card,4/1/2024,False,False,Planned,No Preference,6.0
+23.0,Female,Middle,Widowed,,Middle,Animal Feed,$91.27 ,7.0,In-Store,5.0,1.0,0.0,High,Not Sensitive,2.0,6.0,,Tablet,Cash,6/21/2024,True,True,Planned,Express,13.0
+29.0,Female,High,Divorced,Bachelor's,High,Luxury Goods,$359.94 ,11.0,Mixed,2.0,5.0,2.0,,Very Sensitive,1.0,8.0,Low,Smartphone,Cash,12/19/2024,False,True,Wants-based,Express,9.0
+25.0,Male,Middle,Divorced,High School,Middle,Gardening & Outdoors,$138.20 ,8.0,In-Store,1.0,2.0,2.0,High,Not Sensitive,0.0,6.0,Low,Desktop,Debit Card,3/2/2024,False,True,Need-based,No Preference,12.0
+,Agender,High,Divorced,High School,High,,$196.33 ,11.0,Online,4.0,3.0,1.0,Medium,Not Sensitive,0.0,5.0,,Desktop,Debit Card,6/29/2024,True,True,Planned,Standard,11.0
+32.0,Female,Middle,Widowed,Bachelor's,Middle,Packages),$249.24 ,8.0,In-Store,4.0,3.0,1.0,Medium,Somewhat Sensitive,2.0,3.0,,Smartphone,Cash,8/29/2024,False,True,Need-based,Standard,7.0
+,Male,High,Divorced,High School,High,Furniture,$129.10 ,12.0,,5.0,3.0,2.0,Low,Not Sensitive,0.0,8.0,High,Desktop,Credit Card,4/15/2024,True,False,Planned,No Preference,7.0
+45.0,Female,High,Married,Master's,High,Baby Products,$112.69 ,10.0,In-Store,1.0,4.0,0.0,High,Not Sensitive,0.0,7.0,Medium,Smartphone,Debit Card,8/27/2024,False,True,Need-based,Standard,1.0
+46.0,,Middle,,Bachelor's,High,Beauty & Personal Care,$267.85 ,,Online,5.0,2.0,2.0,Medium,Somewhat Sensitive,1.0,5.0,High,Smartphone,Credit Card,3/20/2024,False,True,Need-based,Standard,7.0
+24.0,Male,Middle,,High School,Middle,Home Appliances,$205.36 ,12.0,Online,1.0,5.0,2.0,High,Very Sensitive,0.0,1.0,Low,Tablet,Credit Card,4/27/2024,False,False,Impulsive,Express,5.0
+48.0,,High,Divorced,Master's,High,Health Supplements,$79.10 ,10.0,In-Store,5.0,3.0,1.0,,Not Sensitive,0.0,9.0,Medium,Tablet,Debit Card,5/5/2024,True,False,Need-based,Express,4.0
+35.0,Male,High,Widowed,High School,Middle,Health Care,$256.63 ,12.0,In-Store,1.0,,,High,Somewhat Sensitive,2.0,2.0,,Smartphone,Debit Card,6/16/2024,True,True,Impulsive,Standard,10.0
+50.0,Female,High,Divorced,High School,Middle,Books,$409.98 ,12.0,Mixed,5.0,4.0,0.0,,Not Sensitive,2.0,1.0,Medium,Desktop,PayPal,10/15/2024,True,False,Wants-based,Express,8.0
+34.0,Male,Middle,Widowed,High School,High,Sports & Outdoors,$291.60 ,2.0,In-Store,3.0,3.0,2.0,High,Somewhat Sensitive,0.0,7.0,,Desktop,Cash,8/1/2024,False,True,Need-based,Standard,3.0
+50.0,Female,Middle,Single,Bachelor's,Middle,,$101.70 ,7.0,Online,3.0,4.0,2.0,Medium,Not Sensitive,2.0,2.0,,Tablet,Debit Card,6/25/2024,False,True,Wants-based,Standard,
+50.0,Female,Middle,,High School,Middle,Health Care,$369.73 ,2.0,Online,,2.0,2.0,,Not Sensitive,0.0,3.0,,Tablet,Debit Card,2/4/2024,True,True,Wants-based,No Preference,12.0
+46.0,Male,Middle,Single,Bachelor's,High,Baby Products,$71.00 ,12.0,Online,1.0,5.0,2.0,High,Not Sensitive,2.0,9.0,Low,Smartphone,Cash,6/26/2024,False,,Wants-based,No Preference,13.0
+47.0,Male,Middle,Single,Master's,Middle,Packages),$280.05 ,10.0,In-Store,4.0,1.0,2.0,Medium,Very Sensitive,1.0,2.0,High,Smartphone,Credit Card,7/6/2024,True,False,Wants-based,No Preference,11.0
+35.0,Male,High,Widowed,Master's,,Jewelry & Accessories,$54.71 ,4.0,Mixed,5.0,2.0,1.0,Low,Very Sensitive,1.0,3.0,,Desktop,PayPal,10/26/2024,True,True,Need-based,Express,3.0
+27.0,Male,High,Widowed,Bachelor's,Middle,Packages),$119.51 ,11.0,Mixed,5.0,5.0,2.0,Low,Very Sensitive,2.0,8.0,Low,Desktop,PayPal,5/7/2024,False,False,Planned,No Preference,1.0
+37.0,Female,High,Single,Master's,High,,$57.50 ,12.0,Online,5.0,1.0,1.0,,Not Sensitive,0.0,3.0,,Desktop,Cash,,True,,,No Preference,13.0
+38.0,Female,High,Married,Bachelor's,High,Books,$225.05 ,5.0,Mixed,2.0,1.0,1.0,High,Somewhat Sensitive,1.0,1.0,Low,Desktop,Credit Card,6/27/2024,False,,Need-based,No Preference,10.0
+41.0,Female,High,Divorced,High School,High,Food & Beverages,$441.15 ,7.0,Online,3.0,1.0,1.0,Low,Somewhat Sensitive,1.0,1.0,,Smartphone,Debit Card,8/31/2024,False,False,Need-based,No Preference,8.0
+48.0,Male,Middle,Divorced,High School,Middle,Animal Feed,$481.21 ,3.0,Mixed,1.0,2.0,1.0,High,Not Sensitive,0.0,1.0,,Desktop,Credit Card,11/13/2024,False,False,Wants-based,No Preference,11.0
+48.0,Female,High,Married,Bachelor's,Middle,Arts & Crafts,$102.96 ,3.0,Mixed,1.0,1.0,1.0,Low,Very Sensitive,0.0,7.0,Low,Desktop,PayPal,12/19/2024,False,True,Wants-based,Standard,4.0
+45.0,Female,High,Divorced,Bachelor's,High,Electronics,$331.57 ,11.0,Mixed,3.0,1.0,0.0,Low,Somewhat Sensitive,1.0,6.0,Medium,Desktop,Debit Card,5/6/2024,False,False,Impulsive,Express,
+26.0,Non-binary,Middle,Widowed,High School,Middle,Electronics,$101.29 ,11.0,In-Store,1.0,1.0,,Medium,Not Sensitive,2.0,7.0,Medium,Smartphone,Cash,10/30/2024,False,True,Need-based,No Preference,4.0
+50.0,Female,Middle,Single,Master's,High,Packages),$143.52 ,9.0,In-Store,2.0,5.0,1.0,Medium,Somewhat Sensitive,2.0,3.0,,Tablet,Credit Card,4/11/2024,True,False,Impulsive,Express,12.0
+39.0,Male,Middle,Widowed,Bachelor's,Middle,Sports & Outdoors,$276.48 ,3.0,Mixed,1.0,2.0,1.0,,Somewhat Sensitive,0.0,4.0,Low,Desktop,Cash,5/5/2024,False,False,Need-based,Express,7.0
+20.0,Male,High,Widowed,High School,,Toys & Games,$352.87 ,11.0,In-Store,5.0,3.0,0.0,High,Not Sensitive,0.0,,High,Tablet,PayPal,2/19/2024,False,False,Wants-based,Standard,12.0
+48.0,Male,Middle,Married,Master's,Middle,Mobile Accessories,$228.68 ,3.0,Mixed,2.0,1.0,2.0,Low,Very Sensitive,1.0,4.0,,Tablet,Debit Card,10/9/2024,True,False,Planned,,4.0
+31.0,Female,Middle,Divorced,Master's,High,Food & Beverages,$301.39 ,6.0,Online,2.0,1.0,0.0,,Very Sensitive,1.0,4.0,Low,Desktop,Debit Card,4/21/2024,False,False,Need-based,No Preference,11.0
+25.0,Female,Middle,Married,,High,Books,$473.50 ,11.0,Mixed,2.0,4.0,1.0,Low,,2.0,3.0,High,Tablet,Other,7/24/2024,,True,Impulsive,Express,10.0
+18.0,Agender,,Single,Bachelor's,High,Home Appliances,$72.80 ,11.0,In-Store,2.0,4.0,1.0,High,Somewhat Sensitive,2.0,10.0,High,Desktop,PayPal,8/20/2024,True,False,Need-based,,3.0
+18.0,Male,Middle,Divorced,Bachelor's,High,Packages),$171.72 ,3.0,Online,5.0,3.0,1.0,Low,Very Sensitive,1.0,2.0,,Desktop,,3/24/2024,False,True,Impulsive,Standard,
+31.0,Male,Middle,Widowed,High School,Middle,Software & Apps,$467.50 ,6.0,In-Store,2.0,1.0,0.0,,Somewhat Sensitive,1.0,1.0,High,Desktop,PayPal,4/4/2024,False,False,Planned,No Preference,6.0
+43.0,Genderqueer,High,Married,,High,Furniture,$209.79 ,6.0,Mixed,5.0,1.0,2.0,High,Not Sensitive,1.0,9.0,Low,Tablet,Other,9/13/2024,,True,Need-based,Standard,10.0
+23.0,Male,,Single,High School,Middle,Office Supplies,$150.33 ,9.0,In-Store,4.0,4.0,2.0,,Somewhat Sensitive,2.0,9.0,Medium,Desktop,Debit Card,4/24/2024,True,False,Wants-based,Express,6.0
+29.0,Male,High,Married,Bachelor's,High,Luxury Goods,$98.63 ,7.0,Online,4.0,5.0,2.0,High,Somewhat Sensitive,1.0,3.0,Low,Tablet,Other,1/9/2024,False,True,Planned,,6.0
+,Female,Middle,Divorced,Master's,,Beauty & Personal Care,,11.0,Mixed,4.0,2.0,2.0,,Very Sensitive,2.0,1.0,Medium,Tablet,Other,6/3/2024,,True,Planned,No Preference,12.0
+49.0,Female,Middle,Single,High School,Middle,Luxury Goods,$145.02 ,7.0,In-Store,3.0,2.0,0.0,High,Very Sensitive,1.0,1.0,Medium,Desktop,Credit Card,6/23/2024,True,True,Wants-based,Express,9.0
+30.0,Female,Middle,Divorced,,Middle,Health Supplements,$294.99 ,4.0,Online,3.0,5.0,2.0,Low,Somewhat Sensitive,1.0,4.0,High,Desktop,PayPal,11/30/2024,False,False,,Standard,5.0
+31.0,Polygender,Middle,Divorced,,Middle,Office Supplies,$305.45 ,2.0,Mixed,5.0,5.0,1.0,,Very Sensitive,1.0,1.0,High,Smartphone,PayPal,10/24/2024,False,True,Impulsive,Express,9.0
+50.0,Female,Middle,Widowed,High School,Middle,Toys & Games,$432.42 ,2.0,In-Store,,4.0,0.0,Medium,Not Sensitive,0.0,8.0,,Tablet,PayPal,4/21/2024,False,True,Need-based,Express,13.0
+35.0,Female,Middle,Single,Bachelor's,High,Gardening & Outdoors,$227.58 ,11.0,Mixed,3.0,1.0,1.0,,Not Sensitive,1.0,,High,Smartphone,Credit Card,1/23/2024,False,True,Need-based,Express,6.0
+36.0,Male,Middle,Single,High School,High,Toys & Games,$160.89 ,10.0,Online,5.0,5.0,2.0,,,2.0,6.0,Medium,Desktop,PayPal,6/23/2024,True,True,Planned,No Preference,13.0
+24.0,Female,Middle,,Master's,High,Luxury Goods,,7.0,Online,2.0,5.0,0.0,Low,Somewhat Sensitive,2.0,3.0,Medium,Desktop,PayPal,3/20/2024,False,False,Impulsive,No Preference,8.0
+36.0,Genderfluid,High,Married,Master's,Middle,Furniture,$268.28 ,9.0,Mixed,5.0,2.0,2.0,,Very Sensitive,2.0,2.0,High,Smartphone,Credit Card,4/9/2024,False,True,Need-based,Standard,8.0
+45.0,,Middle,Single,Master's,High,Sports & Outdoors,$64.49 ,6.0,Online,2.0,1.0,0.0,,Very Sensitive,1.0,10.0,,Tablet,Other,10/19/2024,False,False,Planned,Express,7.0
+44.0,Male,Middle,Widowed,High School,Middle,Arts & Crafts,$80.17 ,10.0,Online,1.0,1.0,1.0,High,Not Sensitive,1.0,8.0,,Tablet,Credit Card,5/10/2024,True,True,Planned,No Preference,6.0
+28.0,Male,High,Married,Master's,High,Groceries,$277.52 ,11.0,In-Store,4.0,1.0,0.0,,Not Sensitive,1.0,7.0,Medium,Smartphone,PayPal,5/14/2024,True,False,Need-based,Standard,11.0
+40.0,Male,High,Widowed,Master's,Middle,Health Supplements,$53.67 ,7.0,Online,3.0,5.0,1.0,High,Not Sensitive,0.0,2.0,High,Desktop,PayPal,4/13/2024,False,False,Planned,Express,11.0
+49.0,Female,Middle,Widowed,Bachelor's,High,Office Supplies,$323.39 ,10.0,In-Store,2.0,3.0,2.0,,,0.0,7.0,High,Tablet,Cash,1/4/2024,True,True,Need-based,No Preference,11.0
+50.0,Female,High,Single,Bachelor's,High,Sports & Outdoors,$98.02 ,5.0,In-Store,,3.0,1.0,Low,Not Sensitive,0.0,3.0,High,Desktop,Debit Card,6/30/2024,True,False,Planned,No Preference,10.0
+24.0,Male,,Divorced,Bachelor's,High,Travel & Leisure (Flights,$231.26 ,10.0,In-Store,5.0,1.0,2.0,Low,Very Sensitive,2.0,5.0,Low,,,4/30/2024,False,True,Impulsive,No Preference,10.0
+26.0,Male,High,Single,Master's,Middle,Food & Beverages,$382.49 ,6.0,In-Store,,2.0,,,Very Sensitive,2.0,3.0,,Tablet,Debit Card,2/1/2024,True,False,Impulsive,No Preference,1.0
+28.0,Male,Middle,Divorced,Master's,High,Travel & Leisure (Flights,$255.42 ,,Mixed,,5.0,,,Somewhat Sensitive,1.0,9.0,,Tablet,PayPal,7/1/2024,True,,Impulsive,Standard,11.0
+48.0,Female,Middle,Single,High School,High,Toys & Games,$423.23 ,12.0,In-Store,3.0,3.0,2.0,High,Somewhat Sensitive,0.0,7.0,Low,Tablet,Debit Card,11/5/2024,False,False,Planned,Standard,6.0
+47.0,Male,Middle,Single,,High,Beauty & Personal Care,$276.08 ,4.0,Mixed,4.0,5.0,0.3,High,Somewhat Sensitive,2.0,10.0,Low,Smartphone,Credit Card,1/29/2024,,True,Need-based,No Preference,10.0
+25.0,Male,Middle,Widowed,Bachelor's,Middle,Books,$333.56 ,3.0,Mixed,4.0,5.0,1.0,Low,Not Sensitive,2.0,2.0,High,Smartphone,Other,10/25/2024,True,True,Impulsive,No Preference,14.0
+39.0,Male,High,Divorced,,Middle,Groceries,$129.82 ,12.0,Mixed,1.0,2.0,0.0,High,Not Sensitive,2.0,1.0,High,Tablet,Cash,6/3/2024,False,False,Impulsive,Standard,8.0
+41.0,Female,High,Widowed,High School,High,Clothing,$278.78 ,,,5.0,2.0,0.0,Medium,Not Sensitive,0.0,1.0,Low,Desktop,,6/14/2024,True,False,Wants-based,Standard,
+37.0,,Middle,Married,Bachelor's,High,Gardening & Outdoors,$112.55 ,5.0,In-Store,1.0,4.0,,,,2.0,1.0,Low,Desktop,Credit Card,10/22/2024,True,False,Planned,Standard,2.0
+,Female,Middle,Divorced,Bachelor's,High,Toys & Games,$142.02 ,7.0,In-Store,1.0,5.0,0.0,Low,Very Sensitive,1.0,9.0,Medium,,Cash,7/9/2024,True,False,Impulsive,Standard,3.0
+33.0,Female,High,Widowed,High School,High,Packages),$481.84 ,10.0,In-Store,1.0,4.0,2.0,High,Somewhat Sensitive,1.0,1.0,Medium,Tablet,Cash,,False,False,Wants-based,,9.0
+50.0,Agender,High,Divorced,Master's,Middle,Packages),$165.01 ,10.0,Mixed,1.0,2.0,1.0,Medium,Somewhat Sensitive,1.0,5.0,Medium,Desktop,PayPal,4/17/2024,True,False,Impulsive,No Preference,10.0
+25.0,Male,Middle,Divorced,High School,Middle,Baby Products,$56.85 ,5.0,Online,2.0,1.0,,,,0.0,1.0,High,Smartphone,Cash,11/16/2024,True,False,Wants-based,Standard,14.0
+34.0,Agender,High,,Bachelor's,High,Hotels,$182.89 ,2.0,Mixed,5.0,3.0,1.0,,Not Sensitive,1.0,9.0,Low,Smartphone,PayPal,,False,False,Wants-based,Express,5.0
+39.0,Male,High,Widowed,High School,High,Books,$373.01 ,5.0,In-Store,5.0,5.0,,Low,Somewhat Sensitive,1.0,4.0,Medium,Smartphone,PayPal,7/27/2024,False,True,Impulsive,Express,8.0
+,Male,Middle,Single,Master's,Middle,Home Appliances,$220.77 ,7.0,Online,4.0,2.0,2.0,Low,Not Sensitive,2.0,1.0,,Smartphone,Debit Card,4/15/2024,True,True,Need-based,,11.0
+27.0,Male,Middle,Married,Master's,High,Hotels,$291.09 ,11.0,Online,2.0,2.0,2.0,,Somewhat Sensitive,0.0,9.0,High,Smartphone,PayPal,10/6/2024,True,False,Need-based,No Preference,1.0
+23.0,Agender,High,Married,Bachelor's,Middle,Software & Apps,$414.06 ,9.0,Mixed,1.0,,,Medium,Somewhat Sensitive,2.0,,High,Desktop,,11/26/2024,True,False,Planned,Express,2.0
+37.0,Male,Middle,Widowed,Bachelor's,Middle,Animal Feed,$408.51 ,9.0,Online,2.0,,2.0,High,Very Sensitive,0.0,7.0,Medium,Smartphone,Credit Card,5/26/2024,True,False,Wants-based,Express,1.0
+21.0,Male,Middle,Married,High School,High,Furniture,$103.40 ,9.0,In-Store,4.0,1.0,2.0,High,Not Sensitive,1.0,9.0,Medium,Smartphone,Debit Card,11/4/2024,True,False,Planned,Standard,9.0
+47.0,Male,Middle,Single,High School,High,Furniture,$67.92 ,3.0,In-Store,1.0,3.0,0.0,Low,Not Sensitive,1.0,8.0,Low,Tablet,Cash,10/18/2024,False,True,Impulsive,Express,10.0
+42.0,Agender,Middle,Single,High School,Middle,Health Supplements,$354.16 ,8.0,In-Store,1.0,1.0,1.0,Low,Not Sensitive,2.0,3.0,Low,Desktop,Credit Card,6/13/2024,True,False,Planned,Express,5.0
+30.0,Male,Middle,Widowed,Bachelor's,Middle,Books,$276.77 ,2.0,Mixed,1.0,1.0,2.0,Low,Very Sensitive,1.0,2.0,High,Smartphone,Cash,3/3/2024,True,True,Wants-based,No Preference,4.0
+49.0,Male,Middle,Single,,Middle,Health Care,$190.25 ,6.0,Mixed,4.0,2.0,2.0,,Very Sensitive,2.0,9.0,,Tablet,PayPal,6/3/2024,False,False,Planned,Express,13.0
+28.0,Female,Middle,Married,Master's,Middle,Animal Feed,$203.49 ,7.0,In-Store,4.0,1.0,2.0,Medium,Not Sensitive,1.0,8.0,High,Tablet,Cash,8/10/2024,False,True,Need-based,Express,11.0
+24.0,Male,Middle,Single,High School,High,Health Supplements,$263.50 ,6.0,Mixed,3.0,2.0,2.0,,Not Sensitive,0.0,8.0,Low,Tablet,,11/18/2024,False,False,Planned,Standard,1.0
+40.0,Female,High,,Bachelor's,Middle,Arts & Crafts,$247.30 ,2.0,In-Store,4.0,4.0,2.0,Low,Very Sensitive,0.0,1.0,Medium,Desktop,Credit Card,2/8/2024,True,True,,No Preference,
+18.0,Male,High,Married,Bachelor's,Middle,Toys & Games,,12.0,Online,4.0,3.0,0.3,,Not Sensitive,0.0,9.0,Medium,Smartphone,Debit Card,3/17/2024,True,True,Wants-based,No Preference,
+42.0,Male,High,Married,High School,Middle,Office Supplies,$131.85 ,4.0,Mixed,,4.0,2.0,Low,Somewhat Sensitive,1.0,5.0,Medium,Smartphone,Debit Card,1/4/2024,True,False,Need-based,,6.0
+19.0,Male,High,Married,Master's,High,Beauty & Personal Care,$459.39 ,6.0,Mixed,2.0,2.0,0.3,Low,Very Sensitive,2.0,4.0,High,Tablet,Credit Card,9/29/2024,False,False,Planned,No Preference,14.0
+36.0,Female,High,Divorced,High School,Middle,Office Supplies,$383.33 ,6.0,Online,3.0,,2.0,Medium,Very Sensitive,1.0,3.0,,Smartphone,Credit Card,8/5/2024,False,False,Planned,Standard,12.0
+26.0,Female,High,Widowed,Bachelor's,High,Toys & Games,$212.08 ,8.0,In-Store,5.0,5.0,2.0,Low,Very Sensitive,1.0,9.0,,Tablet,Credit Card,5/7/2024,False,False,Need-based,Standard,13.0
+35.0,Female,High,Married,Master's,High,Arts & Crafts,$370.73 ,7.0,Online,3.0,2.0,1.0,High,Not Sensitive,0.0,9.0,High,Smartphone,Debit Card,8/18/2024,False,True,Need-based,No Preference,7.0
+39.0,Male,High,Divorced,Master's,Middle,Clothing,$319.66 ,7.0,Mixed,4.0,2.0,1.0,High,Not Sensitive,1.0,10.0,,Desktop,Debit Card,2/18/2024,False,False,Wants-based,Express,3.0
+44.0,,Middle,Widowed,Bachelor's,High,Jewelry & Accessories,$373.05 ,3.0,In-Store,3.0,4.0,0.3,Low,Not Sensitive,1.0,10.0,Medium,Tablet,Cash,3/14/2024,False,True,Planned,Standard,7.0
+19.0,Female,High,Married,,High,,$393.78 ,6.0,Online,,4.0,,Medium,Very Sensitive,0.0,5.0,Low,Tablet,Other,3/25/2024,True,False,Need-based,No Preference,14.0
+27.0,Female,High,Widowed,Master's,High,Clothing,$245.04 ,4.0,Online,3.0,2.0,0.0,High,Not Sensitive,2.0,6.0,High,Tablet,Other,12/3/2024,True,True,Need-based,,10.0
+26.0,Female,High,Divorced,Master's,,Beauty & Personal Care,$111.27 ,3.0,Online,1.0,,1.0,High,Very Sensitive,2.0,10.0,,Smartphone,,5/13/2024,False,False,Impulsive,No Preference,12.0
+26.0,Female,High,Single,,Middle,Baby Products,$93.29 ,11.0,,2.0,2.0,0.0,High,Very Sensitive,0.0,7.0,Low,Tablet,Other,7/25/2024,True,False,Impulsive,No Preference,9.0
+27.0,Female,High,Married,High School,Middle,Hotels,$156.50 ,5.0,Mixed,1.0,1.0,1.0,High,Very Sensitive,0.0,3.0,High,Desktop,Other,1/10/2024,True,False,Wants-based,Standard,14.0
+37.0,Male,Middle,Single,,Middle,Packages),$290.11 ,,Mixed,4.0,4.0,1.0,Medium,Very Sensitive,1.0,4.0,Medium,Smartphone,PayPal,10/30/2024,False,False,Impulsive,No Preference,14.0
+23.0,Female,Middle,Single,,Middle,Software & Apps,,3.0,Mixed,5.0,5.0,0.0,Low,Very Sensitive,1.0,4.0,Low,Smartphone,Credit Card,9/17/2024,True,True,Planned,No Preference,5.0
+31.0,Bigender,Middle,Single,Bachelor's,High,Gardening & Outdoors,$73.74 ,7.0,Online,4.0,2.0,0.3,High,Not Sensitive,1.0,3.0,Medium,Smartphone,Other,8/17/2024,False,False,Wants-based,Standard,13.0
+,Female,Middle,Widowed,Master's,Middle,Sports & Outdoors,$170.35 ,10.0,In-Store,2.0,1.0,1.0,Medium,Very Sensitive,1.0,10.0,Low,Desktop,Cash,6/3/2024,True,True,,Standard,1.0
+36.0,Female,High,Single,Master's,Middle,Home Appliances,$123.70 ,6.0,Online,2.0,5.0,0.0,High,Very Sensitive,1.0,5.0,,Smartphone,Other,7/28/2024,False,False,Impulsive,Express,2.0
+,Female,Middle,Single,Master's,High,Gardening & Outdoors,$201.60 ,9.0,In-Store,1.0,4.0,2.0,Medium,,1.0,4.0,High,Smartphone,PayPal,10/24/2024,False,False,Impulsive,Express,14.0
+27.0,Female,Middle,Single,Master's,High,Furniture,$116.14 ,11.0,Mixed,1.0,4.0,1.0,High,Somewhat Sensitive,0.0,8.0,Medium,Desktop,Credit Card,4/1/2024,False,True,,Express,14.0
+29.0,Female,Middle,Single,Master's,High,Jewelry & Accessories,$483.38 ,9.0,Online,2.0,1.0,0.0,High,Somewhat Sensitive,2.0,3.0,High,Desktop,Other,6/9/2024,False,True,Need-based,Standard,8.0
+24.0,,Middle,Single,High School,Middle,Health Supplements,,9.0,In-Store,1.0,2.0,0.0,Low,Not Sensitive,0.0,9.0,,Smartphone,Other,11/14/2024,True,False,Need-based,Standard,11.0
+33.0,Female,Middle,Divorced,Bachelor's,Middle,,$139.83 ,12.0,Online,2.0,4.0,2.0,,Not Sensitive,0.0,1.0,,Tablet,Cash,10/8/2024,False,False,Impulsive,Express,10.0
+38.0,Female,High,Married,Master's,Middle,Arts & Crafts,$54.17 ,4.0,Mixed,4.0,5.0,0.0,Medium,Somewhat Sensitive,2.0,2.0,Medium,Desktop,Credit Card,1/11/2024,False,True,Planned,No Preference,7.0
+47.0,Male,High,Divorced,Master's,High,Jewelry & Accessories,$437.59 ,,In-Store,1.0,4.0,0.0,,Very Sensitive,0.0,4.0,High,Tablet,Credit Card,2/26/2024,True,True,Impulsive,Express,9.0
+,Male,,Widowed,Bachelor's,High,,$113.57 ,5.0,Online,4.0,4.0,2.0,Medium,,1.0,1.0,High,Tablet,Cash,11/1/2024,False,True,Wants-based,Standard,8.0
+21.0,Bigender,High,Single,High School,High,Packages),$305.54 ,6.0,In-Store,3.0,5.0,0.0,Medium,Somewhat Sensitive,0.0,5.0,Medium,Smartphone,Other,3/28/2024,True,False,Wants-based,No Preference,7.0
+23.0,Female,High,Divorced,High School,High,Food & Beverages,$339.12 ,2.0,In-Store,4.0,4.0,0.0,Medium,Not Sensitive,,5.0,Low,Smartphone,PayPal,1/8/2024,False,False,Impulsive,No Preference,1.0
+45.0,Non-binary,Middle,Divorced,Bachelor's,High,Jewelry & Accessories,,11.0,Mixed,2.0,,2.0,Low,Very Sensitive,0.0,8.0,,Smartphone,Credit Card,2/28/2024,True,True,Need-based,Standard,10.0
+24.0,Genderfluid,Middle,Married,High School,Middle,,$472.61 ,9.0,In-Store,5.0,5.0,2.0,,Very Sensitive,1.0,4.0,,Smartphone,PayPal,9/15/2024,True,True,,Express,5.0
+20.0,Female,Middle,Widowed,High School,Middle,,$68.02 ,10.0,Online,3.0,2.0,1.0,,Very Sensitive,1.0,6.0,,Tablet,Credit Card,11/1/2024,True,True,Need-based,Express,6.0
+27.0,Male,,Single,Master's,Middle,Toys & Games,$199.44 ,7.0,Online,2.0,1.0,2.0,,Very Sensitive,0.0,3.0,,Tablet,Cash,7/14/2024,False,True,Need-based,Standard,
+47.0,Male,High,Divorced,,Middle,Sports & Outdoors,$250.73 ,4.0,Online,3.0,2.0,1.0,Low,Somewhat Sensitive,1.0,10.0,,Desktop,Cash,4/24/2024,False,True,Planned,No Preference,10.0
+34.0,Male,Middle,Single,High School,Middle,Clothing,,12.0,Online,4.0,3.0,0.0,High,Very Sensitive,0.0,5.0,Medium,Desktop,Debit Card,,True,False,Planned,No Preference,7.0
+,Male,High,Widowed,High School,,Books,$186.85 ,2.0,Online,3.0,1.0,2.0,High,Not Sensitive,2.0,8.0,Low,Smartphone,Other,2/20/2024,True,False,Impulsive,,12.0
+26.0,Male,High,Widowed,Master's,Middle,Sports & Outdoors,$73.32 ,10.0,In-Store,,1.0,1.0,,Not Sensitive,1.0,1.0,Medium,Smartphone,Debit Card,1/27/2024,True,False,Wants-based,Standard,14.0
+49.0,Male,Middle,Widowed,Bachelor's,Middle,Clothing,$214.59 ,6.0,Online,1.0,1.0,0.0,,Somewhat Sensitive,1.0,8.0,Low,Tablet,Other,2/9/2024,True,False,Wants-based,,9.0
+47.0,Female,Middle,Widowed,,Middle,Furniture,$467.32 ,12.0,In-Store,4.0,4.0,2.0,Medium,Somewhat Sensitive,2.0,,Low,Smartphone,PayPal,1/28/2024,False,True,Need-based,No Preference,11.0
+18.0,Male,Middle,Married,Master's,Middle,,$475.65 ,4.0,In-Store,4.0,5.0,0.0,High,Somewhat Sensitive,2.0,6.0,Low,Smartphone,PayPal,6/23/2024,True,True,Wants-based,Express,14.0
+48.0,Female,Middle,Widowed,Master's,High,Animal Feed,$161.38 ,11.0,Mixed,5.0,3.0,0.0,,Very Sensitive,1.0,10.0,High,Tablet,Debit Card,8/20/2024,True,True,Impulsive,Standard,10.0
+19.0,Male,Middle,Single,Bachelor's,Middle,Baby Products,$249.78 ,4.0,In-Store,5.0,4.0,0.0,Low,Very Sensitive,0.0,1.0,,Desktop,PayPal,11/24/2024,False,False,Wants-based,,11.0
+39.0,Female,Middle,Divorced,High School,High,Clothing,$149.88 ,9.0,Mixed,3.0,2.0,0.0,Low,,1.0,10.0,Low,Smartphone,Debit Card,4/19/2024,False,False,Impulsive,Standard,4.0
+48.0,Female,High,Divorced,Master's,Middle,Jewelry & Accessories,$347.09 ,5.0,In-Store,,,,,Somewhat Sensitive,2.0,1.0,,Smartphone,Other,1/26/2024,False,False,Planned,No Preference,7.0
+43.0,Female,High,Widowed,Master's,High,Health Care,$345.49 ,9.0,Mixed,3.0,1.0,2.0,High,Not Sensitive,0.0,10.0,Medium,Tablet,PayPal,9/6/2024,True,False,Impulsive,Express,3.0
+31.0,Female,High,Divorced,Bachelor's,,Health Care,$297.24 ,2.0,Mixed,1.0,4.0,0.0,Medium,Not Sensitive,,9.0,High,Desktop,PayPal,6/29/2024,True,True,Planned,Express,7.0
+28.0,Female,Middle,Divorced,Bachelor's,High,Home Appliances,$494.34 ,12.0,,5.0,3.0,0.25,High,,1.0,8.0,Low,,Debit Card,3/3/2024,False,False,Wants-based,Express,3.0
+29.0,Genderqueer,Middle,,Master's,High,Animal Feed,$443.52 ,5.0,In-Store,5.0,3.0,0.0,,Somewhat Sensitive,0.0,7.0,Low,Tablet,Cash,5/10/2024,True,False,Need-based,Standard,9.0
+45.0,Genderfluid,Middle,Divorced,High School,High,Jewelry & Accessories,$457.18 ,7.0,In-Store,4.0,3.0,2.0,High,Very Sensitive,2.0,6.0,Medium,Smartphone,Other,8/20/2024,True,True,Wants-based,Express,10.0
+38.0,Male,Middle,Single,Master's,High,Books,$407.88 ,4.0,In-Store,1.0,3.0,1.0,,Very Sensitive,1.0,10.0,Medium,Tablet,Cash,11/11/2024,False,False,Planned,Standard,14.0
+30.0,Male,Middle,Widowed,Bachelor's,Middle,Books,$448.68 ,8.0,In-Store,4.0,4.0,2.0,High,Somewhat Sensitive,1.0,3.0,Medium,Tablet,Debit Card,5/25/2024,True,False,Wants-based,Express,
+40.0,Female,High,Widowed,,High,Electronics,$255.96 ,7.0,Online,5.0,1.0,1.0,High,Very Sensitive,0.0,10.0,,Tablet,Cash,12/23/2024,False,False,Need-based,No Preference,13.0
+45.0,Male,Middle,Married,High School,High,Luxury Goods,$146.07 ,7.0,In-Store,4.0,2.0,1.0,Low,Very Sensitive,1.0,6.0,,Tablet,Credit Card,7/7/2024,True,True,Need-based,Standard,1.0
+44.0,,High,Single,High School,Middle,Health Supplements,$311.90 ,4.0,In-Store,2.0,4.0,2.0,Low,Very Sensitive,0.0,6.0,High,Smartphone,Credit Card,12/30/2024,False,True,Planned,No Preference,2.0
+38.0,Female,Middle,Widowed,High School,Middle,Gardening & Outdoors,$301.60 ,,Mixed,4.0,5.0,1.0,Low,Not Sensitive,2.0,10.0,High,Desktop,Credit Card,3/11/2024,False,False,Impulsive,Standard,13.0
+23.0,Polygender,Middle,Widowed,Bachelor's,High,Software & Apps,$297.45 ,3.0,Mixed,1.0,5.0,0.0,Medium,Very Sensitive,0.0,7.0,Low,Tablet,Debit Card,7/7/2024,False,False,Planned,No Preference,4.0
+30.0,Genderqueer,High,Widowed,Bachelor's,High,Sports & Outdoors,$157.26 ,3.0,Online,1.0,,1.0,Medium,Not Sensitive,1.0,1.0,,Desktop,Cash,7/24/2024,False,False,Need-based,Standard,8.0
+42.0,Male,High,Widowed,Master's,Middle,Health Supplements,$239.46 ,3.0,Mixed,3.0,1.0,0.0,Low,Not Sensitive,2.0,8.0,High,Desktop,Other,8/4/2024,True,True,Planned,Standard,7.0
+28.0,Female,High,Widowed,High School,High,Gardening & Outdoors,$240.82 ,10.0,Mixed,1.0,3.0,2.0,High,Somewhat Sensitive,0.0,3.0,Medium,Tablet,PayPal,1/2/2024,True,False,Planned,No Preference,8.0
+44.0,Female,Middle,Single,Master's,High,Sports & Outdoors,$302.07 ,6.0,Mixed,1.0,5.0,1.0,Medium,Not Sensitive,2.0,5.0,Medium,,Other,4/9/2024,True,,Planned,,13.0
+45.0,Male,Middle,Widowed,Bachelor's,Middle,Software & Apps,$367.99 ,2.0,Online,2.0,5.0,1.0,,Not Sensitive,2.0,2.0,High,Smartphone,Debit Card,,False,False,Planned,Express,8.0
+46.0,Female,High,Married,Master's,Middle,Groceries,,7.0,In-Store,,1.0,1.0,High,Not Sensitive,,6.0,Low,Tablet,Other,1/23/2024,False,False,Wants-based,Standard,3.0
+28.0,Female,Middle,Divorced,Bachelor's,High,Packages),$204.44 ,2.0,Mixed,5.0,,2.0,,Somewhat Sensitive,1.0,3.0,High,Desktop,Debit Card,12/1/2024,False,True,Impulsive,Standard,13.0
+27.0,Male,High,Single,Master's,High,Gardening & Outdoors,$228.93 ,7.0,Online,1.0,1.0,2.0,,Not Sensitive,2.0,,Medium,Desktop,PayPal,2/19/2024,True,True,Impulsive,Express,11.0
+20.0,Female,High,Single,High School,Middle,Office Supplies,$355.31 ,11.0,Online,1.0,1.0,0.0,,Not Sensitive,1.0,2.0,Medium,Desktop,Debit Card,8/19/2024,False,True,Impulsive,Express,12.0
+40.0,Male,High,Married,High School,High,Animal Feed,$334.67 ,12.0,In-Store,2.0,1.0,2.0,,Somewhat Sensitive,2.0,5.0,,Tablet,Debit Card,11/18/2024,True,False,Need-based,Standard,13.0
+36.0,Male,Middle,Widowed,Master's,Middle,Books,$182.72 ,5.0,Online,2.0,1.0,2.0,High,Very Sensitive,,7.0,,Desktop,Other,6/4/2024,False,False,Impulsive,,13.0
+43.0,Male,High,Widowed,High School,Middle,Jewelry & Accessories,$260.22 ,11.0,In-Store,4.0,3.0,0.0,,Not Sensitive,2.0,5.0,High,Desktop,Credit Card,11/20/2024,False,,Need-based,Express,13.0
+26.0,,High,Single,High School,Middle,Food & Beverages,$454.93 ,8.0,Online,3.0,5.0,0.0,Low,Somewhat Sensitive,2.0,7.0,Medium,Desktop,Debit Card,4/21/2024,False,False,Wants-based,No Preference,11.0
+29.0,Male,,Widowed,Bachelor's,High,Beauty & Personal Care,$325.42 ,11.0,In-Store,2.0,4.0,2.0,Low,Not Sensitive,1.0,1.0,High,Desktop,Other,10/20/2024,True,,Impulsive,Express,7.0
+,Female,Middle,Widowed,High School,High,Jewelry & Accessories,$351.36 ,2.0,In-Store,5.0,3.0,2.0,High,Very Sensitive,2.0,6.0,,Desktop,Other,2/9/2024,False,True,Need-based,Standard,7.0
+40.0,Male,High,Single,Bachelor's,Middle,Baby Products,$333.63 ,8.0,Mixed,4.0,5.0,2.0,,Very Sensitive,2.0,2.0,High,Smartphone,Other,12/5/2024,False,False,Need-based,Express,14.0
+42.0,Female,High,Married,Bachelor's,Middle,Beauty & Personal Care,$469.90 ,4.0,Mixed,2.0,5.0,1.0,Low,Not Sensitive,1.0,7.0,,Desktop,Cash,6/28/2024,,False,Planned,No Preference,
+28.0,Male,High,Married,Bachelor's,High,Mobile Accessories,$207.52 ,4.0,In-Store,3.0,4.0,,Low,Not Sensitive,1.0,8.0,High,Desktop,Debit Card,8/6/2024,False,False,Impulsive,No Preference,2.0
+49.0,Male,High,Single,Bachelor's,High,Toys & Games,$125.89 ,7.0,In-Store,3.0,3.0,2.0,,Not Sensitive,1.0,6.0,Medium,Desktop,Debit Card,11/22/2024,False,False,Wants-based,No Preference,13.0
+46.0,Female,,Single,Master's,Middle,Electronics,$170.77 ,9.0,Online,5.0,2.0,1.0,Medium,Somewhat Sensitive,2.0,1.0,Low,Smartphone,Credit Card,8/4/2024,False,False,Impulsive,No Preference,4.0
+44.0,Female,High,Divorced,,High,Electronics,$63.91 ,2.0,Online,1.0,4.0,2.0,,,,6.0,Medium,Smartphone,Cash,1/12/2024,False,True,Planned,No Preference,12.0
+29.0,Male,High,Married,High School,Middle,Clothing,$340.55 ,7.0,In-Store,4.0,5.0,0.0,,Not Sensitive,0.0,7.0,,Desktop,Credit Card,11/19/2024,False,True,Planned,Express,1.0
+47.0,,Middle,Divorced,Bachelor's,High,Software & Apps,$378.14 ,6.0,Mixed,2.0,2.0,1.0,Medium,Very Sensitive,1.0,6.0,High,Smartphone,PayPal,9/4/2024,,False,Wants-based,Standard,7.0
+37.0,Female,Middle,Married,,Middle,Toys & Games,$235.84 ,9.0,Mixed,5.0,2.0,0.0,,Very Sensitive,2.0,3.0,,Desktop,Cash,8/3/2024,False,False,Planned,No Preference,14.0
+47.0,Male,High,Widowed,High School,Middle,Arts & Crafts,$164.44 ,5.0,In-Store,5.0,1.0,2.0,Low,Somewhat Sensitive,1.0,10.0,High,Smartphone,,4/8/2024,False,False,Impulsive,No Preference,5.0
+24.0,Male,High,Married,Bachelor's,High,Sports & Outdoors,$455.81 ,3.0,Online,2.0,3.0,1.0,Low,Somewhat Sensitive,1.0,6.0,Medium,Smartphone,Debit Card,4/21/2024,False,False,Wants-based,Express,6.0
+36.0,Male,High,Widowed,,High,Health Care,$298.32 ,7.0,In-Store,3.0,,1.0,Low,Somewhat Sensitive,2.0,8.0,,Tablet,Other,6/17/2024,True,False,Wants-based,Standard,12.0
+36.0,Female,High,Single,Bachelor's,High,Hotels,$351.71 ,7.0,In-Store,2.0,2.0,,Medium,Very Sensitive,1.0,6.0,Medium,Tablet,Other,3/19/2024,True,False,Need-based,Standard,8.0
+49.0,Male,Middle,Divorced,Bachelor's,Middle,Toys & Games,$393.48 ,11.0,In-Store,2.0,2.0,0.0,High,Very Sensitive,1.0,10.0,,,Other,8/13/2024,True,True,Need-based,Standard,3.0
+19.0,Genderfluid,High,Single,High School,High,Office Supplies,$241.72 ,6.0,Mixed,5.0,2.0,1.0,Medium,Not Sensitive,0.0,8.0,High,Desktop,Debit Card,5/29/2024,False,True,Planned,Express,2.0
+27.0,Female,High,Single,Bachelor's,High,Software & Apps,$280.20 ,3.0,In-Store,4.0,2.0,0.0,Medium,Somewhat Sensitive,2.0,7.0,,Desktop,Other,12/3/2024,False,False,Need-based,No Preference,13.0
+36.0,Female,Middle,Single,Master's,Middle,Health Supplements,$178.04 ,5.0,Mixed,1.0,1.0,2.0,,Somewhat Sensitive,2.0,,High,Smartphone,Credit Card,9/19/2024,True,True,Impulsive,Express,11.0
+37.0,Male,High,Married,Master's,Middle,Packages),$347.99 ,5.0,Mixed,,4.0,1.0,Low,Somewhat Sensitive,0.0,1.0,High,Desktop,PayPal,3/22/2024,True,False,Planned,,6.0
+45.0,Female,Middle,Single,Master's,High,Office Supplies,$343.81 ,3.0,In-Store,,5.0,0.0,High,Somewhat Sensitive,0.0,7.0,Medium,Desktop,Credit Card,2/22/2024,False,True,Need-based,Standard,3.0
+47.0,Female,Middle,Married,Master's,Middle,Animal Feed,$105.29 ,7.0,In-Store,2.0,5.0,0.0,Low,Very Sensitive,0.0,,High,Desktop,Cash,12/25/2024,False,True,Need-based,Express,4.0
+32.0,Male,Middle,Single,High School,Middle,Hotels,$483.66 ,3.0,Online,1.0,4.0,1.0,Medium,Not Sensitive,2.0,1.0,Medium,Desktop,Other,8/27/2024,False,False,Impulsive,Standard,9.0
+48.0,Male,Middle,Married,Bachelor's,Middle,Home Appliances,$69.41 ,8.0,Mixed,5.0,3.0,0.0,High,Somewhat Sensitive,1.0,9.0,High,Tablet,Cash,1/28/2024,False,False,Wants-based,Standard,5.0
+20.0,Genderfluid,High,Single,Master's,Middle,Toys & Games,$207.18 ,11.0,Online,1.0,3.0,0.0,Low,Somewhat Sensitive,1.0,5.0,High,Tablet,PayPal,,False,False,Wants-based,Standard,8.0
+32.0,Male,Middle,Divorced,High School,High,Health Supplements,$454.15 ,11.0,In-Store,2.0,1.0,1.0,High,Not Sensitive,1.0,8.0,High,Smartphone,Cash,12/8/2024,True,True,Planned,Express,13.0
+25.0,Male,High,Widowed,High School,High,Groceries,$113.01 ,11.0,In-Store,5.0,2.0,2.0,Low,Very Sensitive,1.0,1.0,,Tablet,Credit Card,5/15/2024,False,True,Impulsive,Express,4.0
+42.0,,Middle,Divorced,Bachelor's,Middle,Packages),,4.0,Mixed,3.0,5.0,1.0,,Not Sensitive,0.0,1.0,,Smartphone,Cash,8/3/2024,False,True,Wants-based,Express,6.0
+37.0,Female,High,Single,Bachelor's,High,Jewelry & Accessories,$183.86 ,5.0,Mixed,1.0,1.0,2.0,Medium,Not Sensitive,1.0,4.0,Low,Smartphone,Debit Card,10/7/2024,False,True,Wants-based,Standard,3.0
+21.0,Genderfluid,Middle,Widowed,Master's,Middle,Packages),$53.87 ,10.0,In-Store,4.0,3.0,0.0,Medium,,0.0,10.0,High,Tablet,Cash,6/25/2024,True,False,Planned,No Preference,2.0
+,Female,High,Widowed,Bachelor's,High,,$427.82 ,9.0,In-Store,5.0,5.0,0.0,Medium,Somewhat Sensitive,1.0,2.0,Medium,Desktop,PayPal,4/4/2024,True,False,Wants-based,No Preference,14.0
+29.0,Female,High,Divorced,Bachelor's,Middle,Packages),$282.82 ,6.0,In-Store,5.0,3.0,,Medium,Very Sensitive,2.0,,,Desktop,,,False,True,Wants-based,Standard,3.0
+28.0,Male,Middle,Divorced,Master's,Middle,Electronics,$215.31 ,7.0,Online,5.0,5.0,2.0,Medium,Somewhat Sensitive,1.0,8.0,Medium,Smartphone,Other,4/9/2024,False,True,Impulsive,No Preference,7.0
+43.0,Male,Middle,Widowed,Master's,High,Furniture,$183.66 ,11.0,Online,,1.0,1.0,Low,Very Sensitive,0.0,10.0,Medium,Tablet,Credit Card,4/18/2024,True,True,Planned,No Preference,6.0
+48.0,Female,High,Divorced,High School,Middle,Baby Products,$198.73 ,10.0,In-Store,1.0,5.0,2.0,,Very Sensitive,1.0,5.0,,Desktop,Other,,True,False,Impulsive,Standard,4.0
+26.0,Female,Middle,Married,High School,High,Travel & Leisure (Flights,$265.72 ,5.0,Mixed,5.0,4.0,0.0,,Very Sensitive,,9.0,,Tablet,Debit Card,4/22/2024,True,True,Planned,Express,13.0
+42.0,Male,Middle,Married,Master's,High,Software & Apps,$138.35 ,2.0,Online,4.0,5.0,2.0,Low,Not Sensitive,0.0,,Low,Smartphone,Other,7/14/2024,True,True,Wants-based,No Preference,8.0
+27.0,Male,Middle,,Bachelor's,Middle,Groceries,,3.0,Mixed,1.0,2.0,1.0,High,Somewhat Sensitive,0.0,10.0,Medium,Smartphone,PayPal,9/10/2024,True,False,Wants-based,,13.0
+40.0,Female,Middle,Married,Master's,Middle,Clothing,$178.29 ,4.0,Mixed,4.0,,2.0,Low,Very Sensitive,2.0,,High,Desktop,Cash,7/29/2024,,True,Planned,No Preference,8.0
+23.0,Male,Middle,Widowed,High School,High,Sports & Outdoors,$77.08 ,10.0,Mixed,,1.0,0.0,High,,0.0,8.0,,Tablet,PayPal,10/15/2024,True,True,Impulsive,Standard,1.0
+46.0,Male,High,Married,High School,High,Office Supplies,$266.90 ,11.0,Mixed,4.0,2.0,2.0,Low,Not Sensitive,1.0,8.0,Medium,Desktop,PayPal,7/1/2024,False,True,Wants-based,Express,13.0
+38.0,Female,Middle,Divorced,Bachelor's,High,Electronics,$269.84 ,4.0,In-Store,5.0,4.0,0.0,Low,Not Sensitive,2.0,9.0,Low,Tablet,Credit Card,5/4/2024,True,True,Wants-based,No Preference,2.0
+23.0,Male,Middle,Married,Master's,High,,$334.22 ,8.0,Online,2.0,2.0,2.0,,Very Sensitive,2.0,8.0,,Tablet,Cash,3/2/2024,False,False,Need-based,Standard,1.0
+40.0,Female,Middle,Married,High School,High,Travel & Leisure (Flights,$474.56 ,8.0,In-Store,1.0,5.0,2.0,Low,Not Sensitive,1.0,6.0,High,Smartphone,PayPal,4/17/2024,True,False,Planned,Standard,12.0
+34.0,Male,High,Married,Master's,High,Electronics,$360.91 ,4.0,Mixed,3.0,5.0,1.0,High,Somewhat Sensitive,0.0,8.0,High,Desktop,Credit Card,8/30/2024,True,True,Planned,No Preference,4.0
+44.0,,Middle,Widowed,Bachelor's,High,Groceries,$373.49 ,6.0,Online,4.0,1.0,0.0,Medium,Very Sensitive,,10.0,Low,Tablet,Cash,4/23/2024,True,True,Impulsive,Standard,1.0
+32.0,,High,Married,Master's,Middle,Sports & Outdoors,$462.30 ,5.0,Mixed,3.0,3.0,2.0,,Not Sensitive,2.0,4.0,Medium,Tablet,Cash,11/25/2024,True,True,Impulsive,Standard,4.0
+42.0,Female,Middle,Single,Master's,Middle,Toys & Games,$332.67 ,8.0,In-Store,1.0,4.0,2.0,Medium,Somewhat Sensitive,1.0,2.0,High,Smartphone,Other,12/11/2024,False,True,Impulsive,Express,4.0
+22.0,Female,High,Divorced,Master's,,Home Appliances,$235.39 ,9.0,Online,5.0,4.0,1.0,,Not Sensitive,0.0,6.0,,Smartphone,,5/25/2024,False,True,Planned,No Preference,6.0
+44.0,,Middle,,High School,Middle,Packages),$269.78 ,7.0,In-Store,2.0,3.0,1.0,Medium,Somewhat Sensitive,2.0,7.0,Medium,Desktop,Other,7/25/2024,True,True,Need-based,No Preference,5.0
+29.0,Male,Middle,Married,Bachelor's,Middle,Gardening & Outdoors,$498.33 ,2.0,Online,3.0,5.0,2.0,Medium,Very Sensitive,1.0,9.0,Medium,Smartphone,PayPal,5/8/2024,True,True,Wants-based,Express,1.0
+30.0,Female,High,Single,High School,High,Health Supplements,$182.94 ,7.0,Mixed,1.0,5.0,2.0,,Not Sensitive,2.0,7.0,Low,Desktop,Other,5/28/2024,True,True,Need-based,Express,12.0
+19.0,Female,Middle,Divorced,Master's,High,Health Supplements,$121.70 ,7.0,Mixed,4.0,,,High,,2.0,5.0,,Smartphone,Credit Card,6/24/2024,True,True,Planned,Standard,8.0
+45.0,Female,High,Widowed,Master's,Middle,,$489.27 ,4.0,Mixed,1.0,4.0,1.0,High,Somewhat Sensitive,1.0,3.0,,Tablet,Debit Card,1/13/2024,False,False,Wants-based,Standard,3.0
+,Male,,Married,Bachelor's,Middle,Software & Apps,$303.93 ,6.0,Mixed,3.0,2.0,0.0,High,Not Sensitive,1.0,10.0,Low,Smartphone,Debit Card,3/13/2024,True,False,Need-based,No Preference,2.0
+24.0,Female,Middle,Married,Bachelor's,Middle,Food & Beverages,$302.74 ,11.0,Mixed,1.0,5.0,0.0,High,,0.0,6.0,High,Smartphone,PayPal,6/28/2024,True,True,Wants-based,Express,5.0
+42.0,Genderqueer,High,Single,Bachelor's,High,Beauty & Personal Care,$157.21 ,11.0,Online,3.0,3.0,0.0,Medium,Not Sensitive,,3.0,High,Tablet,Debit Card,4/30/2024,True,False,Wants-based,Express,5.0
+46.0,Female,High,Widowed,High School,High,Sports & Outdoors,$159.45 ,2.0,Online,3.0,2.0,2.0,Medium,Very Sensitive,0.0,5.0,,Smartphone,Debit Card,6/14/2024,True,False,Impulsive,Standard,14.0
+44.0,Female,High,Widowed,High School,Middle,Luxury Goods,$312.93 ,2.0,In-Store,2.0,2.0,1.0,High,Very Sensitive,0.0,7.0,,Smartphone,PayPal,8/4/2024,True,True,Wants-based,No Preference,3.0
+38.0,Male,High,Married,Master's,Middle,Hotels,$65.68 ,4.0,,4.0,,0.0,Medium,Not Sensitive,0.0,8.0,Medium,Smartphone,Other,5/7/2024,False,False,Impulsive,Standard,12.0
+44.0,Male,Middle,Single,Master's,Middle,Software & Apps,$61.86 ,5.0,In-Store,4.0,5.0,2.0,,Not Sensitive,2.0,8.0,,Smartphone,Cash,11/15/2024,False,True,Need-based,Standard,
+18.0,Female,High,Single,Master's,Middle,Electronics,$343.77 ,6.0,Mixed,5.0,4.0,2.0,,Not Sensitive,2.0,4.0,Medium,Desktop,Credit Card,2/16/2024,True,False,Impulsive,No Preference,3.0
+37.0,Male,Middle,Divorced,Master's,,Home Appliances,$107.21 ,2.0,Online,4.0,2.0,1.0,,Not Sensitive,2.0,9.0,Medium,Desktop,Other,8/5/2024,,True,Planned,Standard,6.0
+31.0,Genderfluid,High,Single,Master's,Middle,Home Appliances,$148.98 ,12.0,Online,5.0,1.0,2.0,,Very Sensitive,,8.0,Low,Tablet,Debit Card,8/11/2024,True,True,Wants-based,Standard,13.0
+22.0,Female,High,Widowed,Master's,Middle,Health Care,$490.41 ,4.0,Mixed,3.0,4.0,0.0,Low,Somewhat Sensitive,0.0,2.0,High,Tablet,Other,12/15/2024,False,True,Planned,Express,3.0
+33.0,Male,High,Married,High School,Middle,Groceries,$461.34 ,4.0,In-Store,3.0,1.0,0.0,High,Somewhat Sensitive,1.0,9.0,Low,Desktop,Cash,3/6/2024,False,True,Wants-based,Express,7.0
+,Female,High,Single,Master's,High,Office Supplies,$338.89 ,7.0,,4.0,2.0,1.0,Low,Somewhat Sensitive,2.0,6.0,,Desktop,Credit Card,5/21/2024,True,True,Wants-based,Express,3.0
+26.0,Male,High,Married,High School,High,Gardening & Outdoors,$222.63 ,3.0,Mixed,1.0,1.0,0.0,Medium,Somewhat Sensitive,2.0,2.0,,Tablet,Cash,3/23/2024,False,True,Impulsive,Express,6.0
+26.0,Male,High,Married,,High,Toys & Games,$71.95 ,2.0,Mixed,3.0,5.0,2.0,,Very Sensitive,2.0,10.0,,Desktop,Debit Card,9/22/2024,False,True,Planned,No Preference,13.0
+,Male,High,Divorced,High School,Middle,Software & Apps,$264.52 ,9.0,Online,3.0,3.0,1.0,,Not Sensitive,0.0,10.0,,Smartphone,Debit Card,4/2/2024,True,True,Planned,No Preference,6.0
+43.0,Male,High,Divorced,High School,High,Food & Beverages,$414.80 ,9.0,Mixed,2.0,3.0,2.0,Low,Very Sensitive,2.0,9.0,,,PayPal,1/30/2024,False,True,Planned,No Preference,7.0
+50.0,Male,Middle,Single,Bachelor's,High,Groceries,$50.79 ,12.0,Mixed,5.0,1.0,0.0,Medium,Somewhat Sensitive,0.0,2.0,Medium,Desktop,,5/28/2024,True,False,Planned,Standard,3.0
+42.0,Female,Middle,Married,High School,Middle,Hotels,$264.30 ,10.0,In-Store,5.0,4.0,1.0,Low,Not Sensitive,2.0,2.0,High,Smartphone,PayPal,8/20/2024,True,True,Planned,No Preference,5.0
+29.0,Male,High,Married,Bachelor's,Middle,Animal Feed,$122.46 ,12.0,Mixed,2.0,3.0,,High,Not Sensitive,0.0,3.0,Low,Tablet,Credit Card,2/15/2024,False,True,Wants-based,Standard,6.0
+20.0,Male,Middle,Widowed,High School,Middle,Software & Apps,$238.01 ,8.0,In-Store,2.0,2.0,0.0,High,Somewhat Sensitive,0.0,9.0,Low,,Cash,7/13/2024,False,True,Need-based,,5.0
+40.0,Non-binary,,Married,Master's,Middle,,$490.34 ,4.0,In-Store,5.0,2.0,,,Not Sensitive,2.0,7.0,High,Tablet,Other,,False,True,,No Preference,
+,Male,High,Divorced,Bachelor's,Middle,Jewelry & Accessories,$245.98 ,4.0,Mixed,5.0,1.0,,High,Not Sensitive,0.0,1.0,Medium,Desktop,PayPal,11/29/2024,False,False,Planned,Standard,10.0
+45.0,Polygender,Middle,Widowed,High School,High,Hotels,$390.83 ,9.0,Online,5.0,5.0,0.0,Medium,Somewhat Sensitive,0.0,5.0,High,Desktop,Cash,10/28/2024,False,True,Impulsive,,8.0
+,Male,High,Widowed,High School,Middle,Jewelry & Accessories,$158.84 ,6.0,Online,2.0,1.0,1.0,,Not Sensitive,1.0,8.0,Low,Desktop,Cash,7/12/2024,True,True,Need-based,,5.0
+37.0,Male,Middle,Single,High School,Middle,Baby Products,$439.24 ,8.0,Mixed,3.0,3.0,1.0,High,Somewhat Sensitive,2.0,9.0,Medium,Tablet,Other,7/26/2024,False,False,Wants-based,Standard,
+23.0,Polygender,Middle,Widowed,Master's,High,Toys & Games,,12.0,Mixed,4.0,1.0,0.0,,Somewhat Sensitive,2.0,9.0,,,Other,12/5/2024,False,True,Need-based,Standard,6.0
+48.0,Female,,Married,Master's,Middle,Clothing,$333.15 ,9.0,Mixed,1.0,5.0,1.0,High,Very Sensitive,1.0,8.0,High,Smartphone,Other,8/12/2024,False,False,Impulsive,Standard,14.0
+19.0,Male,Middle,Divorced,Master's,Middle,Luxury Goods,$64.22 ,9.0,Online,1.0,1.0,2.0,High,Somewhat Sensitive,1.0,9.0,Medium,Smartphone,PayPal,1/2/2024,True,False,Impulsive,No Preference,10.0
+46.0,Female,,Single,High School,High,Home Appliances,$290.53 ,3.0,Online,3.0,2.0,1.0,Low,Very Sensitive,0.0,6.0,High,Desktop,Debit Card,11/4/2024,True,False,Planned,No Preference,10.0
+39.0,,Middle,Divorced,Bachelor's,High,Baby Products,$251.80 ,6.0,Mixed,5.0,1.0,2.0,High,Very Sensitive,1.0,8.0,Low,Smartphone,Debit Card,7/5/2024,True,True,Impulsive,No Preference,11.0
+27.0,Polygender,Middle,Divorced,Master's,Middle,Sports & Outdoors,$480.52 ,,Online,5.0,4.0,2.0,Low,Somewhat Sensitive,1.0,5.0,,Smartphone,Cash,4/30/2024,False,False,Planned,No Preference,13.0
+28.0,Female,Middle,Married,High School,High,Packages),$461.71 ,,Mixed,3.0,1.0,0.0,Low,Not Sensitive,0.0,9.0,High,Smartphone,Cash,2/16/2024,False,False,Planned,Standard,11.0
+50.0,Female,High,Married,High School,Middle,Software & Apps,$288.34 ,12.0,Mixed,5.0,2.0,2.0,,Very Sensitive,0.0,8.0,Low,Tablet,Cash,,False,False,Need-based,Express,6.0
+19.0,Female,High,Divorced,Bachelor's,High,Gardening & Outdoors,$194.08 ,3.0,In-Store,5.0,5.0,1.0,Low,Not Sensitive,0.0,,,Smartphone,PayPal,10/27/2024,True,True,Wants-based,Standard,13.0
+27.0,Agender,Middle,Widowed,High School,High,Travel & Leisure (Flights,$198.45 ,11.0,Online,3.0,5.0,1.0,,Not Sensitive,2.0,8.0,High,Tablet,PayPal,5/4/2024,True,False,Wants-based,No Preference,5.0
+,Male,High,Married,Master's,Middle,Baby Products,$216.45 ,5.0,,5.0,2.0,0.0,Medium,Very Sensitive,,7.0,Low,Tablet,Credit Card,10/31/2024,False,,Need-based,No Preference,
+19.0,Female,High,Widowed,Bachelor's,High,Baby Products,,5.0,,3.0,5.0,1.0,Low,Very Sensitive,0.0,8.0,Low,Tablet,Credit Card,2/6/2024,True,True,Impulsive,Standard,12.0
+22.0,Female,Middle,Widowed,Bachelor's,High,Luxury Goods,$367.56 ,9.0,Online,4.0,5.0,1.0,,Not Sensitive,0.0,8.0,Low,Smartphone,Other,7/18/2024,False,False,Need-based,Standard,
+40.0,Male,Middle,Divorced,,High,Clothing,$88.78 ,10.0,Online,5.0,3.0,0.0,High,Very Sensitive,1.0,7.0,Medium,Desktop,PayPal,1/6/2024,False,False,Planned,Standard,13.0
+48.0,Male,Middle,Married,Bachelor's,,Food & Beverages,$465.85 ,10.0,Online,5.0,3.0,2.0,,Somewhat Sensitive,,10.0,Medium,Desktop,PayPal,4/4/2024,True,False,Wants-based,Standard,
+49.0,Male,Middle,Married,,High,Clothing,$262.61 ,3.0,In-Store,2.0,5.0,1.0,Medium,Somewhat Sensitive,0.0,10.0,Medium,Smartphone,Other,2/28/2024,False,True,Wants-based,Standard,6.0
+,Agender,Middle,Widowed,Master's,Middle,,$91.24 ,8.0,In-Store,4.0,3.0,0.0,High,Somewhat Sensitive,0.0,4.0,Low,Tablet,Cash,10/28/2024,True,False,Wants-based,Standard,4.0
+42.0,Female,High,Married,High School,High,Luxury Goods,$425.69 ,5.0,In-Store,2.0,5.0,0.0,High,Very Sensitive,0.0,4.0,Medium,Tablet,Credit Card,6/21/2024,False,True,Impulsive,No Preference,4.0
+41.0,Female,High,Married,Bachelor's,High,Packages),$446.11 ,9.0,Mixed,3.0,1.0,1.0,Medium,Very Sensitive,0.0,10.0,Medium,Desktop,PayPal,6/6/2024,True,True,,Express,11.0
+23.0,Bigender,High,,High School,High,Software & Apps,$490.11 ,8.0,Online,3.0,4.0,2.0,Low,Not Sensitive,1.0,1.0,Low,Smartphone,Other,12/24/2024,,False,Planned,Standard,14.0
+44.0,Female,High,Divorced,High School,Middle,Sports & Outdoors,$403.57 ,6.0,Online,2.0,2.0,2.0,High,Not Sensitive,2.0,2.0,,,Other,11/14/2024,False,False,Impulsive,Express,1.0
+42.0,Female,High,Married,Bachelor's,Middle,Packages),$442.15 ,10.0,Mixed,2.0,3.0,1.0,High,Not Sensitive,2.0,1.0,,Smartphone,Credit Card,12/18/2024,False,True,Need-based,No Preference,9.0
+49.0,Female,Middle,Widowed,Bachelor's,High,Sports & Outdoors,$78.71 ,5.0,Online,4.0,3.0,1.0,,Somewhat Sensitive,1.0,10.0,Low,Smartphone,PayPal,4/10/2024,True,True,,No Preference,4.0
+45.0,Female,Middle,Widowed,High School,High,,$491.51 ,2.0,Mixed,2.0,5.0,0.0,Medium,Very Sensitive,1.0,1.0,High,Smartphone,PayPal,12/6/2024,True,,Need-based,No Preference,7.0
+36.0,Female,Middle,Single,Bachelor's,Middle,Furniture,$457.39 ,12.0,In-Store,1.0,1.0,1.0,High,Not Sensitive,1.0,5.0,High,Desktop,Credit Card,10/29/2024,True,False,Impulsive,Standard,9.0
+38.0,Female,High,Divorced,High School,High,Food & Beverages,$178.61 ,12.0,Online,5.0,1.0,2.0,High,Not Sensitive,0.0,3.0,,Smartphone,Credit Card,7/10/2024,True,,Impulsive,No Preference,8.0
+44.0,Male,Middle,Single,High School,Middle,Health Care,$492.51 ,7.0,Online,1.0,4.0,1.0,Low,Not Sensitive,0.0,2.0,Medium,Desktop,PayPal,1/30/2024,True,True,Wants-based,Standard,4.0
+37.0,Agender,High,,Bachelor's,High,Home Appliances,$411.40 ,3.0,In-Store,1.0,3.0,0.0,High,Somewhat Sensitive,2.0,9.0,,,PayPal,8/12/2024,True,False,Impulsive,Standard,6.0
+,Male,Middle,Divorced,Master's,High,Clothing,$96.52 ,11.0,In-Store,5.0,3.0,2.0,Low,Not Sensitive,1.0,,,Tablet,Cash,3/17/2024,False,False,Planned,Standard,11.0
+34.0,Male,High,Married,High School,Middle,Mobile Accessories,$65.45 ,6.0,In-Store,2.0,4.0,1.0,High,Very Sensitive,0.0,2.0,Medium,Smartphone,Credit Card,9/21/2024,True,True,Impulsive,,
+23.0,Male,Middle,Single,High School,Middle,Health Care,$255.86 ,3.0,Online,4.0,5.0,2.0,High,Very Sensitive,0.0,1.0,Low,Tablet,PayPal,3/25/2024,True,False,Planned,No Preference,4.0
+35.0,Male,High,Divorced,Bachelor's,High,Furniture,,10.0,In-Store,5.0,3.0,1.0,Low,Somewhat Sensitive,0.0,6.0,Medium,,PayPal,11/12/2024,False,True,Need-based,No Preference,3.0
+45.0,Male,Middle,Widowed,Master's,Middle,Home Appliances,$430.75 ,8.0,Mixed,3.0,4.0,2.0,Low,Very Sensitive,1.0,5.0,,Tablet,Cash,4/6/2024,False,False,Need-based,No Preference,6.0
+38.0,Male,High,Widowed,Master's,High,Software & Apps,$370.17 ,2.0,Mixed,5.0,,2.0,Medium,Not Sensitive,1.0,9.0,Low,,Cash,11/23/2024,False,True,Need-based,Express,1.0
+25.0,Male,Middle,Divorced,Master's,High,Electronics,,6.0,Mixed,4.0,2.0,1.0,High,Not Sensitive,0.0,9.0,Medium,Smartphone,PayPal,7/11/2024,False,True,Need-based,No Preference,11.0
+26.0,Male,Middle,Married,Master's,Middle,Home Appliances,$128.01 ,2.0,,4.0,,1.0,Medium,Somewhat Sensitive,0.0,1.0,High,Smartphone,Debit Card,4/17/2024,True,False,Need-based,No Preference,10.0
+46.0,Female,High,Married,,High,Luxury Goods,$301.40 ,4.0,Online,5.0,3.0,0.0,Medium,Somewhat Sensitive,0.0,5.0,,Desktop,Debit Card,9/14/2024,False,True,Planned,Standard,5.0
+18.0,Female,High,Single,High School,,Health Supplements,,6.0,Mixed,5.0,2.0,1.0,Low,Not Sensitive,1.0,,,Desktop,Cash,8/8/2024,False,True,Wants-based,No Preference,2.0
+46.0,Male,Middle,Divorced,High School,Middle,Gardening & Outdoors,$96.18 ,3.0,Mixed,3.0,4.0,0.0,,Somewhat Sensitive,,9.0,Medium,Smartphone,Cash,5/5/2024,False,False,Planned,Express,10.0
+19.0,Female,High,Divorced,Bachelor's,High,Baby Products,$390.44 ,4.0,Mixed,5.0,1.0,0.0,Medium,Very Sensitive,0.0,4.0,High,Desktop,Other,2/15/2024,True,False,Need-based,Standard,4.0
+37.0,Female,Middle,Single,Bachelor's,Middle,Health Care,$61.50 ,11.0,Mixed,4.0,2.0,0.0,Medium,Very Sensitive,0.0,1.0,High,Smartphone,Other,1/26/2024,True,True,Planned,Express,8.0
+35.0,Female,Middle,Divorced,High School,High,Office Supplies,$234.44 ,6.0,In-Store,3.0,5.0,2.0,Medium,Very Sensitive,0.0,1.0,High,Desktop,Other,5/23/2024,False,True,Impulsive,Express,5.0
+43.0,Male,Middle,Single,Master's,Middle,Toys & Games,$318.84 ,6.0,Online,1.0,1.0,2.0,Low,Very Sensitive,0.0,4.0,High,Tablet,Other,4/20/2024,False,True,Wants-based,Standard,10.0
+28.0,Male,Middle,Single,Master's,High,Toys & Games,$327.32 ,6.0,Mixed,4.0,5.0,0.0,,Somewhat Sensitive,0.0,4.0,High,Tablet,Other,6/9/2024,True,True,Impulsive,Express,13.0
+25.0,Male,Middle,Divorced,,,Books,$475.64 ,3.0,Online,3.0,4.0,1.0,Low,Very Sensitive,1.0,2.0,Medium,Smartphone,PayPal,2/15/2024,True,True,,Standard,9.0
+47.0,Male,High,Widowed,Master's,Middle,Hotels,$68.59 ,9.0,Mixed,3.0,4.0,0.0,Medium,Somewhat Sensitive,2.0,5.0,,Smartphone,PayPal,4/18/2024,False,True,Wants-based,,5.0
+45.0,Polygender,Middle,Divorced,Bachelor's,Middle,,$133.04 ,12.0,Online,1.0,3.0,2.0,High,Not Sensitive,2.0,6.0,,Desktop,Cash,7/7/2024,,,Impulsive,Standard,11.0
+24.0,Non-binary,High,Married,High School,Middle,Luxury Goods,$196.63 ,9.0,Online,4.0,2.0,2.0,Medium,Somewhat Sensitive,1.0,6.0,Low,Tablet,Other,12/15/2024,,False,Need-based,No Preference,7.0
+30.0,Male,Middle,Divorced,Bachelor's,High,Home Appliances,$473.96 ,12.0,In-Store,2.0,1.0,1.0,Medium,Somewhat Sensitive,2.0,9.0,,Tablet,PayPal,7/28/2024,True,False,Impulsive,Express,14.0
+24.0,Female,High,Married,High School,Middle,Luxury Goods,$472.52 ,8.0,Online,2.0,4.0,0.0,Low,Somewhat Sensitive,2.0,8.0,Medium,Tablet,Cash,,False,True,Planned,No Preference,14.0
+,Female,Middle,Married,Bachelor's,Middle,Baby Products,$335.80 ,9.0,Mixed,3.0,5.0,1.0,,Somewhat Sensitive,2.0,7.0,,Smartphone,Debit Card,2/10/2024,True,False,Wants-based,Standard,5.0
+,Male,Middle,Single,High School,High,Luxury Goods,$85.57 ,12.0,In-Store,2.0,1.0,1.0,Low,Very Sensitive,2.0,4.0,Medium,Tablet,,8/31/2024,True,True,Planned,No Preference,9.0
+44.0,Bigender,Middle,Single,Master's,Middle,Beauty & Personal Care,,11.0,Mixed,5.0,5.0,0.0,,Very Sensitive,1.0,2.0,Medium,Smartphone,PayPal,7/16/2024,False,False,,No Preference,10.0
+26.0,Male,Middle,Divorced,,Middle,Food & Beverages,$172.50 ,8.0,Online,1.0,3.0,0.0,Medium,Somewhat Sensitive,0.0,8.0,Low,Desktop,Credit Card,7/19/2024,True,False,Impulsive,No Preference,7.0
+18.0,Female,High,Single,High School,Middle,Electronics,$212.80 ,6.0,Mixed,3.0,,2.0,,Very Sensitive,1.0,7.0,High,Tablet,Credit Card,5/17/2024,,True,Planned,Standard,1.0
+,Female,Middle,Married,Bachelor's,High,Baby Products,$324.41 ,7.0,Mixed,4.0,4.0,1.0,,Not Sensitive,0.0,5.0,Medium,Tablet,Debit Card,4/29/2024,True,True,,No Preference,4.0
+36.0,,High,Widowed,High School,Middle,Travel & Leisure (Flights,$342.39 ,8.0,In-Store,1.0,5.0,2.0,Low,Very Sensitive,2.0,3.0,High,Desktop,Other,1/4/2024,False,False,Need-based,Standard,9.0
+23.0,Female,High,Divorced,Bachelor's,High,Health Care,$446.86 ,9.0,In-Store,2.0,1.0,2.0,,Very Sensitive,0.0,2.0,Medium,Desktop,,11/7/2024,False,False,Wants-based,No Preference,5.0
+49.0,Male,High,Divorced,Master's,High,Electronics,$463.15 ,3.0,Mixed,1.0,1.0,1.0,,Somewhat Sensitive,1.0,9.0,High,Smartphone,Debit Card,4/25/2024,True,True,Need-based,Standard,9.0
+27.0,Female,High,Divorced,Bachelor's,High,Groceries,$122.99 ,12.0,,1.0,5.0,1.0,High,Very Sensitive,1.0,8.0,,Desktop,Cash,10/3/2024,True,False,Planned,No Preference,1.0
+43.0,Male,High,Widowed,Master's,High,Beauty & Personal Care,$322.40 ,7.0,Mixed,4.0,2.0,1.0,Medium,Very Sensitive,2.0,3.0,Medium,Tablet,Cash,8/7/2024,True,True,Need-based,Express,2.0
+19.0,Female,High,Married,High School,Middle,Health Care,$73.19 ,5.0,Mixed,2.0,5.0,1.0,Low,Not Sensitive,2.0,8.0,High,Smartphone,PayPal,4/11/2024,False,True,Need-based,No Preference,3.0
+41.0,Female,Middle,Married,,High,Toys & Games,$279.08 ,10.0,Online,4.0,,1.0,High,Not Sensitive,,7.0,Medium,Smartphone,Credit Card,4/25/2024,False,True,Wants-based,No Preference,3.0
+29.0,Female,Middle,Single,High School,Middle,Travel & Leisure (Flights,$478.85 ,10.0,In-Store,4.0,2.0,2.0,,Not Sensitive,2.0,2.0,,Desktop,Cash,4/28/2024,False,False,Planned,No Preference,4.0
+25.0,Male,High,Widowed,Master's,High,Food & Beverages,$86.39 ,5.0,Mixed,4.0,5.0,1.0,High,Somewhat Sensitive,1.0,,Medium,Desktop,Debit Card,9/9/2024,False,False,Need-based,Standard,7.0
+45.0,Male,High,Widowed,Bachelor's,Middle,Baby Products,$192.35 ,,Mixed,3.0,5.0,2.0,High,Not Sensitive,2.0,1.0,High,Smartphone,Credit Card,5/8/2024,True,False,Impulsive,Express,11.0
+36.0,Female,Middle,Divorced,Bachelor's,High,Beauty & Personal Care,$235.32 ,7.0,Online,2.0,1.0,1.0,Medium,Very Sensitive,1.0,10.0,High,Desktop,PayPal,6/9/2024,False,True,Impulsive,Express,11.0
+21.0,Female,High,Widowed,High School,High,Electronics,$212.63 ,8.0,Online,4.0,2.0,1.0,Low,Very Sensitive,0.0,4.0,High,,Debit Card,8/27/2024,False,True,Need-based,No Preference,6.0
+47.0,Female,,Widowed,Master's,High,Food & Beverages,$246.63 ,,In-Store,2.0,3.0,1.0,,Somewhat Sensitive,2.0,3.0,,Tablet,,4/1/2024,True,False,Impulsive,Express,
+26.0,Female,Middle,Widowed,Bachelor's,High,Toys & Games,$228.47 ,9.0,Online,3.0,,1.0,,Very Sensitive,1.0,7.0,,Desktop,Credit Card,8/29/2024,False,True,Impulsive,Express,12.0
+,Female,Middle,Single,Master's,High,Gardening & Outdoors,$343.77 ,6.0,Online,4.0,3.0,2.0,Low,Somewhat Sensitive,2.0,9.0,High,Desktop,Cash,9/18/2024,True,True,Wants-based,Express,6.0
+26.0,Bigender,,Married,Bachelor's,High,Groceries,$339.32 ,9.0,In-Store,2.0,4.0,0.0,Medium,Very Sensitive,1.0,4.0,High,Tablet,Other,9/5/2024,False,,Need-based,No Preference,7.0
+34.0,Male,High,Divorced,Bachelor's,Middle,Clothing,,9.0,Mixed,5.0,4.0,0.0,Low,Somewhat Sensitive,2.0,3.0,High,Desktop,Cash,8/6/2024,False,True,Need-based,No Preference,7.0
+48.0,Male,,Divorced,Master's,Middle,Toys & Games,$334.45 ,2.0,In-Store,2.0,5.0,0.0,Medium,Not Sensitive,2.0,9.0,High,Tablet,Credit Card,6/18/2024,True,False,Impulsive,No Preference,6.0
+19.0,Male,High,Single,Bachelor's,Middle,Food & Beverages,$366.16 ,12.0,Mixed,4.0,4.0,2.0,Medium,Somewhat Sensitive,1.0,5.0,Low,Desktop,Credit Card,8/26/2024,False,False,Need-based,No Preference,4.0
+37.0,Female,High,Widowed,Bachelor's,Middle,Groceries,$481.78 ,8.0,,5.0,2.0,0.0,Medium,Very Sensitive,2.0,4.0,Low,Tablet,Debit Card,4/24/2024,True,True,Wants-based,,1.0
+23.0,Female,,Widowed,Bachelor's,Middle,Gardening & Outdoors,$131.48 ,8.0,Mixed,3.0,5.0,0.0,,Somewhat Sensitive,2.0,1.0,Low,Tablet,Credit Card,8/8/2024,True,,Wants-based,No Preference,12.0
+34.0,Female,High,Widowed,Master's,High,Health Care,$402.86 ,11.0,In-Store,3.0,5.0,1.0,High,Not Sensitive,0.0,2.0,,Desktop,Cash,9/5/2024,False,False,Impulsive,Standard,8.0
+42.0,Male,High,Single,Bachelor's,Middle,Gardening & Outdoors,$333.18 ,6.0,In-Store,1.0,1.0,0.0,Medium,Very Sensitive,2.0,,Low,Smartphone,Other,4/16/2024,True,False,Planned,Express,8.0
+28.0,,High,Widowed,Master's,Middle,Arts & Crafts,$73.23 ,8.0,Online,2.0,2.0,2.0,Low,Very Sensitive,1.0,2.0,Low,Smartphone,Credit Card,7/17/2024,True,,Need-based,No Preference,6.0
+28.0,Male,High,Divorced,Master's,Middle,Furniture,$450.47 ,11.0,Online,5.0,2.0,2.0,,,2.0,3.0,,Smartphone,Credit Card,3/18/2024,True,True,Wants-based,Express,10.0
+33.0,Male,Middle,Single,High School,High,Food & Beverages,$175.74 ,5.0,Online,5.0,4.0,1.0,Medium,Not Sensitive,0.0,6.0,,Tablet,Cash,7/18/2024,False,True,Impulsive,No Preference,6.0
+31.0,Female,Middle,Single,Master's,High,Hotels,$182.60 ,4.0,Online,5.0,2.0,0.3,Low,Not Sensitive,2.0,9.0,,Tablet,PayPal,5/31/2024,False,True,Wants-based,Express,5.0
+20.0,Female,Middle,Widowed,Bachelor's,High,Jewelry & Accessories,$497.80 ,2.0,Online,3.0,5.0,0.2,High,Somewhat Sensitive,,2.0,Medium,Smartphone,Other,1/21/2024,True,,Wants-based,No Preference,9.0
+32.0,Male,High,Divorced,High School,High,Food & Beverages,$171.17 ,4.0,,1.0,3.0,0.0,High,Somewhat Sensitive,0.0,4.0,Medium,Desktop,Debit Card,6/15/2024,False,True,Wants-based,Standard,12.0
+27.0,Female,Middle,Single,Bachelor's,High,Jewelry & Accessories,,3.0,In-Store,4.0,5.0,1.0,Low,Not Sensitive,,,,Smartphone,Cash,4/19/2024,True,True,Wants-based,Standard,11.0
+19.0,Female,Middle,Widowed,Bachelor's,Middle,Sports & Outdoors,$210.58 ,10.0,,5.0,1.0,2.0,Low,Somewhat Sensitive,1.0,3.0,,Tablet,Debit Card,,True,True,Planned,No Preference,8.0
+50.0,Male,Middle,Single,High School,Middle,,$199.64 ,11.0,Online,5.0,4.0,1.0,High,Somewhat Sensitive,1.0,5.0,High,Desktop,PayPal,9/4/2024,False,,Planned,Express,8.0
+40.0,Polygender,High,Married,Bachelor's,Middle,Packages),$162.22 ,10.0,In-Store,5.0,5.0,0.2,High,Somewhat Sensitive,1.0,1.0,Medium,Desktop,Other,4/28/2024,True,True,Wants-based,No Preference,8.0
+20.0,Male,High,Married,Bachelor's,High,Sports & Outdoors,$401.75 ,8.0,Online,3.0,4.0,0.3,,Somewhat Sensitive,1.0,8.0,High,Smartphone,PayPal,12/8/2024,False,True,Wants-based,Standard,6.0
+24.0,Female,Middle,Married,Master's,Middle,Luxury Goods,$365.88 ,12.0,Online,3.0,3.0,2.0,Medium,Very Sensitive,0.0,9.0,High,Smartphone,Other,11/5/2024,True,False,Need-based,Express,7.0
+46.0,Male,Middle,Single,High School,Middle,Beauty & Personal Care,$58.29 ,,Mixed,2.0,3.0,2.0,,Somewhat Sensitive,1.0,7.0,Low,Tablet,Other,2/13/2024,False,True,Impulsive,Standard,14.0
+50.0,Male,High,Married,Master's,High,Health Supplements,$66.86 ,3.0,Mixed,1.0,1.0,1.0,Medium,Very Sensitive,0.0,10.0,Medium,Desktop,Other,1/25/2024,True,True,Wants-based,Express,9.0
+29.0,Female,High,Single,Bachelor's,Middle,Groceries,$279.34 ,5.0,Mixed,3.0,1.0,0.0,Medium,Very Sensitive,2.0,6.0,Low,Tablet,PayPal,,False,True,Wants-based,No Preference,11.0
+34.0,Genderfluid,High,Divorced,Bachelor's,High,Electronics,$358.50 ,3.0,Online,3.0,4.0,2.0,Medium,Very Sensitive,2.0,3.0,,Tablet,Cash,11/14/2024,,True,Impulsive,Standard,8.0
+44.0,Female,High,Widowed,Bachelor's,High,Jewelry & Accessories,$360.92 ,7.0,Online,2.0,1.0,2.0,,Very Sensitive,0.0,9.0,Low,Smartphone,PayPal,11/10/2024,False,True,Impulsive,Standard,8.0
+38.0,Genderqueer,Middle,Married,Master's,High,Groceries,$374.36 ,4.0,Online,2.0,2.0,0.0,,Somewhat Sensitive,1.0,9.0,,Smartphone,Other,10/3/2024,False,False,Wants-based,Standard,1.0
+22.0,Genderfluid,High,Widowed,High School,Middle,Baby Products,$435.37 ,11.0,Online,4.0,2.0,,Low,Very Sensitive,0.0,3.0,High,Tablet,Credit Card,8/30/2024,True,True,Planned,Standard,4.0
+44.0,Male,High,Single,Master's,High,Home Appliances,$459.30 ,9.0,Online,4.0,4.0,,,Somewhat Sensitive,2.0,5.0,Medium,Desktop,Other,10/9/2024,False,True,Planned,No Preference,1.0
+43.0,Female,High,Divorced,Master's,Middle,,$426.89 ,2.0,Mixed,5.0,1.0,1.0,High,Not Sensitive,1.0,3.0,Low,Smartphone,PayPal,11/2/2024,True,False,Wants-based,Express,10.0
+25.0,Male,Middle,Divorced,Master's,High,Animal Feed,$365.37 ,6.0,Mixed,1.0,2.0,1.0,Low,Very Sensitive,1.0,5.0,Low,Smartphone,PayPal,7/2/2024,True,True,Wants-based,Express,7.0
+21.0,Female,Middle,Divorced,Master's,,Mobile Accessories,$487.25 ,4.0,Online,3.0,2.0,1.0,High,Very Sensitive,0.0,4.0,High,Desktop,Cash,10/8/2024,False,False,Wants-based,Standard,1.0
+29.0,Female,Middle,Married,High School,High,Baby Products,$187.22 ,10.0,Online,,3.0,0.0,,Very Sensitive,1.0,4.0,Low,Desktop,Credit Card,6/4/2024,False,False,Wants-based,Standard,4.0
+41.0,Male,High,,Master's,High,Toys & Games,$396.82 ,7.0,Mixed,3.0,4.0,1.0,,Somewhat Sensitive,1.0,9.0,High,Desktop,Credit Card,8/13/2024,True,True,Need-based,No Preference,9.0
+38.0,Genderfluid,High,Divorced,Master's,High,Travel & Leisure (Flights,$246.74 ,10.0,Online,,3.0,0.0,Medium,Not Sensitive,1.0,6.0,High,Desktop,PayPal,3/27/2024,False,False,Need-based,Express,8.0
+26.0,Male,High,Widowed,Bachelor's,High,Luxury Goods,$128.74 ,12.0,Mixed,5.0,1.0,1.0,Medium,Somewhat Sensitive,1.0,8.0,High,Desktop,PayPal,1/6/2024,False,True,Planned,Standard,1.0
+41.0,Female,Middle,,Master's,Middle,Toys & Games,$339.63 ,2.0,In-Store,3.0,3.0,2.0,Medium,Very Sensitive,2.0,1.0,Low,Tablet,,8/26/2024,True,False,Impulsive,No Preference,6.0
+46.0,Female,High,Single,,High,Sports & Outdoors,$223.58 ,11.0,Mixed,4.0,3.0,0.0,High,Very Sensitive,0.0,6.0,,Tablet,PayPal,5/20/2024,False,False,Impulsive,No Preference,11.0
+39.0,Genderqueer,High,Widowed,Bachelor's,Middle,Gardening & Outdoors,$446.92 ,5.0,Mixed,1.0,1.0,1.0,Medium,Very Sensitive,2.0,,,Smartphone,PayPal,7/19/2024,True,False,Planned,Express,10.0
+43.0,Male,Middle,Divorced,,Middle,Electronics,$175.65 ,11.0,Mixed,4.0,3.0,2.0,Low,Not Sensitive,1.0,7.0,,Tablet,Other,12/8/2024,False,True,Wants-based,Express,
+44.0,Genderfluid,Middle,Married,Bachelor's,Middle,Clothing,$491.49 ,,Mixed,1.0,1.0,0.0,Low,Somewhat Sensitive,2.0,7.0,,Desktop,PayPal,,False,False,,Standard,1.0
+26.0,Male,Middle,Widowed,Bachelor's,Middle,Beauty & Personal Care,$88.40 ,5.0,In-Store,5.0,2.0,0.0,Medium,Not Sensitive,0.0,4.0,Medium,Desktop,Cash,5/26/2024,True,False,Need-based,No Preference,4.0
+29.0,,Middle,Widowed,Master's,High,Office Supplies,$430.90 ,8.0,Online,4.0,5.0,1.0,High,Not Sensitive,0.0,6.0,,Tablet,Credit Card,6/6/2024,False,,Wants-based,Standard,11.0
+50.0,Male,High,Widowed,High School,High,Mobile Accessories,,2.0,In-Store,2.0,4.0,0.0,,Somewhat Sensitive,2.0,2.0,Medium,Smartphone,Cash,2/27/2024,False,True,Impulsive,Express,13.0
+19.0,Female,High,Divorced,Master's,Middle,Toys & Games,$218.65 ,3.0,Online,4.0,2.0,2.0,Low,Very Sensitive,0.0,9.0,Medium,Smartphone,Credit Card,7/17/2024,True,True,Impulsive,Standard,4.0
+27.0,Male,High,Widowed,High School,Middle,Health Supplements,$207.66 ,10.0,In-Store,2.0,3.0,1.0,High,Very Sensitive,2.0,2.0,Medium,Desktop,Other,7/8/2024,False,True,Wants-based,Standard,8.0
+34.0,Female,High,Married,High School,High,Arts & Crafts,$141.09 ,7.0,In-Store,3.0,4.0,0.0,High,Very Sensitive,2.0,3.0,High,Desktop,Debit Card,6/19/2024,False,True,Wants-based,Express,1.0
+39.0,Male,High,Divorced,Bachelor's,Middle,Packages),$142.70 ,6.0,In-Store,3.0,2.0,,,Very Sensitive,0.0,4.0,,Desktop,Credit Card,5/17/2024,False,True,Impulsive,No Preference,11.0
+44.0,Male,High,Divorced,Master's,High,Animal Feed,$64.09 ,10.0,Online,5.0,5.0,0.0,,Somewhat Sensitive,0.0,6.0,Low,Desktop,Credit Card,10/20/2024,True,False,Need-based,Express,7.0
+20.0,Female,Middle,Married,High School,Middle,Toys & Games,$126.26 ,2.0,Online,4.0,5.0,1.0,,Somewhat Sensitive,1.0,6.0,,Smartphone,Debit Card,9/19/2024,True,False,Planned,Standard,13.0
+42.0,Female,Middle,,,High,Hotels,$195.05 ,5.0,In-Store,2.0,1.0,2.0,Medium,Not Sensitive,0.0,10.0,High,Smartphone,Other,5/21/2024,True,False,Impulsive,No Preference,11.0
+22.0,Female,Middle,,Master's,High,Groceries,$432.84 ,7.0,Mixed,4.0,5.0,2.0,High,Very Sensitive,0.0,,High,Tablet,Debit Card,2/5/2024,False,False,Wants-based,No Preference,4.0
+30.0,Male,High,Married,,Middle,Jewelry & Accessories,,6.0,In-Store,1.0,3.0,1.0,High,Very Sensitive,0.0,4.0,Low,Smartphone,Debit Card,2/29/2024,False,False,Impulsive,,11.0
+,Male,High,Divorced,Master's,High,Groceries,$438.26 ,10.0,In-Store,3.0,4.0,1.0,,Somewhat Sensitive,1.0,3.0,Medium,Smartphone,Debit Card,7/4/2024,True,False,Planned,Express,10.0
+19.0,Female,High,Single,Bachelor's,High,Jewelry & Accessories,$233.02 ,4.0,Mixed,3.0,3.0,1.0,Medium,Not Sensitive,0.0,3.0,Medium,Smartphone,Cash,10/29/2024,False,False,Impulsive,Standard,8.0
+26.0,Female,Middle,Widowed,Bachelor's,Middle,Packages),$273.41 ,7.0,Online,3.0,,2.0,Low,Very Sensitive,,9.0,Medium,Tablet,Other,10/17/2024,True,False,Planned,Standard,2.0
+21.0,Female,High,Married,High School,Middle,Furniture,$338.96 ,10.0,Online,1.0,4.0,2.0,High,,1.0,9.0,High,Desktop,Debit Card,11/4/2024,True,True,Wants-based,Standard,4.0
+37.0,Male,Middle,Divorced,Master's,High,Luxury Goods,$75.91 ,12.0,Mixed,3.0,5.0,2.0,Low,Very Sensitive,0.0,6.0,,Desktop,PayPal,11/21/2024,True,True,Planned,No Preference,1.0
+23.0,Male,High,Married,High School,High,Mobile Accessories,$425.21 ,,Online,2.0,4.0,2.0,,Somewhat Sensitive,0.0,4.0,High,Desktop,Other,3/25/2024,True,True,Planned,Express,12.0
+46.0,Male,Middle,,Master's,Middle,Software & Apps,$268.80 ,2.0,In-Store,1.0,3.0,0.0,High,,1.0,7.0,,Desktop,Debit Card,4/20/2024,False,False,Need-based,Standard,12.0
+35.0,Female,Middle,Divorced,Master's,,Health Care,,10.0,Mixed,5.0,3.0,0.0,Low,Somewhat Sensitive,1.0,9.0,Low,Desktop,Credit Card,4/14/2024,True,True,,No Preference,7.0
+33.0,Non-binary,Middle,Widowed,,Middle,Animal Feed,$444.05 ,10.0,Online,5.0,4.0,0.0,Low,Not Sensitive,1.0,8.0,Medium,Desktop,PayPal,6/4/2024,,True,Wants-based,Standard,8.0
+47.0,Male,Middle,Divorced,High School,Middle,Gardening & Outdoors,$255.10 ,5.0,Mixed,5.0,1.0,2.0,High,Very Sensitive,1.0,1.0,Low,Desktop,PayPal,1/28/2024,True,False,Planned,No Preference,14.0
+32.0,Male,High,Widowed,Bachelor's,High,Health Supplements,$236.44 ,6.0,Mixed,4.0,4.0,,Medium,Very Sensitive,2.0,2.0,,Smartphone,PayPal,5/15/2024,,False,Impulsive,Standard,6.0
+20.0,Male,Middle,Widowed,Bachelor's,High,,$201.69 ,11.0,Mixed,4.0,5.0,0.0,High,Very Sensitive,2.0,8.0,Low,Tablet,,7/19/2024,True,False,Planned,No Preference,
+37.0,Female,High,Single,Bachelor's,Middle,Arts & Crafts,$390.51 ,6.0,Online,3.0,2.0,0.0,,Very Sensitive,0.0,2.0,High,Desktop,Cash,4/15/2024,False,False,,Express,6.0
+35.0,,High,Divorced,Master's,High,Clothing,$442.29 ,9.0,Mixed,1.0,2.0,0.0,Medium,Somewhat Sensitive,1.0,2.0,Low,Tablet,PayPal,9/11/2024,False,False,,Express,13.0
+18.0,Female,Middle,Single,High School,High,Furniture,$89.60 ,7.0,In-Store,5.0,3.0,2.0,,Not Sensitive,1.0,5.0,Low,Desktop,Cash,3/10/2024,False,False,Planned,Standard,8.0
+27.0,Male,Middle,Widowed,High School,High,Sports & Outdoors,$166.74 ,6.0,Mixed,2.0,5.0,0.0,High,Not Sensitive,0.0,6.0,Low,Desktop,Other,1/14/2024,False,False,Impulsive,No Preference,1.0
+29.0,Female,High,Married,Bachelor's,Middle,Mobile Accessories,,12.0,Mixed,4.0,5.0,1.0,High,Somewhat Sensitive,0.0,9.0,High,Smartphone,Debit Card,5/29/2024,False,False,Wants-based,Standard,3.0
+24.0,Male,High,Widowed,Master's,High,Sports & Outdoors,$404.57 ,5.0,Mixed,4.0,3.0,0.0,Medium,Not Sensitive,2.0,7.0,,Smartphone,Debit Card,8/31/2024,False,True,Need-based,Express,14.0
+27.0,Male,High,Single,,High,Software & Apps,$344.81 ,10.0,In-Store,3.0,1.0,2.0,Low,Somewhat Sensitive,1.0,,High,Desktop,Other,12/23/2024,True,True,Wants-based,Express,14.0
+34.0,Male,High,Single,Master's,High,Health Care,$217.84 ,10.0,Online,2.0,2.0,2.0,,Very Sensitive,0.0,8.0,High,Tablet,Cash,1/16/2024,True,True,Wants-based,Standard,11.0
+21.0,Male,Middle,Divorced,Bachelor's,Middle,Sports & Outdoors,$445.34 ,9.0,In-Store,5.0,2.0,1.0,Low,Somewhat Sensitive,1.0,3.0,High,Tablet,Cash,3/4/2024,True,True,Impulsive,No Preference,3.0
+18.0,Male,High,Widowed,High School,High,Home Appliances,$151.73 ,3.0,In-Store,2.0,4.0,1.0,Medium,Very Sensitive,1.0,3.0,,Smartphone,Other,9/24/2024,False,True,Wants-based,Express,11.0
+50.0,Bigender,High,Married,High School,High,Electronics,$123.73 ,9.0,Online,1.0,4.0,0.0,High,Not Sensitive,2.0,5.0,High,Smartphone,Credit Card,10/7/2024,False,True,Need-based,No Preference,10.0
+31.0,Male,Middle,Single,,High,Travel & Leisure (Flights,$370.54 ,2.0,In-Store,3.0,3.0,,Low,Very Sensitive,1.0,,Low,Smartphone,Credit Card,3/25/2024,True,False,Impulsive,No Preference,
+45.0,Male,High,Married,Master's,High,Baby Products,,3.0,In-Store,1.0,5.0,2.0,High,,1.0,8.0,,Tablet,Debit Card,8/20/2024,False,False,Impulsive,Express,11.0
+29.0,Male,Middle,Single,Master's,Middle,Health Supplements,$295.75 ,4.0,Mixed,1.0,1.0,0.0,High,Somewhat Sensitive,1.0,10.0,Low,Tablet,Credit Card,12/7/2024,True,True,Need-based,Standard,8.0
+36.0,Male,High,Widowed,,Middle,Office Supplies,$358.11 ,11.0,Mixed,5.0,1.0,0.0,High,Very Sensitive,0.0,3.0,High,Desktop,Credit Card,9/3/2024,False,False,Need-based,Standard,11.0
+27.0,Female,High,Widowed,Master's,High,Jewelry & Accessories,$63.60 ,12.0,Mixed,5.0,1.0,0.0,High,Not Sensitive,2.0,1.0,,Desktop,PayPal,2/9/2024,False,True,Wants-based,No Preference,6.0
+24.0,Male,High,Single,High School,Middle,Books,$419.53 ,3.0,Mixed,1.0,5.0,2.0,High,Not Sensitive,2.0,10.0,Medium,Tablet,Other,3/27/2024,False,,Wants-based,Express,6.0
+49.0,Agender,High,Widowed,High School,Middle,Groceries,$491.92 ,10.0,In-Store,5.0,3.0,0.0,Medium,Very Sensitive,1.0,1.0,Low,Desktop,Credit Card,12/29/2024,False,False,Wants-based,Standard,2.0
+21.0,Bigender,Middle,Divorced,High School,High,Sports & Outdoors,$114.44 ,4.0,Online,,3.0,2.0,Low,Not Sensitive,1.0,9.0,,Desktop,Credit Card,10/20/2024,False,False,Planned,Express,1.0
+19.0,Female,Middle,Married,Master's,High,Mobile Accessories,$388.82 ,10.0,Mixed,2.0,3.0,0.0,Low,Very Sensitive,0.0,8.0,Low,Desktop,Other,9/3/2024,False,False,Need-based,No Preference,6.0
+23.0,Female,Middle,Married,Bachelor's,,Mobile Accessories,$58.32 ,7.0,In-Store,1.0,5.0,0.0,Low,Not Sensitive,1.0,,Low,Smartphone,PayPal,3/13/2024,True,True,Need-based,Standard,8.0
+28.0,Female,High,Divorced,Master's,High,Groceries,$464.76 ,2.0,Mixed,5.0,1.0,0.0,Low,Very Sensitive,0.0,,Low,Desktop,Debit Card,2/4/2024,False,True,Need-based,No Preference,3.0
+27.0,Female,High,Divorced,Master's,High,Home Appliances,$116.92 ,7.0,Mixed,2.0,3.0,2.0,,Very Sensitive,2.0,3.0,,Desktop,Debit Card,3/31/2024,True,False,Impulsive,No Preference,14.0
+47.0,Female,High,Divorced,Bachelor's,Middle,Jewelry & Accessories,$396.76 ,8.0,Online,3.0,3.0,1.0,,Very Sensitive,2.0,4.0,High,Tablet,Cash,7/17/2024,True,True,,Express,8.0
+20.0,Agender,High,Widowed,Master's,Middle,Packages),$393.35 ,7.0,Mixed,3.0,4.0,2.0,High,Not Sensitive,0.0,4.0,High,Tablet,Credit Card,6/16/2024,True,,Need-based,No Preference,12.0
+26.0,Female,High,Single,Master's,High,Electronics,$114.03 ,7.0,Mixed,4.0,3.0,0.0,Medium,Not Sensitive,1.0,10.0,High,Tablet,Credit Card,4/13/2024,True,True,Planned,No Preference,
+49.0,Male,High,Single,Bachelor's,Middle,Health Supplements,$109.97 ,4.0,In-Store,4.0,4.0,1.0,,Very Sensitive,1.0,5.0,,Tablet,Credit Card,8/12/2024,True,False,Wants-based,No Preference,1.0
+39.0,Female,High,Widowed,Master's,High,Beauty & Personal Care,$310.23 ,12.0,In-Store,1.0,4.0,0.0,,Somewhat Sensitive,0.0,,,Desktop,PayPal,12/17/2024,,False,Impulsive,Express,3.0
+22.0,Male,Middle,Divorced,Master's,Middle,Travel & Leisure (Flights,$383.13 ,,Mixed,4.0,5.0,0.0,Medium,Not Sensitive,2.0,6.0,,Desktop,Cash,9/25/2024,False,False,Need-based,No Preference,7.0
+25.0,Male,High,Single,High School,Middle,Health Supplements,$434.86 ,11.0,In-Store,2.0,5.0,2.0,High,Somewhat Sensitive,0.0,4.0,Medium,Smartphone,Other,6/24/2024,True,False,Impulsive,Express,11.0
+30.0,Female,Middle,Married,Bachelor's,Middle,Office Supplies,$489.10 ,9.0,Mixed,3.0,4.0,1.0,Low,Somewhat Sensitive,2.0,4.0,Medium,Smartphone,,11/18/2024,True,False,Need-based,Standard,13.0
+19.0,Polygender,High,Married,Bachelor's,High,Jewelry & Accessories,$288.15 ,3.0,Online,1.0,4.0,1.0,High,Somewhat Sensitive,1.0,4.0,Medium,Tablet,Cash,8/6/2024,True,False,Impulsive,Standard,
+35.0,,,Divorced,Master's,Middle,Clothing,$105.87 ,12.0,Mixed,3.0,2.0,1.0,Low,,1.0,1.0,Medium,Tablet,Cash,9/15/2024,False,False,Planned,Express,4.0
+45.0,Male,Middle,Widowed,High School,High,Luxury Goods,$163.40 ,3.0,In-Store,3.0,5.0,1.0,High,Somewhat Sensitive,2.0,10.0,High,Desktop,Cash,7/8/2024,True,False,Planned,Standard,7.0
+20.0,Male,High,Single,High School,High,Gardening & Outdoors,$422.92 ,6.0,Mixed,4.0,1.0,2.0,,Somewhat Sensitive,0.0,6.0,Low,Desktop,Debit Card,10/17/2024,False,True,Planned,,6.0
+48.0,Male,Middle,Divorced,High School,High,,$361.48 ,10.0,Online,1.0,4.0,1.0,Medium,Somewhat Sensitive,2.0,9.0,High,Tablet,Cash,6/16/2024,True,True,Wants-based,Express,13.0
+23.0,Male,Middle,Single,Master's,High,Hotels,$270.82 ,2.0,In-Store,4.0,2.0,0.0,,Somewhat Sensitive,1.0,,Low,Tablet,,10/30/2024,True,False,Wants-based,Standard,13.0
+49.0,Female,High,Widowed,High School,High,Toys & Games,$372.26 ,11.0,In-Store,1.0,5.0,2.0,,Very Sensitive,1.0,8.0,High,Smartphone,PayPal,8/13/2024,,True,Wants-based,Express,6.0
+23.0,Female,Middle,Widowed,Bachelor's,High,Electronics,$208.59 ,3.0,Mixed,1.0,1.0,2.0,Medium,Somewhat Sensitive,0.0,4.0,,Desktop,PayPal,9/3/2024,True,False,Impulsive,Express,1.0
+39.0,,Middle,Widowed,High School,High,Gardening & Outdoors,$163.22 ,8.0,Online,5.0,3.0,0.0,High,Somewhat Sensitive,1.0,3.0,,Smartphone,PayPal,7/1/2024,False,True,Wants-based,No Preference,8.0
+45.0,Male,High,Married,High School,High,Animal Feed,$364.98 ,7.0,,4.0,1.0,0.0,Low,Very Sensitive,0.0,1.0,,Desktop,Cash,5/11/2024,True,False,Wants-based,Standard,8.0
+31.0,Genderqueer,High,Divorced,Master's,High,Groceries,$142.43 ,3.0,In-Store,2.0,5.0,2.0,High,Very Sensitive,1.0,9.0,,,PayPal,9/28/2024,True,False,Planned,Express,8.0
+19.0,Female,Middle,Married,Bachelor's,High,Electronics,,3.0,Mixed,3.0,3.0,0.0,High,Somewhat Sensitive,1.0,9.0,,Smartphone,Other,2/18/2024,True,True,Wants-based,Express,3.0
+27.0,Male,Middle,Single,Bachelor's,High,,$241.56 ,12.0,Mixed,3.0,2.0,0.0,High,Not Sensitive,0.0,5.0,High,Tablet,PayPal,11/28/2024,True,False,Need-based,Express,2.0
+32.0,Bigender,,Divorced,Master's,,Clothing,$249.73 ,5.0,Mixed,1.0,4.0,2.0,Low,Very Sensitive,1.0,4.0,Low,Desktop,Cash,11/15/2024,True,False,Wants-based,No Preference,1.0
+24.0,Male,Middle,Married,Master's,High,Home Appliances,$437.30 ,7.0,Mixed,2.0,4.0,0.0,High,Somewhat Sensitive,,7.0,,Tablet,Cash,7/24/2024,True,True,Impulsive,No Preference,
+22.0,Male,Middle,Married,Master's,High,Groceries,,4.0,Mixed,1.0,4.0,1.0,,Somewhat Sensitive,2.0,,Low,Smartphone,Credit Card,1/27/2024,True,True,Wants-based,No Preference,4.0
+46.0,Male,High,Single,High School,Middle,Electronics,$445.93 ,6.0,,5.0,5.0,2.0,High,Somewhat Sensitive,2.0,,High,Smartphone,Debit Card,5/15/2024,False,True,Need-based,No Preference,13.0
+37.0,Female,Middle,Married,Bachelor's,Middle,Software & Apps,$242.79 ,6.0,Mixed,2.0,4.0,0.0,High,Somewhat Sensitive,1.0,7.0,,Smartphone,Other,1/20/2024,True,False,,,7.0
+34.0,Male,High,Single,Bachelor's,High,Travel & Leisure (Flights,$393.09 ,8.0,Online,5.0,3.0,2.0,Medium,,0.0,3.0,Medium,Tablet,,4/11/2024,False,True,Planned,Standard,1.0
+32.0,Male,Middle,Single,Master's,High,Groceries,$167.61 ,2.0,Online,3.0,5.0,1.0,,Not Sensitive,2.0,2.0,Low,Desktop,Other,11/10/2024,,False,Need-based,No Preference,13.0
+,Male,High,Divorced,High School,Middle,Gardening & Outdoors,$324.22 ,2.0,In-Store,4.0,2.0,0.0,,Somewhat Sensitive,1.0,6.0,Medium,Desktop,PayPal,4/18/2024,False,False,Wants-based,Express,14.0
+24.0,Female,Middle,Divorced,Bachelor's,Middle,Mobile Accessories,$159.30 ,11.0,Mixed,5.0,4.0,0.0,Medium,,0.0,6.0,High,Tablet,PayPal,4/24/2024,False,True,Impulsive,Express,2.0
+22.0,Genderqueer,Middle,Widowed,Master's,Middle,Luxury Goods,$324.39 ,5.0,Online,2.0,2.0,0.0,High,Very Sensitive,1.0,6.0,Medium,,PayPal,11/19/2024,True,False,Need-based,Express,1.0
+,Agender,High,Single,High School,High,Clothing,$198.89 ,2.0,In-Store,2.0,2.0,0.0,,Not Sensitive,0.0,4.0,Low,Tablet,Credit Card,1/12/2024,False,False,Impulsive,Standard,1.0
+41.0,Female,Middle,Divorced,Master's,High,Clothing,$287.18 ,7.0,In-Store,4.0,,0.0,,Not Sensitive,0.0,1.0,,Tablet,Debit Card,3/11/2024,True,False,Planned,No Preference,8.0
+32.0,Male,High,Divorced,High School,Middle,Office Supplies,$162.24 ,7.0,In-Store,5.0,3.0,1.0,,Very Sensitive,2.0,6.0,Low,Smartphone,PayPal,10/11/2024,False,,Wants-based,Express,7.0
+37.0,Female,High,Divorced,Bachelor's,High,Arts & Crafts,$92.97 ,6.0,In-Store,5.0,5.0,0.0,Medium,Very Sensitive,0.0,7.0,Low,Desktop,Other,12/15/2024,False,True,Impulsive,Standard,7.0
+41.0,Male,Middle,Widowed,High School,Middle,Food & Beverages,$144.39 ,12.0,In-Store,,3.0,2.0,High,Very Sensitive,0.0,4.0,Low,Desktop,Cash,6/11/2024,True,True,Impulsive,Standard,12.0
+37.0,Female,High,Single,High School,High,Books,$253.37 ,12.0,In-Store,2.0,5.0,0.0,,Very Sensitive,0.0,9.0,Low,Tablet,Credit Card,5/8/2024,False,True,Planned,Express,6.0
+43.0,Male,Middle,Widowed,High School,High,Animal Feed,$209.62 ,,Mixed,1.0,2.0,1.0,Medium,Very Sensitive,0.0,7.0,Medium,Tablet,Other,10/12/2024,True,False,Planned,Standard,9.0
+49.0,Male,High,Single,High School,Middle,Baby Products,$411.62 ,6.0,Mixed,2.0,1.0,0.0,Medium,Somewhat Sensitive,2.0,,Medium,Tablet,PayPal,10/5/2024,True,False,Wants-based,Express,12.0
+27.0,Female,High,Single,Bachelor's,High,Food & Beverages,$388.01 ,2.0,Online,1.0,5.0,1.0,High,Very Sensitive,1.0,2.0,,Tablet,PayPal,11/19/2024,False,,Wants-based,,10.0
+41.0,Male,Middle,Widowed,High School,High,Health Care,$50.78 ,6.0,Online,5.0,1.0,1.0,Low,Somewhat Sensitive,1.0,8.0,,Tablet,,1/12/2024,False,True,Need-based,Standard,9.0
+33.0,Male,High,Divorced,Bachelor's,Middle,Packages),$159.82 ,2.0,In-Store,2.0,1.0,1.0,High,Very Sensitive,2.0,8.0,Medium,,Cash,12/9/2024,True,True,Planned,No Preference,10.0
+46.0,Male,Middle,Divorced,Master's,Middle,Travel & Leisure (Flights,$79.43 ,3.0,In-Store,1.0,5.0,0.0,Medium,Somewhat Sensitive,2.0,7.0,,Smartphone,PayPal,1/15/2024,False,False,Wants-based,No Preference,6.0
+42.0,Female,Middle,Married,Bachelor's,Middle,Travel & Leisure (Flights,$131.36 ,4.0,,4.0,4.0,2.0,,Somewhat Sensitive,1.0,6.0,High,Smartphone,Debit Card,11/21/2024,,False,Wants-based,Express,3.0
+27.0,Male,Middle,Widowed,High School,Middle,Beauty & Personal Care,$299.75 ,12.0,Mixed,2.0,5.0,0.3,Low,Very Sensitive,0.0,4.0,Low,Desktop,Credit Card,7/5/2024,False,True,Need-based,No Preference,7.0
+29.0,Male,High,Divorced,Bachelor's,Middle,Animal Feed,$319.38 ,9.0,In-Store,4.0,1.0,0.0,Low,Not Sensitive,1.0,6.0,High,,PayPal,11/15/2024,True,True,Need-based,No Preference,8.0
+38.0,Male,High,Single,Master's,Middle,Electronics,$476.48 ,8.0,Online,5.0,2.0,1.0,,Somewhat Sensitive,2.0,10.0,High,Desktop,PayPal,7/6/2024,False,True,Impulsive,Express,3.0
+21.0,Male,Middle,Widowed,Bachelor's,Middle,Gardening & Outdoors,$301.01 ,9.0,Mixed,2.0,1.0,2.0,High,Not Sensitive,2.0,8.0,Medium,Smartphone,Other,8/23/2024,False,True,Need-based,Express,13.0
+18.0,Male,Middle,Single,Bachelor's,Middle,Electronics,$378.71 ,5.0,Online,4.0,1.0,2.0,Medium,Somewhat Sensitive,2.0,5.0,,Desktop,Other,8/30/2024,True,True,Planned,Express,14.0
+44.0,,Middle,Single,Bachelor's,Middle,Mobile Accessories,$314.32 ,6.0,Online,1.0,4.0,2.0,High,Very Sensitive,2.0,5.0,Low,Smartphone,Credit Card,3/16/2024,True,False,Impulsive,Standard,7.0
+22.0,Male,Middle,Married,High School,High,Office Supplies,$210.90 ,12.0,In-Store,2.0,1.0,2.0,,Somewhat Sensitive,1.0,1.0,,Tablet,Debit Card,8/17/2024,False,False,Impulsive,Standard,12.0
+18.0,Female,Middle,Divorced,High School,High,Food & Beverages,$218.26 ,4.0,Mixed,3.0,1.0,2.0,Low,Very Sensitive,0.0,8.0,High,Smartphone,Debit Card,2/27/2024,False,False,Wants-based,Standard,12.0
+24.0,Female,Middle,Widowed,Master's,Middle,Animal Feed,$424.18 ,5.0,Mixed,4.0,4.0,,,Not Sensitive,2.0,4.0,Medium,Smartphone,Debit Card,2/14/2024,False,True,Need-based,Express,5.0
+28.0,Male,High,Divorced,High School,Middle,Luxury Goods,$430.75 ,11.0,Online,1.0,3.0,1.0,Low,Somewhat Sensitive,0.0,8.0,High,Tablet,Credit Card,6/24/2024,True,False,Planned,No Preference,6.0
+24.0,Male,High,Single,Bachelor's,Middle,Mobile Accessories,$162.95 ,11.0,In-Store,1.0,2.0,2.0,High,Very Sensitive,1.0,8.0,Low,Desktop,Cash,7/21/2024,False,True,Impulsive,Express,14.0
+40.0,Female,Middle,Married,Master's,High,Health Supplements,$209.68 ,2.0,Online,3.0,1.0,1.0,,Not Sensitive,0.0,1.0,Medium,Smartphone,Other,6/30/2024,False,True,Impulsive,Express,
+50.0,Male,High,Widowed,Bachelor's,Middle,Beauty & Personal Care,$97.97 ,2.0,,5.0,5.0,1.0,Low,Somewhat Sensitive,0.0,10.0,,Desktop,Credit Card,,True,False,Planned,No Preference,
+49.0,Male,Middle,Widowed,Master's,High,Books,$192.51 ,9.0,Mixed,2.0,5.0,2.0,Medium,Very Sensitive,0.0,2.0,Medium,Smartphone,Credit Card,8/23/2024,True,False,Need-based,Standard,9.0
+35.0,Male,,Widowed,Master's,,Electronics,$151.81 ,8.0,Online,3.0,4.0,0.0,Medium,Not Sensitive,1.0,10.0,,Tablet,Debit Card,1/13/2024,False,False,Planned,No Preference,1.0
+25.0,Female,High,Married,High School,Middle,Furniture,$239.28 ,8.0,Online,1.0,4.0,1.0,Medium,Somewhat Sensitive,2.0,5.0,Medium,Tablet,Other,11/8/2024,False,True,Impulsive,No Preference,10.0
+40.0,Female,High,Widowed,High School,High,Mobile Accessories,$306.17 ,4.0,In-Store,3.0,5.0,1.0,Medium,,0.0,6.0,Medium,Tablet,PayPal,1/29/2024,False,True,Wants-based,Express,8.0
+40.0,Female,High,Widowed,Master's,High,Electronics,$370.38 ,,In-Store,1.0,,1.0,,Not Sensitive,1.0,1.0,High,Desktop,Other,3/4/2024,True,,Wants-based,No Preference,9.0
+50.0,Male,Middle,Single,Bachelor's,Middle,,$346.58 ,6.0,Mixed,5.0,1.0,1.0,High,Somewhat Sensitive,0.0,9.0,Low,Tablet,Other,6/3/2024,False,False,Impulsive,Express,7.0
+,Male,Middle,Single,High School,Middle,Software & Apps,$292.64 ,5.0,In-Store,1.0,1.0,1.0,,Somewhat Sensitive,2.0,10.0,Medium,Tablet,Credit Card,12/6/2024,True,False,Wants-based,Standard,1.0
+30.0,Female,Middle,Married,Bachelor's,,Travel & Leisure (Flights,$102.91 ,12.0,Mixed,2.0,1.0,1.0,Medium,,1.0,10.0,,Desktop,PayPal,3/26/2024,True,False,Impulsive,Express,13.0
+32.0,Female,High,Widowed,Bachelor's,Middle,Home Appliances,$283.78 ,4.0,Mixed,2.0,4.0,1.2,,Somewhat Sensitive,0.0,6.0,,Smartphone,Debit Card,8/9/2024,True,False,Need-based,Express,10.0
+48.0,Female,High,Widowed,High School,Middle,Beauty & Personal Care,$51.44 ,2.0,In-Store,1.0,3.0,2.0,High,Not Sensitive,0.0,,High,Tablet,Other,5/17/2024,True,False,Planned,No Preference,
+44.0,Female,High,Married,Bachelor's,High,Luxury Goods,,12.0,,1.0,3.0,1.0,,Very Sensitive,2.0,10.0,,Tablet,Credit Card,2/17/2024,True,True,Wants-based,Standard,14.0
+19.0,Female,High,Widowed,Master's,Middle,,$311.74 ,11.0,Mixed,1.0,4.0,2.0,Low,Somewhat Sensitive,2.0,10.0,Medium,Smartphone,PayPal,1/17/2024,True,False,Impulsive,Express,11.0
+39.0,Male,Middle,Widowed,Bachelor's,High,Clothing,$293.43 ,9.0,In-Store,4.0,4.0,1.0,Medium,Very Sensitive,0.0,5.0,,Desktop,Cash,7/5/2024,False,True,Need-based,Standard,7.0
+35.0,Female,High,Single,Bachelor's,Middle,Baby Products,$418.51 ,6.0,Online,4.0,4.0,2.0,Low,Somewhat Sensitive,2.0,2.0,High,Desktop,Credit Card,5/1/2024,False,True,Need-based,Standard,3.0
+39.0,Male,Middle,Single,,Middle,Health Care,$85.03 ,9.0,In-Store,5.0,4.0,1.0,Medium,Not Sensitive,0.0,9.0,High,Smartphone,,10/6/2024,True,True,Wants-based,Express,8.0
+31.0,Male,Middle,Married,Master's,High,Mobile Accessories,$164.94 ,4.0,In-Store,4.0,4.0,2.0,High,Somewhat Sensitive,2.0,2.0,Low,Desktop,PayPal,7/18/2024,True,True,Wants-based,Express,6.0
+38.0,Female,High,,Bachelor's,Middle,Groceries,$89.32 ,11.0,Online,1.0,1.0,0.3,Low,Somewhat Sensitive,1.0,3.0,High,Desktop,Other,4/23/2024,True,False,Wants-based,No Preference,12.0
+33.0,Male,Middle,Married,High School,High,Clothing,,2.0,Mixed,3.0,1.0,1.0,High,Not Sensitive,0.0,7.0,,Smartphone,Credit Card,4/2/2024,False,False,Planned,No Preference,5.0
+33.0,Male,Middle,,Master's,Middle,Jewelry & Accessories,$106.69 ,5.0,Online,3.0,4.0,1.3,Medium,Very Sensitive,2.0,10.0,,Desktop,PayPal,9/20/2024,False,True,Wants-based,Standard,14.0
+42.0,Agender,,Married,Bachelor's,High,Packages),$301.16 ,10.0,Online,4.0,3.0,2.0,,Very Sensitive,2.0,9.0,Medium,Tablet,Cash,7/26/2024,False,False,,Standard,1.0
+49.0,Male,Middle,Divorced,High School,High,Hotels,$61.71 ,6.0,Mixed,2.0,5.0,1.0,Low,Very Sensitive,2.0,7.0,Low,Tablet,Cash,10/3/2024,False,False,Impulsive,No Preference,12.0
+46.0,Non-binary,Middle,Divorced,High School,High,Sports & Outdoors,$83.33 ,11.0,In-Store,1.0,5.0,1.0,Medium,Very Sensitive,1.0,6.0,Low,Desktop,Debit Card,2/27/2024,True,True,Planned,Express,1.0
+42.0,Male,High,Single,Bachelor's,Middle,Books,$411.81 ,4.0,Mixed,1.0,3.0,,High,Somewhat Sensitive,1.0,1.0,High,Smartphone,Cash,4/8/2024,True,True,Planned,Standard,1.0
+44.0,Female,Middle,Married,Master's,High,Luxury Goods,$114.93 ,3.0,,4.0,3.0,1.0,High,Somewhat Sensitive,0.0,4.0,,Desktop,Other,8/23/2024,True,True,Impulsive,Standard,4.0
+33.0,Female,High,Divorced,Master's,Middle,Jewelry & Accessories,$438.42 ,11.0,Online,3.0,2.0,2.0,,Very Sensitive,0.0,4.0,Low,Tablet,Cash,9/10/2024,,False,Planned,Express,4.0
+36.0,Male,Middle,Widowed,,Middle,Luxury Goods,$189.97 ,2.0,In-Store,2.0,3.0,1.0,High,Somewhat Sensitive,0.0,3.0,Medium,Smartphone,Credit Card,3/6/2024,True,False,Need-based,Standard,8.0
+35.0,Male,High,Divorced,Master's,Middle,Health Supplements,$227.03 ,12.0,Online,2.0,,0.0,High,Very Sensitive,2.0,10.0,Low,Desktop,PayPal,7/7/2024,True,True,Planned,Standard,2.0
+26.0,Male,High,Divorced,Bachelor's,Middle,Home Appliances,$278.49 ,4.0,Mixed,5.0,5.0,0.0,Low,Somewhat Sensitive,1.0,5.0,Low,Smartphone,Credit Card,9/8/2024,True,True,Need-based,Express,8.0
+,Female,High,Widowed,Bachelor's,High,Animal Feed,$120.56 ,5.0,Online,4.0,3.0,2.0,,Not Sensitive,2.0,7.0,Low,Tablet,Debit Card,6/3/2024,False,False,Need-based,Express,7.0
+25.0,Male,High,Divorced,Bachelor's,,Gardening & Outdoors,$320.94 ,,,3.0,3.0,2.0,High,Not Sensitive,2.0,10.0,,Smartphone,Cash,11/8/2024,False,False,Impulsive,No Preference,10.0
+37.0,Female,High,Divorced,Master's,Middle,Jewelry & Accessories,$217.72 ,3.0,In-Store,4.0,4.0,2.0,Medium,Not Sensitive,1.0,4.0,High,Tablet,Debit Card,10/16/2024,False,True,Wants-based,No Preference,14.0
+25.0,Male,High,Widowed,Bachelor's,,Home Appliances,$222.61 ,3.0,Online,1.0,2.0,1.0,Medium,Very Sensitive,1.0,1.0,,Desktop,PayPal,7/3/2024,False,True,Need-based,Standard,3.0
+40.0,,Middle,Divorced,High School,Middle,Beauty & Personal Care,$102.73 ,3.0,Mixed,4.0,5.0,0.3,,Not Sensitive,2.0,5.0,,Tablet,Debit Card,7/18/2024,False,False,Wants-based,Express,14.0
+40.0,Female,Middle,Married,Bachelor's,High,Sports & Outdoors,$426.87 ,2.0,In-Store,4.0,2.0,2.0,,Not Sensitive,0.0,4.0,Medium,Smartphone,Debit Card,3/14/2024,False,False,,No Preference,3.0
+20.0,Female,Middle,Widowed,High School,Middle,,$473.28 ,5.0,Online,,5.0,1.0,Medium,Very Sensitive,1.0,9.0,,Smartphone,Cash,12/9/2024,False,False,Need-based,Standard,
+39.0,Male,High,Widowed,Bachelor's,High,Jewelry & Accessories,$446.03 ,9.0,In-Store,,1.0,2.0,Low,Somewhat Sensitive,2.0,7.0,,Tablet,Other,6/26/2024,True,True,Need-based,Express,
+19.0,Female,High,Single,Bachelor's,High,Arts & Crafts,$287.95 ,,Mixed,2.0,3.0,2.0,,Very Sensitive,2.0,7.0,High,Tablet,,11/12/2024,True,True,Planned,Standard,11.0
+31.0,Female,Middle,Widowed,Master's,High,Luxury Goods,$132.52 ,6.0,Mixed,1.0,2.0,,Medium,Somewhat Sensitive,2.0,10.0,Low,Smartphone,Debit Card,12/20/2024,True,True,Impulsive,Express,12.0
+36.0,Female,Middle,Married,Bachelor's,Middle,Sports & Outdoors,$379.20 ,7.0,Online,5.0,1.0,0.0,Medium,Very Sensitive,2.0,2.0,High,Smartphone,Debit Card,5/28/2024,True,True,Need-based,No Preference,7.0
+31.0,Genderfluid,Middle,Married,High School,,Groceries,$447.53 ,4.0,Online,2.0,1.0,2.0,High,Somewhat Sensitive,1.0,6.0,,Smartphone,PayPal,10/13/2024,True,True,Wants-based,No Preference,3.0
+45.0,Female,,Divorced,Bachelor's,Middle,Office Supplies,$138.44 ,4.0,Mixed,5.0,,1.0,,Very Sensitive,1.0,2.0,,Smartphone,Cash,2/22/2024,,True,Wants-based,Express,1.0
+45.0,Agender,Middle,Single,High School,Middle,Home Appliances,$440.62 ,8.0,Mixed,2.0,2.0,2.0,,Very Sensitive,1.0,3.0,Medium,Tablet,Debit Card,2/1/2024,True,True,Need-based,Express,6.0
+23.0,Female,High,Divorced,Master's,High,Sports & Outdoors,$145.98 ,4.0,In-Store,1.0,2.0,1.0,Low,Very Sensitive,,5.0,High,Desktop,Other,9/16/2024,False,False,,No Preference,1.0
+28.0,Male,Middle,Married,High School,High,Software & Apps,$405.66 ,11.0,Online,5.0,2.0,1.0,Medium,Somewhat Sensitive,1.0,3.0,High,Tablet,Cash,4/27/2024,True,False,Impulsive,Express,11.0
+26.0,Female,High,Single,High School,Middle,Clothing,$419.98 ,7.0,In-Store,4.0,4.0,0.0,,Very Sensitive,0.0,10.0,Medium,Desktop,PayPal,4/28/2024,True,True,Impulsive,No Preference,14.0
+50.0,Female,Middle,Divorced,Master's,High,Arts & Crafts,$260.14 ,5.0,Online,3.0,2.0,1.0,,Somewhat Sensitive,1.0,7.0,Low,Smartphone,Other,9/1/2024,True,True,Need-based,Standard,7.0
+36.0,Female,Middle,Widowed,Bachelor's,High,Arts & Crafts,$368.91 ,10.0,In-Store,1.0,3.0,2.0,High,Not Sensitive,2.0,10.0,High,Desktop,Debit Card,3/21/2024,False,False,Need-based,No Preference,7.0
+32.0,Male,Middle,Widowed,Master's,Middle,Home Appliances,,2.0,In-Store,5.0,1.0,1.0,Low,Very Sensitive,0.0,1.0,Medium,Tablet,Credit Card,12/11/2024,False,True,Planned,Express,8.0
+34.0,Male,High,Married,Master's,,Food & Beverages,$107.82 ,7.0,Mixed,5.0,3.0,2.0,High,Very Sensitive,2.0,10.0,Low,Smartphone,Credit Card,12/4/2024,False,True,Wants-based,No Preference,2.0
+50.0,Male,Middle,Married,High School,Middle,Baby Products,$83.88 ,11.0,Online,4.0,2.0,1.0,Medium,Not Sensitive,0.0,6.0,Low,Desktop,Other,2/24/2024,True,True,Planned,Express,4.0
+24.0,Female,Middle,Widowed,Bachelor's,Middle,Travel & Leisure (Flights,$81.25 ,9.0,Online,1.0,2.0,,Low,Very Sensitive,2.0,8.0,Medium,Desktop,Cash,5/24/2024,True,,Planned,No Preference,10.0
+49.0,Male,Middle,Widowed,Master's,High,,$125.80 ,12.0,In-Store,4.0,4.0,2.0,,Somewhat Sensitive,0.0,8.0,High,Desktop,PayPal,5/18/2024,False,True,,No Preference,1.0
+18.0,Female,Middle,Single,Bachelor's,Middle,Health Supplements,$197.90 ,11.0,Mixed,2.0,4.0,2.0,Medium,Not Sensitive,1.0,4.0,Low,Desktop,Debit Card,4/2/2024,True,True,Wants-based,Standard,5.0
+44.0,Male,High,,High School,Middle,Travel & Leisure (Flights,$299.09 ,8.0,In-Store,1.0,1.0,2.0,High,Very Sensitive,2.0,7.0,High,Tablet,,6/24/2024,False,False,Impulsive,Standard,14.0
+41.0,Male,High,,High School,Middle,Travel & Leisure (Flights,,10.0,Online,,2.0,1.0,Low,Somewhat Sensitive,2.0,4.0,High,Smartphone,Debit Card,9/3/2024,,False,Planned,No Preference,2.0
+33.0,Male,High,Divorced,High School,High,Books,$55.73 ,12.0,In-Store,4.0,3.0,0.3,Medium,,1.0,3.0,High,Tablet,PayPal,5/19/2024,False,True,Need-based,Express,3.0
+46.0,Male,High,Single,Bachelor's,High,Software & Apps,$256.44 ,8.0,In-Store,4.0,1.0,2.0,High,Somewhat Sensitive,1.0,6.0,Medium,Tablet,Other,,False,False,Wants-based,Express,
+23.0,Female,High,Married,,High,Toys & Games,$337.21 ,12.0,Online,1.0,5.0,1.0,Low,Somewhat Sensitive,0.0,9.0,,Smartphone,Debit Card,10/24/2024,True,,Planned,Express,11.0
+35.0,Female,,Single,Master's,Middle,Software & Apps,$494.97 ,12.0,In-Store,5.0,,2.0,Low,,1.0,5.0,Low,Tablet,Debit Card,8/16/2024,,False,Planned,No Preference,7.0
+31.0,Female,Middle,Widowed,High School,High,Arts & Crafts,$238.58 ,6.0,Online,3.0,2.0,2.0,Medium,Very Sensitive,,9.0,Medium,Tablet,PayPal,6/11/2024,True,True,Wants-based,Standard,8.0
+20.0,Female,High,Single,Bachelor's,High,Sports & Outdoors,$131.90 ,8.0,Mixed,3.0,5.0,0.0,,Not Sensitive,2.0,4.0,Medium,Tablet,Credit Card,11/1/2024,,True,Planned,No Preference,
+49.0,Female,Middle,Married,Bachelor's,High,Food & Beverages,$403.03 ,12.0,Mixed,1.0,5.0,1.0,Medium,Somewhat Sensitive,0.0,1.0,,Tablet,Other,8/22/2024,True,True,Wants-based,Standard,2.0
+26.0,Female,High,Widowed,Bachelor's,High,Health Supplements,$338.60 ,10.0,In-Store,1.0,3.0,2.0,Medium,Somewhat Sensitive,1.0,3.0,Medium,Desktop,Other,,False,False,Planned,No Preference,9.0
+,Male,Middle,Widowed,High School,High,Furniture,$365.38 ,11.0,Online,1.0,4.0,0.0,High,Somewhat Sensitive,0.0,9.0,Medium,Desktop,Cash,8/1/2024,False,False,Wants-based,Express,14.0
+21.0,Male,Middle,Married,High School,,Sports & Outdoors,$433.99 ,11.0,Mixed,3.0,2.0,1.0,High,Not Sensitive,0.0,2.0,,,Credit Card,2/9/2024,False,False,Need-based,No Preference,8.0
+35.0,Female,Middle,Widowed,High School,Middle,Health Care,$495.95 ,5.0,In-Store,4.0,2.0,0.0,High,Very Sensitive,1.0,7.0,,Smartphone,Other,4/10/2024,False,False,Planned,No Preference,6.0
+41.0,Male,High,Married,High School,Middle,Baby Products,$356.22 ,7.0,In-Store,,5.0,0.0,Medium,Very Sensitive,1.0,7.0,High,Smartphone,Credit Card,6/10/2024,False,True,,Express,6.0
+22.0,Genderqueer,High,Single,High School,Middle,Health Supplements,$156.40 ,7.0,,4.0,5.0,2.0,Low,Somewhat Sensitive,1.0,7.0,Low,Desktop,Credit Card,11/7/2024,False,True,Need-based,Standard,4.0
+42.0,Male,Middle,Single,Master's,Middle,Sports & Outdoors,$454.36 ,3.0,In-Store,4.0,5.0,1.0,Low,Very Sensitive,1.0,8.0,Medium,Tablet,Cash,9/16/2024,True,False,Planned,No Preference,12.0
+50.0,Male,High,Single,Bachelor's,High,Software & Apps,$486.07 ,11.0,Mixed,5.0,1.0,0.0,Medium,Somewhat Sensitive,2.0,6.0,,Tablet,Credit Card,1/16/2024,False,False,Planned,Standard,12.0
+30.0,Female,,Divorced,High School,Middle,Packages),$427.86 ,11.0,,4.0,3.0,1.0,Medium,Not Sensitive,0.0,6.0,Medium,Desktop,Debit Card,3/3/2024,True,True,Need-based,Express,8.0
+49.0,Female,High,Divorced,Master's,High,Beauty & Personal Care,$235.13 ,10.0,,5.0,4.0,1.0,Medium,Very Sensitive,2.0,3.0,,Smartphone,Other,3/29/2024,True,False,Planned,,6.0
+40.0,Female,Middle,Divorced,Bachelor's,Middle,Groceries,$361.27 ,4.0,Online,3.0,3.0,1.0,,Not Sensitive,0.0,5.0,High,Tablet,Credit Card,9/15/2024,True,False,Need-based,Standard,2.0
+38.0,Female,Middle,Single,Bachelor's,Middle,Furniture,$195.83 ,10.0,Mixed,1.0,2.0,2.0,,Not Sensitive,1.0,7.0,High,Desktop,Debit Card,1/25/2024,True,False,Need-based,No Preference,13.0
+21.0,Male,High,Married,Master's,High,Sports & Outdoors,$340.31 ,10.0,Online,5.0,1.0,1.0,Low,Somewhat Sensitive,0.0,5.0,Low,Desktop,Other,9/18/2024,False,True,Impulsive,No Preference,14.0
+40.0,Male,High,Divorced,Master's,High,Animal Feed,$489.67 ,5.0,Mixed,5.0,5.0,,,Very Sensitive,1.0,5.0,Medium,Tablet,Debit Card,12/21/2024,False,False,Wants-based,Standard,11.0
+26.0,Male,High,Divorced,Master's,Middle,Mobile Accessories,$482.50 ,11.0,Mixed,1.0,1.0,,,Very Sensitive,2.0,1.0,,Smartphone,Cash,9/28/2024,True,True,Need-based,No Preference,13.0
+32.0,Female,Middle,Married,Master's,Middle,Jewelry & Accessories,$433.14 ,10.0,In-Store,3.0,,2.0,Medium,Not Sensitive,2.0,3.0,High,Tablet,Debit Card,7/9/2024,False,False,Impulsive,No Preference,5.0
+47.0,Female,Middle,Widowed,High School,High,Jewelry & Accessories,,6.0,Online,3.0,1.0,2.0,Low,Very Sensitive,2.0,10.0,Medium,Tablet,Other,9/27/2024,True,False,Wants-based,No Preference,10.0
+21.0,,Middle,Single,Master's,Middle,Travel & Leisure (Flights,,12.0,Online,2.0,1.0,,High,Very Sensitive,0.0,4.0,Low,Desktop,Credit Card,1/9/2024,False,False,Planned,Express,7.0
+34.0,Male,High,Widowed,High School,High,Electronics,$210.21 ,4.0,Mixed,4.0,1.0,2.0,High,Very Sensitive,0.0,10.0,High,Desktop,PayPal,7/5/2024,False,True,Need-based,No Preference,14.0
+29.0,Male,Middle,Widowed,,High,Health Supplements,$408.81 ,8.0,Mixed,5.0,4.0,2.0,,Very Sensitive,1.0,3.0,Medium,Desktop,Debit Card,7/16/2024,False,True,Wants-based,Express,12.0
+20.0,Female,Middle,Divorced,Bachelor's,High,Jewelry & Accessories,$118.65 ,10.0,Mixed,1.0,,0.0,Low,Very Sensitive,0.0,2.0,Low,Smartphone,Credit Card,1/9/2024,True,True,Impulsive,Standard,13.0
+50.0,Male,,Divorced,Bachelor's,Middle,Software & Apps,$166.45 ,,Mixed,5.0,2.0,2.0,Low,Very Sensitive,2.0,1.0,High,Smartphone,,8/13/2024,True,False,Planned,Express,12.0
+29.0,Female,,Divorced,Master's,High,Travel & Leisure (Flights,$385.32 ,10.0,Online,1.0,1.0,1.0,Low,Very Sensitive,0.0,1.0,Medium,Smartphone,,9/5/2024,True,True,Impulsive,Standard,9.0
+25.0,Non-binary,Middle,Married,Bachelor's,High,,$293.99 ,10.0,Mixed,3.0,4.0,0.0,,Somewhat Sensitive,2.0,7.0,,Tablet,Credit Card,9/29/2024,False,True,,No Preference,5.0
+37.0,Male,Middle,Widowed,High School,Middle,Toys & Games,$161.41 ,9.0,,1.0,4.0,0.0,Low,Very Sensitive,1.0,8.0,High,Desktop,PayPal,4/7/2024,True,False,Impulsive,Standard,
+39.0,Male,Middle,,Master's,Middle,Groceries,$130.92 ,2.0,Online,1.0,2.0,1.0,High,Very Sensitive,2.0,2.0,,Tablet,Cash,12/18/2024,True,True,,No Preference,9.0
+48.0,Female,Middle,Divorced,Bachelor's,High,Toys & Games,$468.60 ,4.0,Mixed,3.0,4.0,2.0,Medium,Somewhat Sensitive,0.0,6.0,,Desktop,PayPal,6/14/2024,False,True,Need-based,No Preference,2.0
+47.0,Male,High,Divorced,Bachelor's,Middle,Toys & Games,$237.57 ,5.0,Online,3.0,3.0,,Medium,Somewhat Sensitive,0.0,3.0,Medium,Smartphone,Cash,4/25/2024,True,True,Need-based,No Preference,11.0
+50.0,Female,Middle,Divorced,High School,High,Furniture,$395.18 ,5.0,In-Store,2.0,2.0,1.0,,,0.0,5.0,High,Smartphone,Other,7/20/2024,True,True,Need-based,,6.0
+42.0,Polygender,High,Married,High School,Middle,Electronics,$427.94 ,12.0,Mixed,5.0,4.0,1.3,High,Not Sensitive,1.0,2.0,,Smartphone,Other,3/29/2024,False,False,Impulsive,No Preference,10.0
+28.0,Female,,Single,Bachelor's,High,Hotels,$81.23 ,9.0,Mixed,2.0,5.0,2.0,High,Not Sensitive,1.0,10.0,,Tablet,Cash,3/26/2024,,True,Wants-based,Standard,6.0
+23.0,Male,Middle,Single,High School,Middle,Hotels,$257.43 ,5.0,Online,4.0,2.0,0.0,Low,Somewhat Sensitive,1.0,7.0,Low,,Other,4/14/2024,True,True,,Standard,13.0
+,Male,High,Divorced,High School,High,,$305.73 ,7.0,,2.0,5.0,1.0,Medium,Not Sensitive,2.0,8.0,Medium,Tablet,Cash,12/14/2024,True,False,,Express,14.0
+32.0,Male,High,Single,Bachelor's,High,Toys & Games,$249.82 ,10.0,In-Store,5.0,3.0,1.0,High,Not Sensitive,2.0,6.0,Medium,Tablet,PayPal,,True,False,Wants-based,No Preference,10.0
+33.0,Male,Middle,Divorced,Bachelor's,High,Animal Feed,,11.0,Online,3.0,5.0,2.0,,Not Sensitive,2.0,1.0,High,Tablet,PayPal,8/29/2024,False,False,Wants-based,No Preference,4.0
+32.0,Male,High,Single,Bachelor's,Middle,Arts & Crafts,$78.90 ,3.0,In-Store,4.0,1.0,1.0,Low,Not Sensitive,0.0,1.0,Medium,Tablet,Debit Card,9/7/2024,False,True,Planned,Standard,10.0
+29.0,,High,Widowed,,High,Health Care,$122.55 ,9.0,Mixed,2.0,4.0,0.3,Low,,2.0,3.0,Medium,Desktop,Credit Card,6/28/2024,,False,Impulsive,Express,4.0
+25.0,Non-binary,High,Divorced,Bachelor's,Middle,Mobile Accessories,$307.61 ,6.0,Mixed,1.0,1.0,0.0,Low,Somewhat Sensitive,0.0,9.0,Medium,,PayPal,,True,True,Need-based,No Preference,10.0
+41.0,Female,High,Divorced,Bachelor's,Middle,Software & Apps,$152.33 ,2.0,In-Store,1.0,5.0,1.0,,Not Sensitive,1.0,6.0,High,Smartphone,Debit Card,1/19/2024,False,True,Impulsive,No Preference,8.0
+24.0,Female,Middle,Divorced,Bachelor's,High,Mobile Accessories,$465.07 ,8.0,Online,2.0,4.0,0.0,Medium,Not Sensitive,1.0,2.0,High,Desktop,Cash,3/2/2024,False,,Wants-based,No Preference,8.0
+32.0,Female,High,Single,Master's,Middle,Sports & Outdoors,$498.23 ,10.0,Online,5.0,2.0,0.0,,Very Sensitive,0.0,7.0,Medium,Smartphone,Other,1/8/2024,True,False,Planned,No Preference,9.0
+41.0,Female,Middle,Widowed,,Middle,Luxury Goods,$491.18 ,3.0,Mixed,4.0,4.0,1.0,High,Very Sensitive,0.0,6.0,,Smartphone,Cash,8/27/2024,False,False,Impulsive,No Preference,14.0
+18.0,Male,Middle,Divorced,Bachelor's,Middle,Health Care,$149.42 ,3.0,Mixed,1.0,1.0,2.0,Medium,Very Sensitive,0.0,6.0,,Desktop,Cash,1/3/2024,True,False,Wants-based,Express,5.0
+25.0,Male,Middle,Single,Master's,Middle,Furniture,$82.13 ,9.0,Online,5.0,1.0,0.0,Medium,Somewhat Sensitive,2.0,6.0,High,Tablet,,4/9/2024,True,True,Need-based,Express,6.0
+49.0,Male,Middle,Divorced,Bachelor's,High,Sports & Outdoors,$425.18 ,4.0,Mixed,2.0,1.0,0.0,Medium,Very Sensitive,1.0,8.0,Medium,Tablet,PayPal,3/19/2024,True,False,Wants-based,Standard,10.0
+39.0,Male,High,Married,Master's,Middle,Arts & Crafts,,8.0,Online,2.0,3.0,1.2,Medium,Somewhat Sensitive,1.0,10.0,Low,Desktop,Credit Card,6/15/2024,True,True,Impulsive,Standard,14.0
+47.0,Female,High,Single,High School,Middle,Jewelry & Accessories,$70.30 ,6.0,Online,3.0,5.0,0.0,,Very Sensitive,1.0,8.0,Medium,Desktop,Cash,3/3/2024,True,True,,Standard,3.0
+43.0,Male,Middle,Married,Bachelor's,Middle,Luxury Goods,,7.0,Mixed,4.0,5.0,0.0,,Very Sensitive,1.0,10.0,High,Desktop,Credit Card,11/17/2024,False,True,Planned,Standard,3.0
+38.0,Female,High,Widowed,High School,High,Home Appliances,$113.51 ,11.0,Mixed,4.0,1.0,1.0,High,Not Sensitive,2.0,2.0,Low,Desktop,Credit Card,2/14/2024,True,True,Planned,Express,8.0
+40.0,Female,High,,Bachelor's,Middle,Animal Feed,$492.74 ,2.0,Mixed,1.0,5.0,2.0,Low,Very Sensitive,1.0,3.0,High,Tablet,Other,2/29/2024,True,False,Need-based,Express,13.0
+33.0,Male,Middle,Divorced,Master's,Middle,Furniture,$143.80 ,9.0,In-Store,2.0,2.0,,Low,Somewhat Sensitive,0.0,7.0,,Tablet,Debit Card,2/22/2024,True,False,Wants-based,No Preference,11.0
+18.0,Agender,Middle,Widowed,Bachelor's,,Arts & Crafts,$158.54 ,5.0,Online,2.0,1.0,1.0,Low,,2.0,7.0,High,Smartphone,Debit Card,3/31/2024,False,False,Planned,Express,5.0
+39.0,Female,High,Married,Bachelor's,High,Furniture,$213.39 ,,Online,3.0,4.0,2.0,Medium,Not Sensitive,2.0,5.0,Medium,Desktop,Cash,10/27/2024,False,True,Planned,Standard,4.0
+31.0,Male,Middle,Divorced,Bachelor's,High,Health Supplements,,2.0,In-Store,5.0,5.0,1.0,Medium,Somewhat Sensitive,0.0,2.0,Medium,Desktop,Debit Card,12/21/2024,False,False,Planned,Standard,4.0
+,Male,Middle,Divorced,Master's,High,Luxury Goods,$476.63 ,9.0,In-Store,3.0,5.0,2.0,Medium,Not Sensitive,2.0,2.0,,Desktop,Debit Card,11/19/2024,True,False,Impulsive,No Preference,1.0
+31.0,Female,High,Single,Bachelor's,Middle,Animal Feed,$56.02 ,3.0,Online,5.0,3.0,1.0,,Very Sensitive,1.0,,High,Desktop,PayPal,9/13/2024,,True,Need-based,Standard,12.0
+,Female,High,Widowed,Bachelor's,Middle,Electronics,$398.97 ,3.0,Online,2.0,3.0,,High,Not Sensitive,2.0,3.0,High,Tablet,Debit Card,9/26/2024,False,False,Impulsive,No Preference,9.0
+27.0,Female,Middle,Divorced,,Middle,Groceries,$53.45 ,6.0,Mixed,2.0,3.0,1.0,High,Somewhat Sensitive,,9.0,High,Tablet,Debit Card,7/14/2024,False,False,Need-based,Standard,11.0
+21.0,Agender,,Married,Bachelor's,High,Groceries,$61.19 ,2.0,Mixed,,5.0,1.0,,Not Sensitive,2.0,6.0,High,Desktop,PayPal,8/12/2024,True,True,Wants-based,No Preference,3.0
+50.0,Female,Middle,Married,High School,Middle,Luxury Goods,$471.31 ,4.0,Mixed,1.0,5.0,2.0,High,Very Sensitive,0.0,,,Smartphone,Other,12/17/2024,False,True,Impulsive,Express,7.0
+49.0,Female,High,Divorced,High School,High,Health Care,$179.19 ,10.0,In-Store,3.0,1.0,1.0,Low,Not Sensitive,2.0,7.0,,Tablet,PayPal,3/21/2024,False,False,Impulsive,Express,12.0
+43.0,Female,High,Divorced,High School,Middle,Food & Beverages,$294.61 ,6.0,In-Store,2.0,1.0,0.0,,Very Sensitive,0.0,2.0,,Desktop,PayPal,10/3/2024,False,True,Wants-based,Express,4.0
+35.0,Non-binary,High,Widowed,Bachelor's,,Health Care,$375.45 ,6.0,Online,3.0,,0.0,High,Not Sensitive,1.0,8.0,Medium,Smartphone,Other,4/14/2024,False,True,Impulsive,Express,1.0
+21.0,Male,Middle,Widowed,Master's,High,Electronics,,12.0,In-Store,2.0,4.0,0.0,,Not Sensitive,2.0,,Low,Smartphone,Cash,1/25/2024,True,True,Need-based,Standard,10.0
+34.0,Male,High,Married,High School,Middle,Home Appliances,$109.88 ,7.0,Online,,4.0,1.0,Low,Very Sensitive,,3.0,Medium,Smartphone,Credit Card,1/5/2024,False,True,Impulsive,Standard,11.0
+21.0,Female,High,Married,High School,High,Office Supplies,$182.54 ,11.0,Mixed,5.0,5.0,1.0,Medium,Somewhat Sensitive,1.0,1.0,High,Tablet,Cash,8/21/2024,False,,Need-based,Standard,13.0
+23.0,Female,High,Widowed,,High,Furniture,$465.48 ,3.0,Mixed,3.0,3.0,2.0,Medium,Very Sensitive,1.0,8.0,Medium,Tablet,Cash,6/21/2024,False,False,Wants-based,No Preference,1.0
+31.0,Female,Middle,Married,High School,Middle,Health Care,$224.52 ,8.0,Mixed,3.0,3.0,2.0,Low,Not Sensitive,1.0,5.0,High,Desktop,,11/29/2024,,False,Impulsive,Express,1.0
+,Male,High,Widowed,Master's,Middle,Beauty & Personal Care,$281.37 ,12.0,Online,2.0,3.0,2.0,Low,Very Sensitive,,2.0,Low,Smartphone,Debit Card,1/2/2024,False,True,Impulsive,Express,14.0
+22.0,Female,,Married,Bachelor's,Middle,Office Supplies,$125.68 ,2.0,Online,1.0,4.0,1.0,,Not Sensitive,1.0,8.0,Medium,Smartphone,Debit Card,6/21/2024,True,False,Need-based,Express,9.0
+38.0,Female,High,,High School,High,Beauty & Personal Care,$178.21 ,7.0,In-Store,1.0,,2.0,Low,Somewhat Sensitive,2.0,8.0,,Desktop,PayPal,5/24/2024,False,False,Planned,No Preference,9.0
+27.0,Male,High,Divorced,Bachelor's,Middle,Health Care,$483.23 ,7.0,Online,2.0,4.0,2.0,Medium,Somewhat Sensitive,0.0,5.0,High,Smartphone,PayPal,12/19/2024,True,False,Impulsive,Express,9.0
+18.0,Male,Middle,Married,Master's,High,Home Appliances,$415.30 ,11.0,In-Store,4.0,2.0,1.0,Low,Very Sensitive,1.0,9.0,,Tablet,PayPal,9/25/2024,False,True,Impulsive,Standard,2.0
+36.0,Male,High,Married,Master's,Middle,Electronics,$85.52 ,7.0,Mixed,1.0,5.0,0.0,Medium,Somewhat Sensitive,1.0,3.0,Low,Smartphone,Other,10/31/2024,False,True,Planned,No Preference,
+44.0,Female,Middle,Widowed,High School,High,Packages),$422.31 ,2.0,In-Store,3.0,4.0,1.0,Medium,Very Sensitive,0.0,6.0,,Smartphone,Other,8/9/2024,True,True,Impulsive,No Preference,3.0
+48.0,Bigender,High,Married,High School,,Arts & Crafts,$70.42 ,11.0,Online,4.0,5.0,1.0,High,Not Sensitive,2.0,7.0,Low,Desktop,Other,10/1/2024,False,True,Need-based,Express,14.0
+23.0,Female,,Widowed,Master's,Middle,Toys & Games,$437.40 ,6.0,Mixed,1.0,4.0,1.0,High,Somewhat Sensitive,2.0,5.0,Low,Tablet,Credit Card,6/16/2024,False,False,Planned,Express,1.0
+35.0,Male,,Divorced,Bachelor's,Middle,Jewelry & Accessories,$207.11 ,4.0,Mixed,1.0,4.0,,High,Not Sensitive,0.0,1.0,Low,Tablet,Other,3/28/2024,True,False,Need-based,No Preference,2.0
+50.0,,High,Widowed,Bachelor's,Middle,Animal Feed,$378.87 ,2.0,Online,5.0,2.0,2.0,,Very Sensitive,2.0,2.0,Medium,Desktop,Debit Card,6/16/2024,True,False,Planned,No Preference,9.0
+30.0,Female,High,Divorced,High School,High,Baby Products,$349.00 ,10.0,Mixed,3.0,5.0,1.0,Low,Not Sensitive,1.0,5.0,Low,Desktop,PayPal,1/15/2024,False,True,Planned,No Preference,10.0
+38.0,Male,Middle,Married,Bachelor's,Middle,Hotels,$330.27 ,3.0,In-Store,3.0,2.0,1.0,High,,1.0,9.0,High,,Other,2/10/2024,True,False,Impulsive,,9.0
+,Male,Middle,Married,Master's,Middle,Health Supplements,$410.29 ,10.0,Online,2.0,4.0,1.0,Low,,2.0,4.0,,Smartphone,Credit Card,9/2/2024,True,False,Planned,,1.0
+24.0,Female,High,,Master's,Middle,Hotels,$400.86 ,7.0,Online,3.0,3.0,1.0,High,Very Sensitive,1.0,7.0,Low,Smartphone,Credit Card,9/12/2024,True,False,Planned,No Preference,5.0
+27.0,,High,Married,Master's,Middle,Beauty & Personal Care,$225.12 ,11.0,In-Store,3.0,,1.0,Medium,Somewhat Sensitive,0.0,1.0,,Desktop,,8/31/2024,True,False,Planned,Express,6.0
+36.0,Female,High,Widowed,Master's,High,Beauty & Personal Care,$273.48 ,12.0,Online,5.0,3.0,2.0,Low,Very Sensitive,0.0,5.0,Medium,Smartphone,Other,1/22/2024,True,False,Wants-based,Express,5.0
+19.0,Bigender,High,Single,Master's,Middle,Furniture,$363.84 ,11.0,Online,3.0,2.0,1.0,Low,Not Sensitive,0.0,3.0,Medium,Desktop,Cash,8/30/2024,True,False,Impulsive,Express,
+24.0,Female,,Single,Bachelor's,Middle,Packages),$302.60 ,9.0,Online,1.0,4.0,2.0,Medium,Very Sensitive,2.0,10.0,,Desktop,Debit Card,7/23/2024,False,True,Impulsive,Standard,
+35.0,Male,,,High School,High,Animal Feed,$317.09 ,6.0,Online,1.0,1.0,1.0,High,Not Sensitive,2.0,2.0,High,Desktop,Other,4/11/2024,True,False,Impulsive,Standard,4.0
+38.0,Female,High,Married,High School,High,Beauty & Personal Care,$193.32 ,9.0,Mixed,4.0,3.0,0.0,,Very Sensitive,0.0,8.0,High,Tablet,PayPal,7/11/2024,False,True,Wants-based,Express,6.0
+34.0,Male,High,Widowed,,High,Software & Apps,$282.24 ,6.0,Online,2.0,3.0,2.0,,Not Sensitive,1.0,7.0,Medium,Desktop,Credit Card,9/16/2024,True,True,Need-based,No Preference,1.0
+29.0,Female,High,Divorced,Master's,Middle,Hotels,$154.19 ,6.0,Online,5.0,4.0,1.0,Medium,Very Sensitive,2.0,1.0,,Tablet,PayPal,9/22/2024,True,True,Need-based,No Preference,1.0
+41.0,,,Widowed,Bachelor's,Middle,Furniture,$84.15 ,10.0,In-Store,1.0,3.0,1.0,High,Not Sensitive,2.0,1.0,High,Desktop,PayPal,11/3/2024,True,True,Impulsive,Standard,
+41.0,Male,Middle,Divorced,High School,High,Health Supplements,$214.69 ,7.0,In-Store,4.0,4.0,0.0,Medium,Not Sensitive,1.0,7.0,,Tablet,Credit Card,5/15/2024,True,True,Wants-based,Standard,9.0
+32.0,Male,High,Married,Bachelor's,High,Animal Feed,$61.21 ,12.0,Mixed,5.0,5.0,0.0,,Not Sensitive,0.0,5.0,Low,,Credit Card,11/24/2024,True,False,Planned,Standard,13.0
+36.0,Female,Middle,,High School,High,Packages),$462.48 ,11.0,Online,1.0,3.0,0.0,Medium,Very Sensitive,2.0,2.0,Low,,Debit Card,3/31/2024,False,False,Planned,Express,12.0
+33.0,Male,Middle,Married,Bachelor's,High,Software & Apps,$449.18 ,3.0,Mixed,5.0,3.0,2.0,Medium,Somewhat Sensitive,0.0,8.0,High,,Credit Card,3/21/2024,True,True,Wants-based,Standard,10.0
+25.0,Female,Middle,Married,Master's,Middle,Mobile Accessories,$314.36 ,7.0,In-Store,3.0,5.0,2.0,Medium,Very Sensitive,,4.0,,Desktop,Cash,7/3/2024,True,False,Impulsive,Express,1.0
+46.0,Female,Middle,Married,Bachelor's,Middle,Jewelry & Accessories,$367.70 ,3.0,Mixed,3.0,5.0,2.0,,Somewhat Sensitive,2.0,3.0,High,Desktop,Credit Card,3/17/2024,True,True,Need-based,No Preference,3.0
+41.0,Female,High,Single,High School,Middle,Sports & Outdoors,$229.97 ,7.0,Mixed,3.0,4.0,0.0,,Very Sensitive,2.0,9.0,,Desktop,Other,11/21/2024,False,True,Need-based,Standard,6.0
+28.0,Female,Middle,Widowed,Bachelor's,,Home Appliances,$226.53 ,3.0,Online,3.0,1.0,1.0,,,1.0,10.0,Medium,Desktop,PayPal,8/2/2024,True,False,Wants-based,No Preference,13.0
+23.0,Male,High,Divorced,Master's,Middle,Software & Apps,$218.32 ,2.0,Mixed,5.0,3.0,0.0,High,Not Sensitive,2.0,7.0,Low,Desktop,PayPal,9/24/2024,False,False,Need-based,Express,3.0
+48.0,Female,High,Widowed,,High,Furniture,$132.67 ,7.0,In-Store,2.0,5.0,,Low,Very Sensitive,2.0,3.0,Low,Smartphone,Other,12/18/2024,True,False,Impulsive,Express,1.0
+26.0,Male,High,Single,Master's,High,Arts & Crafts,$416.96 ,7.0,In-Store,5.0,1.0,1.0,High,Not Sensitive,0.0,1.0,High,Tablet,Other,5/25/2024,False,False,,Express,7.0
+39.0,Female,High,Married,Master's,Middle,Arts & Crafts,$459.51 ,7.0,In-Store,1.0,2.0,2.0,High,Not Sensitive,0.0,5.0,,Tablet,Debit Card,1/5/2024,True,False,Need-based,No Preference,11.0
+45.0,Male,Middle,Married,High School,High,Sports & Outdoors,,2.0,Mixed,5.0,3.0,2.0,Low,Very Sensitive,0.0,2.0,,Desktop,PayPal,3/15/2024,,True,Need-based,No Preference,12.0
+22.0,Male,Middle,Divorced,High School,High,Toys & Games,$150.11 ,7.0,Mixed,4.0,4.0,1.5,Low,Very Sensitive,0.0,3.0,High,Smartphone,Credit Card,7/23/2024,,False,Wants-based,Standard,8.0
+36.0,Male,High,Married,,Middle,,$218.87 ,5.0,Mixed,4.0,3.0,,Medium,Very Sensitive,0.0,4.0,Medium,,Cash,9/18/2024,True,False,Planned,No Preference,11.0
+,Female,Middle,Married,Bachelor's,High,Mobile Accessories,$437.06 ,7.0,In-Store,3.0,5.0,2.0,Low,Very Sensitive,0.0,6.0,Low,Smartphone,Cash,3/9/2024,False,False,Impulsive,Express,11.0
+33.0,,High,Married,Bachelor's,,Beauty & Personal Care,$122.58 ,2.0,In-Store,5.0,4.0,1.5,,Not Sensitive,2.0,5.0,,Tablet,Other,,True,False,Impulsive,Express,12.0
+35.0,Male,High,Married,Master's,Middle,Food & Beverages,$195.07 ,8.0,Online,,1.0,1.0,High,Somewhat Sensitive,0.0,6.0,,Smartphone,Debit Card,7/22/2024,False,False,Impulsive,No Preference,
+39.0,Female,Middle,Single,High School,High,Books,$190.06 ,9.0,In-Store,5.0,1.0,1.0,,Somewhat Sensitive,1.0,2.0,Low,Smartphone,Other,2/3/2024,True,True,Planned,Standard,12.0
+38.0,Female,Middle,Single,High School,Middle,Groceries,,,In-Store,3.0,4.0,0.0,Medium,Somewhat Sensitive,0.0,4.0,High,Desktop,Debit Card,6/3/2024,,True,Wants-based,No Preference,4.0
+27.0,,High,Single,Bachelor's,High,Books,$242.57 ,7.0,In-Store,1.0,1.0,1.0,Low,Not Sensitive,0.0,,Low,Smartphone,PayPal,10/5/2024,True,False,Wants-based,No Preference,1.0
+35.0,Male,Middle,Widowed,High School,High,Arts & Crafts,$303.13 ,2.0,Online,1.0,1.0,,High,Not Sensitive,0.0,7.0,Medium,Desktop,Debit Card,1/4/2024,False,True,Need-based,Standard,10.0
+43.0,Female,Middle,Widowed,Master's,Middle,Toys & Games,$136.10 ,5.0,In-Store,3.0,5.0,2.0,Low,Very Sensitive,0.0,2.0,High,Tablet,Debit Card,2/27/2024,False,True,Planned,Express,14.0
+40.0,Bigender,High,Single,Bachelor's,Middle,Electronics,$249.02 ,11.0,Mixed,3.0,2.0,0.3,Medium,,1.0,1.0,Medium,Smartphone,PayPal,10/1/2024,True,True,Planned,Express,14.0
+19.0,Male,Middle,Divorced,High School,Middle,Office Supplies,$466.74 ,7.0,In-Store,3.0,4.0,0.2,Medium,Not Sensitive,2.0,3.0,High,Tablet,Debit Card,12/11/2024,True,True,Need-based,Express,5.0
+46.0,Agender,High,Married,High School,High,Animal Feed,,6.0,In-Store,4.0,5.0,2.0,,Somewhat Sensitive,0.0,6.0,,Smartphone,,11/25/2024,False,False,Planned,Express,6.0
+30.0,Female,High,Single,High School,High,Packages),$450.52 ,8.0,Online,2.0,2.0,0.2,High,Somewhat Sensitive,0.0,6.0,Low,Desktop,PayPal,1/13/2024,True,True,Need-based,No Preference,8.0
+35.0,Male,High,Divorced,Bachelor's,Middle,Groceries,$246.44 ,4.0,Mixed,3.0,1.0,1.0,Medium,Somewhat Sensitive,0.0,3.0,Medium,Smartphone,Debit Card,9/17/2024,False,True,Wants-based,No Preference,5.0
+34.0,Male,High,Widowed,High School,Middle,Home Appliances,$93.52 ,2.0,Online,1.0,5.0,1.0,,Somewhat Sensitive,1.0,2.0,High,Desktop,PayPal,8/12/2024,False,True,Planned,No Preference,12.0
+28.0,Female,Middle,Married,,High,Groceries,$137.75 ,6.0,Online,3.0,3.0,2.0,High,Very Sensitive,0.0,1.0,,Smartphone,Cash,9/9/2024,False,True,Need-based,No Preference,4.0
+44.0,Female,Middle,Married,Master's,Middle,Home Appliances,$78.64 ,5.0,Mixed,3.0,4.0,2.0,High,Somewhat Sensitive,0.0,3.0,High,Tablet,PayPal,5/26/2024,True,,Planned,Standard,12.0
+25.0,Male,High,Divorced,Master's,Middle,Software & Apps,$214.82 ,9.0,Mixed,5.0,4.0,0.3,,Very Sensitive,1.0,9.0,Medium,Tablet,Other,11/9/2024,True,False,Planned,No Preference,11.0
+45.0,Male,Middle,Married,Bachelor's,High,Mobile Accessories,$57.39 ,3.0,Mixed,2.0,5.0,0.25,,Somewhat Sensitive,,10.0,,Desktop,Credit Card,7/19/2024,False,False,Impulsive,Standard,
+47.0,Female,High,Single,High School,Middle,Beauty & Personal Care,$363.91 ,10.0,,1.0,1.0,0.3,Medium,Very Sensitive,0.0,2.0,Low,Smartphone,Cash,1/7/2024,True,True,,Standard,9.0
+39.0,Male,Middle,Single,High School,Middle,Travel & Leisure (Flights,,12.0,In-Store,2.0,4.0,2.0,Low,Somewhat Sensitive,1.0,9.0,High,Desktop,Other,,True,True,Wants-based,,10.0
+32.0,Male,High,Divorced,High School,Middle,Jewelry & Accessories,$363.98 ,4.0,Online,4.0,4.0,1.0,,Somewhat Sensitive,2.0,7.0,,Tablet,PayPal,5/27/2024,True,True,Planned,Express,1.0
+47.0,Male,Middle,Widowed,Bachelor's,High,Books,$249.60 ,7.0,Mixed,4.0,1.0,1.0,,Somewhat Sensitive,2.0,7.0,High,Smartphone,Debit Card,5/11/2024,True,False,Wants-based,Standard,11.0
+,Male,High,,Bachelor's,Middle,Electronics,$345.04 ,12.0,In-Store,1.0,5.0,1.0,Low,Somewhat Sensitive,0.0,8.0,Medium,Tablet,Credit Card,10/16/2024,True,True,Planned,,13.0
+48.0,Female,Middle,Single,High School,High,Arts & Crafts,$59.15 ,3.0,In-Store,,2.0,1.0,,,0.0,,High,Desktop,Debit Card,4/19/2024,False,False,Need-based,Standard,8.0
+27.0,Male,High,Single,Master's,High,Home Appliances,$461.81 ,12.0,Mixed,4.0,3.0,0.0,Medium,Very Sensitive,0.0,8.0,Low,Desktop,Other,6/7/2024,True,False,Wants-based,No Preference,8.0
+31.0,,High,Divorced,Bachelor's,High,Health Care,$280.88 ,4.0,,3.0,4.0,1.0,High,Not Sensitive,0.0,2.0,High,,Credit Card,5/5/2024,True,True,Planned,No Preference,2.0
+44.0,Male,Middle,Married,Master's,,Luxury Goods,$283.70 ,8.0,Mixed,2.0,5.0,1.0,Medium,Not Sensitive,1.0,3.0,Low,Smartphone,Cash,2/29/2024,,False,Impulsive,Express,8.0
+,Female,High,Widowed,High School,Middle,Luxury Goods,$411.95 ,10.0,In-Store,5.0,3.0,1.0,,Not Sensitive,0.0,4.0,,Smartphone,,12/18/2024,True,True,Impulsive,Standard,5.0
+32.0,Female,,Widowed,Master's,Middle,Gardening & Outdoors,$476.11 ,5.0,In-Store,1.0,4.0,1.0,,Very Sensitive,2.0,10.0,High,Desktop,Debit Card,10/29/2024,True,False,,Standard,1.0
+28.0,Female,Middle,Married,Master's,High,Gardening & Outdoors,$399.24 ,7.0,In-Store,4.0,2.0,1.0,Medium,Very Sensitive,1.0,2.0,Medium,Smartphone,Debit Card,6/21/2024,False,False,Need-based,Standard,10.0
+26.0,Male,,Divorced,,,Jewelry & Accessories,$90.79 ,12.0,In-Store,,1.0,2.0,Medium,Somewhat Sensitive,0.0,2.0,Medium,Tablet,Other,9/16/2024,False,False,Planned,No Preference,6.0
+38.0,Female,,Married,Master's,Middle,Animal Feed,$229.56 ,9.0,Online,1.0,2.0,,,Somewhat Sensitive,0.0,9.0,,Tablet,PayPal,1/14/2024,True,True,Need-based,No Preference,11.0
+28.0,Female,Middle,Divorced,High School,Middle,Sports & Outdoors,$160.47 ,7.0,Mixed,1.0,5.0,0.0,,Not Sensitive,0.0,3.0,,Smartphone,Debit Card,3/17/2024,True,False,,No Preference,6.0
+30.0,Genderqueer,High,Married,High School,High,Software & Apps,$104.74 ,6.0,Online,2.0,4.0,2.0,,Very Sensitive,0.0,4.0,Low,Smartphone,PayPal,9/22/2024,False,False,Impulsive,No Preference,1.0
+37.0,Female,High,Widowed,Master's,Middle,Food & Beverages,$399.95 ,10.0,In-Store,2.0,1.0,0.0,Low,Not Sensitive,1.0,2.0,High,Smartphone,Cash,3/7/2024,True,False,Need-based,Express,10.0
+47.0,Female,High,Divorced,Bachelor's,Middle,Baby Products,$337.33 ,8.0,In-Store,1.0,4.0,1.0,,Somewhat Sensitive,0.0,5.0,Medium,Desktop,Debit Card,11/25/2024,False,False,Planned,Express,10.0
+41.0,Female,High,Widowed,,Middle,Jewelry & Accessories,$204.83 ,6.0,In-Store,5.0,1.0,0.0,High,Very Sensitive,1.0,5.0,Medium,Smartphone,Debit Card,4/22/2024,,False,Wants-based,Standard,5.0
+22.0,Female,Middle,Widowed,Master's,High,Packages),$193.94 ,11.0,Mixed,4.0,1.0,0.0,,Not Sensitive,0.0,3.0,,Desktop,Other,8/9/2024,False,False,Wants-based,Standard,9.0
+,Male,High,Married,Master's,Middle,Mobile Accessories,$460.37 ,,Online,5.0,4.0,2.0,Low,Very Sensitive,2.0,7.0,High,Desktop,Credit Card,7/13/2024,True,True,Wants-based,Express,12.0
+34.0,Non-binary,Middle,Single,,Middle,Arts & Crafts,$297.29 ,9.0,Online,,4.0,2.0,,Not Sensitive,0.0,9.0,Low,Smartphone,,1/1/2024,True,True,Need-based,Standard,3.0
+31.0,Male,Middle,Single,,Middle,Books,$389.47 ,4.0,In-Store,5.0,,2.0,Low,Not Sensitive,1.0,9.0,High,Desktop,Credit Card,2/11/2024,True,True,Wants-based,,6.0
+38.0,Male,High,Single,Master's,High,Home Appliances,$370.05 ,11.0,Mixed,5.0,3.0,0.0,Medium,Very Sensitive,,10.0,High,Smartphone,,10/30/2024,True,True,Impulsive,No Preference,10.0
+45.0,Male,High,Single,Master's,Middle,Jewelry & Accessories,$462.24 ,2.0,Mixed,4.0,5.0,0.0,Low,Not Sensitive,2.0,1.0,,Smartphone,Other,3/19/2024,True,True,Wants-based,Express,13.0
+30.0,Female,High,Married,High School,High,Food & Beverages,$472.53 ,11.0,Online,4.0,1.0,1.0,Medium,Somewhat Sensitive,2.0,7.0,Medium,Smartphone,Debit Card,4/30/2024,False,False,Wants-based,Express,4.0
+45.0,Female,Middle,Married,High School,Middle,,$407.29 ,3.0,In-Store,5.0,5.0,0.0,Low,Not Sensitive,0.0,5.0,Low,Tablet,Other,11/25/2024,False,False,Planned,Express,3.0
+18.0,Male,High,Married,Bachelor's,High,Mobile Accessories,$135.65 ,,Online,4.0,1.0,1.0,Low,Very Sensitive,0.0,9.0,,Desktop,Other,2/16/2024,False,False,Impulsive,Standard,14.0
+36.0,Male,High,Single,Bachelor's,Middle,,$352.35 ,4.0,Online,2.0,2.0,0.0,Low,Very Sensitive,1.0,1.0,Low,Smartphone,Credit Card,6/20/2024,False,False,Planned,Express,14.0
+25.0,Female,,Single,High School,High,Books,$441.73 ,12.0,Online,,4.0,2.0,Low,Somewhat Sensitive,0.0,8.0,Medium,Smartphone,Credit Card,2/4/2024,True,False,Planned,Standard,8.0
+21.0,Female,High,Divorced,High School,,Luxury Goods,$105.95 ,,Mixed,1.0,4.0,2.0,Low,Very Sensitive,1.0,,Medium,Desktop,Cash,8/4/2024,False,False,Impulsive,Standard,11.0
+26.0,Male,High,Single,Master's,High,Groceries,$351.54 ,11.0,Mixed,1.0,3.0,2.0,,,0.0,8.0,,Tablet,PayPal,3/21/2024,True,False,Planned,Express,12.0
+,Male,High,Divorced,Bachelor's,High,Home Appliances,$321.26 ,12.0,Online,4.0,1.0,0.0,,Very Sensitive,0.0,6.0,,Desktop,Debit Card,6/13/2024,False,False,Need-based,Standard,14.0
+47.0,Female,High,Divorced,High School,Middle,Animal Feed,$421.50 ,11.0,Online,5.0,1.0,2.0,Low,Somewhat Sensitive,0.0,8.0,,Desktop,PayPal,4/4/2024,True,True,Need-based,Express,3.0
+27.0,Bigender,High,Widowed,High School,Middle,Food & Beverages,$253.29 ,6.0,Mixed,3.0,2.0,2.0,,Somewhat Sensitive,1.0,4.0,,Desktop,PayPal,5/2/2024,,,Planned,Standard,8.0
+29.0,Female,,Divorced,High School,High,Jewelry & Accessories,$217.62 ,3.0,Online,,2.0,1.0,High,,2.0,3.0,Low,Smartphone,PayPal,2/14/2024,False,True,Impulsive,No Preference,
+21.0,Male,Middle,Single,Bachelor's,High,Books,$226.04 ,,Online,4.0,1.0,1.0,,,0.0,9.0,Medium,Desktop,PayPal,5/14/2024,,False,Wants-based,Express,12.0
+41.0,Genderfluid,High,Single,Bachelor's,High,Packages),$52.79 ,4.0,Online,2.0,2.0,0.0,Low,Not Sensitive,1.0,7.0,,Tablet,Debit Card,2/6/2024,True,True,Impulsive,Express,4.0
+43.0,Male,Middle,Widowed,High School,High,Jewelry & Accessories,$385.08 ,7.0,In-Store,2.0,4.0,1.0,High,,,1.0,Low,,Debit Card,11/12/2024,,True,Impulsive,No Preference,1.0
+33.0,Male,High,Widowed,Master's,Middle,Hotels,$181.10 ,2.0,Online,2.0,5.0,2.0,Low,Not Sensitive,2.0,,Low,Tablet,Credit Card,12/26/2024,False,False,Impulsive,No Preference,5.0
+23.0,Female,Middle,Single,Master's,Middle,Office Supplies,$246.41 ,7.0,In-Store,2.0,4.0,0.0,,Somewhat Sensitive,2.0,8.0,Low,Smartphone,Cash,10/1/2024,True,False,Need-based,,11.0
+37.0,Female,Middle,Divorced,Bachelor's,High,Baby Products,$140.87 ,8.0,In-Store,3.0,3.0,2.0,Low,Not Sensitive,2.0,7.0,Medium,Tablet,Other,3/3/2024,True,,Impulsive,No Preference,9.0
+34.0,Female,High,Single,Master's,High,Software & Apps,$151.25 ,2.0,In-Store,2.0,5.0,0.0,Medium,Somewhat Sensitive,1.0,8.0,Medium,Tablet,Debit Card,4/20/2024,True,False,Planned,No Preference,10.0
+27.0,Male,High,Divorced,Master's,Middle,Hotels,$171.52 ,3.0,Mixed,5.0,5.0,2.0,Medium,Very Sensitive,1.0,9.0,Medium,,Cash,8/21/2024,True,,Planned,Standard,12.0
+40.0,Male,Middle,,Master's,High,Sports & Outdoors,$399.56 ,10.0,Online,4.0,2.0,1.0,Low,Not Sensitive,0.0,4.0,Medium,Desktop,Cash,10/21/2024,True,True,Need-based,No Preference,1.0
+40.0,Female,Middle,Widowed,Master's,Middle,Sports & Outdoors,$173.46 ,4.0,Mixed,5.0,3.0,1.0,,,0.0,9.0,,Smartphone,PayPal,4/11/2024,False,True,Wants-based,No Preference,2.0
+43.0,Male,High,Widowed,Bachelor's,High,Toys & Games,$332.14 ,10.0,Online,4.0,4.0,0.0,Low,Somewhat Sensitive,1.0,2.0,,Desktop,PayPal,2/9/2024,True,True,Planned,No Preference,13.0
+37.0,Non-binary,Middle,Single,Bachelor's,Middle,,$247.05 ,8.0,,3.0,2.0,1.0,Low,Somewhat Sensitive,1.0,8.0,,Desktop,Cash,5/25/2024,False,False,Wants-based,Standard,2.0
+49.0,Male,High,Single,Bachelor's,High,Office Supplies,$365.88 ,10.0,Mixed,4.0,5.0,1.0,,Somewhat Sensitive,1.0,1.0,Medium,Tablet,PayPal,4/16/2024,False,False,Wants-based,Express,9.0
+27.0,Female,Middle,Married,Bachelor's,Middle,Toys & Games,$354.92 ,8.0,Mixed,5.0,4.0,0.0,,Somewhat Sensitive,0.0,1.0,,Tablet,Debit Card,2/17/2024,True,True,Wants-based,Express,13.0
+19.0,Female,High,Single,High School,High,Jewelry & Accessories,$195.46 ,10.0,Mixed,5.0,3.0,2.0,,Not Sensitive,0.0,10.0,,Tablet,Other,7/7/2024,True,False,Impulsive,Standard,9.0
+40.0,Female,High,Married,Master's,Middle,Books,$474.03 ,,In-Store,3.0,1.0,1.0,Medium,Somewhat Sensitive,0.0,6.0,High,Desktop,Other,8/3/2024,True,True,Need-based,Standard,13.0
+27.0,Male,Middle,Married,Bachelor's,High,Animal Feed,$106.96 ,6.0,In-Store,,1.0,2.0,Low,Not Sensitive,0.0,7.0,Medium,Tablet,Debit Card,3/9/2024,True,True,Impulsive,Standard,3.0
+29.0,Female,Middle,Married,Master's,High,Electronics,$371.84 ,9.0,In-Store,5.0,4.0,0.0,,Not Sensitive,2.0,6.0,,Tablet,Other,7/28/2024,False,True,Impulsive,Standard,2.0
+45.0,Polygender,High,Single,Bachelor's,High,Health Supplements,$461.16 ,8.0,Mixed,1.0,4.0,1.0,High,Not Sensitive,0.0,3.0,Medium,Smartphone,Other,2/29/2024,True,True,Planned,Express,14.0
+24.0,Female,High,Single,High School,Middle,Books,$497.75 ,11.0,In-Store,,1.0,2.0,,Very Sensitive,2.0,1.0,Medium,Smartphone,Cash,7/3/2024,True,False,Wants-based,Express,13.0
+45.0,Female,Middle,Married,Master's,Middle,Health Care,$492.83 ,5.0,Online,2.0,,,High,Very Sensitive,0.0,4.0,High,Tablet,Debit Card,3/2/2024,True,False,Need-based,No Preference,2.0
+39.0,Female,Middle,Divorced,High School,Middle,Groceries,$295.54 ,8.0,Online,3.0,3.0,1.0,,Very Sensitive,2.0,,Low,Tablet,Cash,7/27/2024,False,False,Planned,Express,14.0
+40.0,Male,High,Widowed,High School,High,Furniture,$494.81 ,9.0,Mixed,2.0,4.0,1.0,Medium,Very Sensitive,1.0,7.0,Medium,Tablet,PayPal,5/26/2024,True,True,Need-based,Standard,
+21.0,Female,,,Master's,Middle,Mobile Accessories,$160.25 ,7.0,Online,2.0,3.0,2.0,,Very Sensitive,2.0,5.0,High,Desktop,PayPal,3/4/2024,True,,Need-based,No Preference,12.0
+42.0,Female,Middle,Married,Master's,High,Gardening & Outdoors,$198.36 ,4.0,Online,1.0,1.0,2.0,,Somewhat Sensitive,1.0,9.0,,Desktop,Cash,12/13/2024,False,True,Wants-based,Standard,
+44.0,Female,Middle,Divorced,Bachelor's,High,Furniture,$82.39 ,12.0,In-Store,5.0,,1.0,,Somewhat Sensitive,0.0,,,Smartphone,Other,2/24/2024,False,,Planned,Express,1.0
+46.0,Female,Middle,Married,,High,Hotels,$290.56 ,3.0,In-Store,5.0,1.0,2.0,,Somewhat Sensitive,1.0,1.0,,Desktop,PayPal,3/12/2024,True,False,Wants-based,No Preference,4.0
+29.0,Male,High,Divorced,Master's,High,Animal Feed,$206.79 ,5.0,In-Store,1.0,3.0,2.0,High,Very Sensitive,1.0,2.0,Low,Tablet,Credit Card,8/21/2024,False,False,Planned,Standard,4.0
+19.0,Female,Middle,Married,High School,High,,$401.43 ,8.0,Mixed,4.0,2.0,0.0,,Not Sensitive,0.0,,High,Tablet,Other,5/23/2024,True,True,Need-based,No Preference,5.0
+21.0,Male,High,Widowed,Master's,High,Sports & Outdoors,$188.17 ,9.0,,5.0,5.0,0.0,Medium,Not Sensitive,1.0,5.0,Low,,Debit Card,5/26/2024,True,False,Need-based,Standard,9.0
+38.0,Female,High,Single,High School,High,Gardening & Outdoors,$83.21 ,10.0,Online,4.0,3.0,,Low,Somewhat Sensitive,0.0,4.0,High,,Other,3/20/2024,False,False,Impulsive,Standard,7.0
+41.0,Bigender,Middle,Divorced,Master's,Middle,Gardening & Outdoors,$54.74 ,4.0,In-Store,1.0,2.0,0.0,,Somewhat Sensitive,0.0,4.0,Low,Smartphone,PayPal,10/3/2024,True,True,Impulsive,No Preference,14.0
+49.0,Female,High,Divorced,Master's,High,Office Supplies,$371.12 ,8.0,Online,5.0,1.0,2.0,High,,1.0,7.0,,Smartphone,PayPal,8/23/2024,False,True,Wants-based,No Preference,8.0
+32.0,Genderfluid,Middle,Single,High School,Middle,Packages),$293.64 ,3.0,In-Store,2.0,1.0,2.0,Low,Not Sensitive,2.0,8.0,,Tablet,Credit Card,,True,False,Impulsive,Express,5.0
+24.0,Male,High,Married,High School,High,Books,$185.83 ,11.0,In-Store,4.0,2.0,2.0,Low,Not Sensitive,2.0,9.0,Medium,Desktop,Other,10/17/2024,False,True,Impulsive,Standard,1.0
+27.0,Male,High,,Master's,Middle,Office Supplies,$117.13 ,7.0,Mixed,1.0,1.0,2.0,High,Somewhat Sensitive,1.0,10.0,High,Smartphone,Credit Card,8/8/2024,True,True,Planned,Express,6.0
+44.0,,Middle,Married,Master's,High,Office Supplies,$52.24 ,11.0,In-Store,3.0,1.0,0.0,Low,Not Sensitive,2.0,4.0,High,Smartphone,Credit Card,12/12/2024,,,Impulsive,Standard,8.0
+28.0,Female,High,Married,Bachelor's,High,Baby Products,,7.0,In-Store,4.0,,2.0,Medium,Somewhat Sensitive,1.0,5.0,High,Smartphone,Cash,6/12/2024,False,True,Planned,No Preference,13.0
+23.0,Male,Middle,Married,High School,Middle,Packages),$216.84 ,,In-Store,4.0,3.0,1.0,Low,Somewhat Sensitive,1.0,1.0,,Tablet,PayPal,3/28/2024,False,,Planned,Express,5.0
+42.0,Female,High,Divorced,High School,High,Electronics,$75.27 ,7.0,Mixed,3.0,4.0,1.0,,Not Sensitive,2.0,3.0,,Desktop,PayPal,12/27/2024,True,True,Impulsive,Express,1.0
+20.0,Male,Middle,Widowed,Master's,High,Office Supplies,$308.87 ,,In-Store,3.0,4.0,1.0,,Not Sensitive,2.0,2.0,,Tablet,,2/24/2024,True,True,Impulsive,Express,11.0
+49.0,Male,,Divorced,Master's,Middle,Travel & Leisure (Flights,$169.77 ,5.0,In-Store,1.0,4.0,0.0,Medium,Very Sensitive,2.0,9.0,,Desktop,Other,6/15/2024,True,True,Wants-based,Standard,7.0
+19.0,Male,,Divorced,High School,High,Toys & Games,$289.08 ,,Online,2.0,1.0,0.0,,Very Sensitive,1.0,10.0,Medium,Desktop,Other,8/14/2024,True,True,Wants-based,Standard,7.0
+38.0,Female,Middle,,High School,,Travel & Leisure (Flights,$74.09 ,10.0,Mixed,,4.0,2.0,,Somewhat Sensitive,2.0,9.0,Low,Tablet,Other,5/15/2024,True,True,Impulsive,Standard,8.0
+43.0,Male,,Married,High School,Middle,Travel & Leisure (Flights,$201.53 ,5.0,Online,2.0,3.0,1.0,,Not Sensitive,1.0,6.0,High,Tablet,Other,6/1/2024,False,True,Wants-based,No Preference,11.0
+38.0,Male,Middle,Divorced,Bachelor's,High,Arts & Crafts,$244.60 ,12.0,Online,4.0,4.0,2.0,Medium,Somewhat Sensitive,0.0,6.0,,Tablet,Other,8/25/2024,False,False,Wants-based,Standard,3.0
+21.0,Male,Middle,Widowed,Bachelor's,High,Software & Apps,$320.50 ,10.0,In-Store,3.0,4.0,2.0,Low,Somewhat Sensitive,0.0,9.0,Low,Tablet,Cash,3/1/2024,True,False,Need-based,Express,9.0
+27.0,Male,Middle,Widowed,Master's,Middle,Jewelry & Accessories,$91.63 ,3.0,In-Store,5.0,2.0,2.0,,Not Sensitive,0.0,10.0,,Tablet,Debit Card,6/30/2024,True,,Wants-based,Standard,2.0
+35.0,Male,Middle,Married,Master's,High,Sports & Outdoors,$251.93 ,8.0,In-Store,3.0,2.0,1.0,High,Very Sensitive,2.0,3.0,,Tablet,Debit Card,1/2/2024,False,False,Need-based,Standard,7.0
+,,Middle,Married,Bachelor's,Middle,Luxury Goods,$477.35 ,4.0,Online,2.0,5.0,0.0,High,Very Sensitive,1.0,2.0,Low,Desktop,PayPal,12/28/2024,False,False,Need-based,No Preference,14.0
+31.0,Male,High,Widowed,Master's,Middle,Baby Products,$86.63 ,10.0,Mixed,3.0,1.0,2.0,Medium,,2.0,2.0,Low,Tablet,Cash,,True,False,Wants-based,Express,3.0
+50.0,Bigender,High,Divorced,High School,High,Health Care,$474.42 ,4.0,In-Store,2.0,3.0,0.0,Medium,Not Sensitive,1.0,9.0,,Desktop,Debit Card,9/21/2024,True,False,Need-based,,5.0
+34.0,Female,High,Widowed,High School,High,Gardening & Outdoors,,7.0,Mixed,3.0,,1.0,High,Not Sensitive,0.0,1.0,Low,Tablet,,3/27/2024,False,False,,No Preference,10.0
+24.0,Female,High,Married,High School,High,Home Appliances,$470.38 ,8.0,Mixed,2.0,4.0,0.0,,Not Sensitive,2.0,3.0,High,,Other,11/11/2024,True,True,Impulsive,Standard,9.0
+32.0,Female,Middle,Single,Master's,High,,$495.80 ,4.0,Mixed,1.0,2.0,1.0,Low,,,7.0,,Tablet,PayPal,9/16/2024,True,True,Wants-based,Standard,10.0
+21.0,,High,Widowed,Bachelor's,Middle,Electronics,$129.64 ,4.0,In-Store,3.0,1.0,2.0,,Not Sensitive,1.0,3.0,Low,Desktop,Debit Card,5/27/2024,False,True,Need-based,Express,3.0
+,Male,Middle,Single,,High,Mobile Accessories,$473.77 ,9.0,Online,3.0,1.0,2.0,Medium,Very Sensitive,2.0,9.0,,,PayPal,5/2/2024,False,False,,No Preference,13.0
+,Female,,Married,High School,Middle,Electronics,$130.84 ,4.0,Online,5.0,5.0,2.0,Medium,Very Sensitive,2.0,10.0,Low,Tablet,PayPal,,True,True,Need-based,Standard,13.0
+48.0,Male,Middle,Single,Master's,High,Groceries,$436.54 ,12.0,Online,,3.0,0.0,Medium,Very Sensitive,1.0,8.0,Low,Smartphone,Debit Card,5/30/2024,True,False,Wants-based,No Preference,9.0
+25.0,Female,Middle,Widowed,,Middle,Animal Feed,$264.01 ,4.0,In-Store,3.0,4.0,0.0,High,Somewhat Sensitive,1.0,5.0,,Desktop,Other,10/21/2024,True,False,Need-based,No Preference,2.0
+30.0,Female,High,Divorced,Bachelor's,High,Travel & Leisure (Flights,$58.27 ,2.0,In-Store,5.0,4.0,1.0,Medium,Somewhat Sensitive,1.0,4.0,Medium,Smartphone,Cash,10/15/2024,False,True,,No Preference,13.0
+25.0,Male,Middle,Single,Master's,High,Sports & Outdoors,$190.76 ,10.0,In-Store,5.0,5.0,2.0,,Not Sensitive,1.0,,High,Desktop,Other,11/7/2024,False,False,Planned,Express,11.0
+40.0,Female,High,Widowed,Master's,High,,$105.76 ,8.0,Online,4.0,4.0,2.0,,Very Sensitive,1.0,8.0,Medium,Tablet,Credit Card,,False,False,Planned,Express,4.0
+24.0,Female,Middle,Single,Master's,High,Hotels,$254.29 ,9.0,Mixed,5.0,4.0,,Medium,Somewhat Sensitive,1.0,7.0,Low,Smartphone,Cash,4/30/2024,False,,Impulsive,Express,3.0
+49.0,Male,Middle,Divorced,Bachelor's,High,Sports & Outdoors,$435.52 ,9.0,Online,5.0,3.0,2.0,High,Not Sensitive,1.0,2.0,Medium,Desktop,Debit Card,11/12/2024,True,False,Impulsive,No Preference,11.0
+50.0,,High,Married,Master's,Middle,Office Supplies,$235.49 ,5.0,In-Store,4.0,,1.0,High,Somewhat Sensitive,1.0,6.0,,Smartphone,Cash,5/13/2024,True,False,Impulsive,Express,5.0
+45.0,Male,,Widowed,Master's,Middle,Mobile Accessories,$161.34 ,3.0,Mixed,2.0,3.0,2.0,High,Very Sensitive,1.0,8.0,Medium,Tablet,Credit Card,9/28/2024,True,False,Impulsive,No Preference,4.0
+19.0,Male,High,Single,Master's,High,Mobile Accessories,$167.67 ,11.0,In-Store,5.0,2.0,1.0,,Very Sensitive,0.0,6.0,Medium,Smartphone,Credit Card,3/18/2024,False,True,Need-based,Express,5.0
+50.0,Female,Middle,Widowed,High School,High,Food & Beverages,,10.0,Mixed,5.0,2.0,2.0,High,Somewhat Sensitive,2.0,3.0,,Smartphone,Credit Card,4/13/2024,True,False,Planned,No Preference,10.0
+32.0,Male,High,Married,Master's,High,Gardening & Outdoors,$234.58 ,3.0,Mixed,5.0,5.0,2.0,Low,Very Sensitive,2.0,6.0,,,PayPal,4/23/2024,True,False,Impulsive,Standard,1.0
+21.0,Male,Middle,Married,Master's,Middle,Furniture,$156.48 ,7.0,In-Store,5.0,1.0,0.0,Low,Not Sensitive,2.0,5.0,Medium,Desktop,,3/13/2024,False,True,Wants-based,No Preference,4.0
+27.0,Polygender,High,Widowed,Bachelor's,Middle,Jewelry & Accessories,$489.66 ,11.0,Mixed,5.0,1.0,0.0,High,Not Sensitive,2.0,6.0,,Tablet,Other,1/18/2024,True,False,Wants-based,Standard,3.0
+39.0,Agender,High,Divorced,Master's,High,Packages),$161.85 ,9.0,In-Store,5.0,3.0,0.0,High,Very Sensitive,0.0,4.0,Medium,Smartphone,Other,4/25/2024,True,False,Need-based,No Preference,10.0
+34.0,Male,Middle,Widowed,Master's,High,Electronics,$204.47 ,7.0,Online,2.0,1.0,1.0,,Very Sensitive,2.0,9.0,,Smartphone,Credit Card,8/15/2024,True,True,Wants-based,No Preference,3.0
+34.0,Female,Middle,Widowed,Bachelor's,Middle,Hotels,$315.03 ,4.0,Online,1.0,5.0,0.0,High,Very Sensitive,1.0,6.0,Low,Tablet,PayPal,11/10/2024,True,False,Planned,,2.0
+42.0,Male,Middle,Single,Master's,High,Furniture,$330.36 ,12.0,In-Store,5.0,5.0,1.0,Low,Very Sensitive,1.0,4.0,Low,Tablet,Other,6/29/2024,True,True,Need-based,No Preference,3.0
+42.0,Male,Middle,Single,Bachelor's,Middle,Toys & Games,$456.83 ,5.0,Online,2.0,5.0,0.0,,Not Sensitive,0.0,9.0,High,Tablet,Credit Card,6/20/2024,,False,Need-based,No Preference,13.0
+31.0,Male,High,Widowed,Bachelor's,High,Jewelry & Accessories,$236.05 ,6.0,In-Store,2.0,3.0,,,Very Sensitive,1.0,4.0,High,Desktop,Other,11/16/2024,False,True,Need-based,No Preference,13.0
+35.0,Female,High,Widowed,High School,High,Home Appliances,$289.28 ,9.0,Online,3.0,5.0,1.0,High,Somewhat Sensitive,,7.0,Medium,Tablet,PayPal,6/29/2024,False,True,Wants-based,Express,13.0
+27.0,Female,High,Married,High School,Middle,Packages),$483.77 ,5.0,In-Store,1.0,2.0,0.0,,Very Sensitive,0.0,5.0,,Desktop,Credit Card,,False,False,Wants-based,No Preference,10.0
+45.0,Male,Middle,Married,High School,Middle,Furniture,$64.50 ,7.0,In-Store,3.0,4.0,1.0,High,Somewhat Sensitive,1.0,7.0,High,Desktop,Credit Card,7/28/2024,True,False,Wants-based,No Preference,13.0
+43.0,,High,Married,Bachelor's,Middle,Groceries,$436.57 ,4.0,Mixed,5.0,3.0,1.0,High,Not Sensitive,2.0,10.0,Low,Desktop,Debit Card,2/2/2024,False,,Wants-based,Standard,3.0
+35.0,Bigender,Middle,Widowed,High School,Middle,Food & Beverages,$364.48 ,2.0,Mixed,3.0,3.0,0.2,,Very Sensitive,2.0,5.0,,Smartphone,Other,9/26/2024,False,False,,No Preference,13.0
+33.0,Female,Middle,,Master's,High,Beauty & Personal Care,$221.88 ,12.0,In-Store,1.0,4.0,2.0,Low,Somewhat Sensitive,1.0,6.0,,Desktop,Other,4/4/2024,True,False,Need-based,Express,
+31.0,Female,Middle,Single,High School,,Clothing,$278.21 ,3.0,Mixed,5.0,1.0,2.0,Low,Somewhat Sensitive,0.0,7.0,Low,Tablet,Other,10/22/2024,True,False,Need-based,No Preference,14.0
+31.0,Female,High,Married,Master's,,Health Supplements,$344.43 ,7.0,Online,3.0,5.0,0.0,Medium,Not Sensitive,2.0,4.0,Medium,Desktop,Credit Card,7/12/2024,True,False,Impulsive,Standard,5.0
+26.0,Male,High,Single,Master's,High,Baby Products,$326.08 ,11.0,In-Store,4.0,,2.0,Medium,Not Sensitive,2.0,6.0,Medium,Tablet,PayPal,6/30/2024,True,True,Impulsive,Express,8.0
+49.0,Male,High,Married,Bachelor's,Middle,Gardening & Outdoors,$437.97 ,8.0,Online,,2.0,0.0,High,Not Sensitive,0.0,7.0,Medium,Tablet,Debit Card,4/2/2024,True,True,Need-based,Express,12.0
+23.0,Male,High,Single,Master's,High,Packages),$391.87 ,3.0,Online,1.0,4.0,2.0,High,Very Sensitive,0.0,2.0,Medium,Desktop,Cash,2/16/2024,True,False,Planned,Standard,6.0
+42.0,Male,High,Single,Master's,Middle,Travel & Leisure (Flights,$333.41 ,3.0,Online,2.0,5.0,1.0,High,Very Sensitive,1.0,6.0,,Tablet,PayPal,1/31/2024,False,False,Planned,Standard,3.0
+32.0,Male,Middle,Single,Bachelor's,High,Groceries,$251.54 ,9.0,,5.0,1.0,0.0,,,2.0,10.0,Low,Desktop,PayPal,10/9/2024,True,False,Impulsive,No Preference,1.0
+37.0,Female,,Single,High School,,Electronics,$292.08 ,7.0,In-Store,3.0,2.0,1.0,High,Somewhat Sensitive,2.0,9.0,Low,Smartphone,,4/9/2024,False,False,Need-based,Standard,11.0
+25.0,Polygender,High,Widowed,Bachelor's,Middle,Travel & Leisure (Flights,$204.29 ,11.0,In-Store,5.0,4.0,,,Not Sensitive,2.0,1.0,Medium,Smartphone,PayPal,5/16/2024,False,False,,Express,12.0
+49.0,Male,Middle,Single,High School,Middle,Packages),$258.68 ,4.0,Online,4.0,2.0,1.0,Low,Somewhat Sensitive,0.0,9.0,,Desktop,Credit Card,10/22/2024,False,False,Impulsive,No Preference,9.0
+26.0,Male,Middle,,Bachelor's,High,Gardening & Outdoors,$258.02 ,2.0,In-Store,3.0,2.0,1.0,Low,Very Sensitive,2.0,4.0,High,Desktop,PayPal,11/8/2024,True,True,Need-based,Express,13.0
+29.0,Female,High,Single,Master's,Middle,Gardening & Outdoors,$181.87 ,12.0,,4.0,1.0,1.0,Medium,Not Sensitive,2.0,4.0,High,Desktop,Debit Card,9/1/2024,False,True,Wants-based,No Preference,11.0
+26.0,Male,High,Divorced,High School,Middle,Groceries,$81.18 ,8.0,Online,4.0,5.0,,Low,Not Sensitive,2.0,3.0,High,Tablet,Cash,5/17/2024,False,,Impulsive,Express,3.0
+,Female,High,Divorced,Master's,High,Books,$382.94 ,8.0,In-Store,1.0,3.0,0.0,Medium,Not Sensitive,0.0,6.0,,Desktop,Debit Card,5/19/2024,False,False,Need-based,,3.0
+47.0,Female,High,Single,Bachelor's,High,Beauty & Personal Care,$402.82 ,7.0,Online,4.0,5.0,0.0,,Somewhat Sensitive,2.0,2.0,,Smartphone,Debit Card,1/25/2024,False,False,Wants-based,No Preference,13.0
+30.0,Male,High,Single,Bachelor's,Middle,Gardening & Outdoors,$497.76 ,2.0,In-Store,1.0,2.0,2.0,High,Very Sensitive,2.0,3.0,Medium,,Credit Card,3/8/2024,True,,Wants-based,No Preference,4.0
+26.0,Female,High,Single,High School,,Furniture,,,Online,4.0,2.0,1.0,High,Not Sensitive,0.0,1.0,Low,,Credit Card,7/13/2024,True,False,Need-based,No Preference,11.0
+35.0,Female,High,Divorced,Bachelor's,High,Electronics,$263.57 ,2.0,Mixed,2.0,,0.0,High,Somewhat Sensitive,1.0,9.0,,Tablet,PayPal,11/21/2024,True,True,Impulsive,Express,8.0
+40.0,Male,High,Married,High School,High,Baby Products,$422.09 ,3.0,In-Store,4.0,1.0,1.0,High,Not Sensitive,0.0,9.0,Medium,Tablet,PayPal,3/31/2024,True,False,Need-based,Standard,7.0
+35.0,Male,Middle,Married,Master's,High,Gardening & Outdoors,$411.83 ,2.0,In-Store,2.0,3.0,2.0,High,Not Sensitive,1.0,3.0,,Tablet,PayPal,4/28/2024,True,True,Impulsive,Standard,10.0
+21.0,Male,Middle,Single,Master's,Middle,Software & Apps,$242.65 ,3.0,Mixed,5.0,3.0,0.2,,Very Sensitive,2.0,8.0,,Tablet,Cash,7/9/2024,False,True,Planned,No Preference,9.0
+41.0,Male,Middle,Widowed,Master's,Middle,Sports & Outdoors,$298.93 ,6.0,Mixed,5.0,2.0,,,Somewhat Sensitive,2.0,1.0,,Tablet,PayPal,9/22/2024,True,True,Planned,Express,2.0
+,Female,,Single,Bachelor's,High,Mobile Accessories,$191.21 ,7.0,Mixed,5.0,4.0,1.0,,Very Sensitive,2.0,6.0,Low,Smartphone,Debit Card,4/4/2024,False,False,Need-based,No Preference,13.0
+44.0,Female,High,Married,Master's,Middle,Electronics,$136.67 ,3.0,Online,3.0,1.0,1.0,Low,,0.0,,,Desktop,,6/20/2024,False,True,Impulsive,Standard,
+37.0,Male,,Widowed,Master's,High,Sports & Outdoors,$324.11 ,11.0,Online,3.0,3.0,2.0,,Very Sensitive,0.0,2.0,Low,Smartphone,Cash,3/22/2024,False,False,Impulsive,No Preference,7.0
+40.0,Female,High,Widowed,Bachelor's,High,Animal Feed,$105.64 ,6.0,Online,1.0,3.0,0.0,Low,Very Sensitive,2.0,1.0,,,Other,4/6/2024,True,True,Planned,No Preference,12.0
+43.0,Male,High,Widowed,Master's,,Electronics,$295.60 ,10.0,Online,1.0,2.0,1.0,High,Somewhat Sensitive,0.0,9.0,Low,Desktop,Credit Card,5/20/2024,True,True,Need-based,Standard,5.0
+48.0,Male,,Single,Master's,High,Animal Feed,$227.03 ,9.0,In-Store,4.0,4.0,2.0,Low,Not Sensitive,2.0,7.0,High,Tablet,Other,4/9/2024,True,True,Need-based,No Preference,4.0
+32.0,Female,High,Divorced,Bachelor's,Middle,Hotels,$485.77 ,10.0,Mixed,1.0,2.0,0.0,Low,Not Sensitive,2.0,6.0,,Tablet,Cash,12/4/2024,False,False,Planned,No Preference,6.0
+37.0,Female,Middle,Widowed,High School,High,Animal Feed,$173.43 ,4.0,In-Store,3.0,3.0,0.0,Medium,Not Sensitive,2.0,1.0,Low,Desktop,PayPal,5/27/2024,True,True,Need-based,No Preference,14.0
+29.0,Female,,Widowed,High School,Middle,Baby Products,$462.96 ,2.0,Online,4.0,2.0,0.0,High,Very Sensitive,2.0,6.0,High,Tablet,Cash,7/1/2024,True,False,Planned,No Preference,3.0
+36.0,Male,High,Divorced,High School,Middle,Mobile Accessories,$203.13 ,10.0,Online,4.0,3.0,2.0,,Somewhat Sensitive,1.0,5.0,,Tablet,Debit Card,8/15/2024,True,False,Impulsive,,6.0
+50.0,Female,High,Married,Master's,High,Toys & Games,$443.11 ,9.0,In-Store,1.0,2.0,1.0,,Very Sensitive,0.0,10.0,Low,Tablet,Other,1/19/2024,True,True,Wants-based,No Preference,1.0
+31.0,Bigender,High,Divorced,High School,High,Health Supplements,$254.83 ,2.0,,1.0,2.0,1.0,,Somewhat Sensitive,1.0,2.0,Low,Desktop,Credit Card,9/18/2024,False,False,Wants-based,Standard,
+29.0,Female,High,,Master's,,,$336.89 ,,Online,2.0,1.0,2.0,Medium,Very Sensitive,1.0,7.0,High,Smartphone,Credit Card,6/17/2024,False,False,Planned,Express,9.0
+26.0,Male,Middle,Married,Bachelor's,Middle,Baby Products,$337.17 ,8.0,In-Store,5.0,,0.0,Low,Not Sensitive,1.0,6.0,Medium,Tablet,Credit Card,7/26/2024,False,True,Wants-based,No Preference,3.0
+22.0,Female,High,Single,High School,High,Food & Beverages,$429.24 ,2.0,Online,2.0,2.0,2.0,Medium,Very Sensitive,0.0,3.0,,Desktop,Cash,3/11/2024,False,False,Planned,No Preference,13.0
+35.0,Female,High,Married,High School,High,Electronics,$197.70 ,7.0,Mixed,3.0,5.0,2.0,High,Somewhat Sensitive,1.0,6.0,Medium,Desktop,Cash,9/27/2024,False,False,Need-based,Standard,9.0
+23.0,Male,Middle,Married,Bachelor's,Middle,Home Appliances,$336.96 ,2.0,In-Store,5.0,2.0,2.0,High,Not Sensitive,0.0,7.0,Low,Tablet,PayPal,9/5/2024,True,True,Impulsive,No Preference,
+40.0,Female,,,High School,High,Packages),$489.81 ,11.0,Mixed,3.0,2.0,1.0,Low,Very Sensitive,0.0,1.0,,Tablet,Credit Card,12/22/2024,False,False,Wants-based,No Preference,3.0
+32.0,Female,High,Single,,Middle,Software & Apps,$455.55 ,8.0,Mixed,,4.0,1.0,High,Somewhat Sensitive,0.0,6.0,High,Desktop,PayPal,10/29/2024,False,False,Planned,No Preference,10.0
+29.0,Male,Middle,Divorced,Master's,Middle,Mobile Accessories,$266.61 ,3.0,Online,3.0,,1.0,Medium,Very Sensitive,2.0,8.0,,Tablet,Debit Card,6/6/2024,True,False,Need-based,Standard,7.0
+50.0,Polygender,Middle,Married,High School,High,Travel & Leisure (Flights,$460.88 ,5.0,Mixed,3.0,,2.0,,Not Sensitive,2.0,4.0,High,,Cash,4/12/2024,True,False,Impulsive,Standard,2.0
+42.0,Male,High,Single,High School,Middle,,$361.40 ,2.0,In-Store,2.0,5.0,1.0,Medium,Somewhat Sensitive,0.0,5.0,Medium,Desktop,Credit Card,12/21/2024,,True,,No Preference,7.0
+47.0,Female,,Divorced,Master's,Middle,Baby Products,$51.86 ,4.0,Mixed,3.0,5.0,0.2,Medium,Not Sensitive,2.0,,High,Tablet,Credit Card,12/25/2024,False,True,,No Preference,6.0
+27.0,Male,Middle,,,Middle,Office Supplies,$310.16 ,5.0,Mixed,5.0,3.0,1.0,,Somewhat Sensitive,0.0,4.0,High,,,12/1/2024,False,False,Need-based,Standard,14.0
+40.0,Female,Middle,Widowed,Master's,Middle,Packages),$300.73 ,8.0,Online,4.0,2.0,1.0,Low,,2.0,,High,Desktop,Cash,3/31/2024,,True,Need-based,No Preference,10.0
+,Female,High,Married,High School,Middle,Packages),$356.87 ,12.0,Mixed,1.0,4.0,0.0,High,Not Sensitive,1.0,9.0,Medium,Smartphone,Debit Card,10/12/2024,False,True,Impulsive,Standard,10.0
+28.0,Male,,Widowed,High School,Middle,Clothing,$82.37 ,6.0,Mixed,1.0,1.0,1.0,Medium,Not Sensitive,0.0,4.0,Medium,Smartphone,Credit Card,12/25/2024,False,False,Impulsive,Standard,2.0
+29.0,Female,High,Divorced,Bachelor's,High,Clothing,$372.60 ,3.0,,4.0,5.0,,High,Very Sensitive,2.0,6.0,Low,Tablet,PayPal,1/11/2024,True,True,Planned,Express,10.0
+29.0,Female,Middle,Widowed,High School,High,Animal Feed,$78.32 ,9.0,Online,2.0,,2.0,Low,Somewhat Sensitive,2.0,10.0,Low,,PayPal,7/29/2024,False,True,Need-based,Standard,7.0
+,Female,High,Single,Master's,High,Baby Products,$71.72 ,12.0,Online,3.0,,1.0,High,Somewhat Sensitive,2.0,5.0,Low,Tablet,PayPal,1/11/2024,True,True,Wants-based,Express,13.0
+39.0,Female,High,Single,High School,High,Luxury Goods,$241.10 ,12.0,In-Store,1.0,5.0,2.0,,Not Sensitive,2.0,2.0,Medium,Desktop,Credit Card,7/30/2024,False,True,Planned,No Preference,8.0
+22.0,Male,Middle,Married,,High,Travel & Leisure (Flights,$96.86 ,9.0,Mixed,5.0,5.0,0.0,,Not Sensitive,2.0,10.0,,Desktop,Debit Card,7/28/2024,False,True,Wants-based,Standard,7.0
+48.0,Male,Middle,Divorced,Master's,High,Food & Beverages,$276.25 ,11.0,In-Store,2.0,1.0,2.0,High,Not Sensitive,2.0,,,Smartphone,Cash,11/11/2024,True,True,Impulsive,Express,8.0
+29.0,Male,Middle,,Master's,,Office Supplies,$318.45 ,10.0,,2.0,1.0,2.0,,Somewhat Sensitive,2.0,4.0,High,Smartphone,Other,10/25/2024,False,True,Planned,No Preference,5.0
+41.0,Female,High,Married,High School,High,Animal Feed,$117.03 ,6.0,Online,3.0,2.0,0.0,,Very Sensitive,2.0,9.0,Medium,Tablet,Cash,,False,False,Impulsive,Standard,5.0
+50.0,Female,Middle,Married,Master's,High,Toys & Games,$490.41 ,7.0,Online,3.0,5.0,1.0,Medium,Very Sensitive,1.0,10.0,,Tablet,Other,10/22/2024,True,False,Planned,Standard,
+48.0,Male,Middle,Divorced,Bachelor's,High,Health Supplements,$476.42 ,7.0,In-Store,1.0,1.0,1.0,High,Very Sensitive,0.0,2.0,High,,Debit Card,9/9/2024,True,False,Need-based,Standard,2.0
+29.0,Female,High,Divorced,Master's,High,Beauty & Personal Care,$392.27 ,5.0,Mixed,4.0,5.0,1.0,High,Not Sensitive,0.0,2.0,Low,,Other,7/17/2024,True,False,,No Preference,7.0
+36.0,Male,High,Single,,Middle,Hotels,$207.24 ,9.0,Online,2.0,2.0,0.0,Low,Not Sensitive,0.0,,,Desktop,Debit Card,5/12/2024,True,False,Impulsive,No Preference,3.0
+43.0,Male,High,Divorced,High School,Middle,Gardening & Outdoors,$141.63 ,3.0,Online,4.0,1.0,1.0,,Somewhat Sensitive,1.0,8.0,Low,Smartphone,Cash,,True,True,Planned,Express,11.0
+30.0,Male,High,Widowed,Bachelor's,High,Home Appliances,$244.47 ,,Online,3.0,4.0,1.0,High,Very Sensitive,1.0,5.0,Low,Smartphone,Cash,6/23/2024,False,False,Impulsive,No Preference,4.0
+24.0,Male,High,Married,Master's,,Gardening & Outdoors,$251.63 ,9.0,Online,3.0,1.0,0.0,Low,Not Sensitive,0.0,2.0,High,Desktop,Credit Card,8/23/2024,True,True,Need-based,Express,10.0
+30.0,Male,,Divorced,Bachelor's,Middle,Toys & Games,$431.78 ,12.0,Online,1.0,3.0,1.0,Medium,Very Sensitive,1.0,8.0,Low,Smartphone,PayPal,2/15/2024,True,False,Impulsive,No Preference,7.0
+37.0,Female,Middle,Married,Master's,High,Jewelry & Accessories,$303.09 ,2.0,Online,2.0,5.0,1.0,,Very Sensitive,2.0,,,Tablet,Other,1/10/2024,,False,Impulsive,No Preference,11.0
+40.0,Male,High,Married,Bachelor's,High,Travel & Leisure (Flights,$341.24 ,9.0,Mixed,5.0,5.0,2.0,Low,Somewhat Sensitive,1.0,3.0,,Tablet,Credit Card,11/18/2024,True,False,Need-based,Standard,4.0
+30.0,Female,Middle,Divorced,Master's,High,Electronics,$211.39 ,10.0,Online,4.0,5.0,1.0,Medium,Not Sensitive,0.0,1.0,Low,Desktop,Other,5/10/2024,True,False,Planned,,1.0
+39.0,Female,Middle,Married,Bachelor's,Middle,Electronics,$379.21 ,9.0,Mixed,1.0,5.0,1.0,Low,Somewhat Sensitive,1.0,1.0,High,Smartphone,PayPal,9/18/2024,True,True,Impulsive,No Preference,
+46.0,Female,High,Widowed,Master's,High,Mobile Accessories,$309.53 ,8.0,Mixed,2.0,1.0,1.0,,Very Sensitive,2.0,6.0,,Smartphone,Cash,4/14/2024,False,True,Planned,Standard,5.0
+48.0,Male,Middle,Divorced,Master's,High,Books,$359.45 ,6.0,Online,4.0,1.0,2.0,Low,Not Sensitive,1.0,8.0,Medium,Desktop,Other,3/6/2024,False,False,Impulsive,Standard,
+20.0,Female,High,Widowed,,Middle,Hotels,$479.62 ,8.0,In-Store,3.0,1.0,2.0,High,,1.0,3.0,Low,Tablet,Other,4/19/2024,False,,Planned,Express,10.0
+,Male,High,Married,Bachelor's,Middle,Electronics,$208.60 ,2.0,Mixed,5.0,1.0,2.0,,Somewhat Sensitive,0.0,,High,Smartphone,Credit Card,2/29/2024,True,True,Impulsive,Standard,3.0
+50.0,Female,Middle,Single,Master's,High,Software & Apps,$180.21 ,2.0,Mixed,5.0,5.0,0.0,,Very Sensitive,1.0,1.0,Medium,Desktop,Cash,1/22/2024,False,True,Need-based,Express,14.0
+25.0,Male,Middle,Single,High School,High,Electronics,,3.0,Mixed,2.0,1.0,2.0,Medium,Not Sensitive,0.0,8.0,High,Desktop,Debit Card,1/18/2024,True,True,Wants-based,Standard,14.0
+49.0,Male,Middle,Single,Bachelor's,High,Home Appliances,$362.30 ,7.0,Online,4.0,2.0,0.2,Low,Not Sensitive,0.0,,Low,Tablet,Other,9/30/2024,True,True,Planned,,6.0
+25.0,Female,High,Divorced,Bachelor's,High,Health Supplements,$159.53 ,11.0,Mixed,3.0,,2.0,Low,Very Sensitive,0.0,3.0,Low,Desktop,Cash,4/27/2024,,True,Impulsive,Express,7.0
+40.0,Female,High,Widowed,High School,High,Jewelry & Accessories,$149.52 ,9.0,In-Store,2.0,5.0,1.0,,Somewhat Sensitive,0.0,,,Smartphone,Cash,3/10/2024,False,,Wants-based,No Preference,8.0
+19.0,Female,High,Widowed,Bachelor's,High,Toys & Games,$206.32 ,5.0,Online,3.0,3.0,1.0,Low,Not Sensitive,0.0,4.0,,Desktop,PayPal,10/12/2024,True,False,Wants-based,Express,12.0
+40.0,Bigender,High,Single,Bachelor's,High,Baby Products,$308.58 ,11.0,Online,2.0,5.0,2.0,Medium,Not Sensitive,0.0,7.0,Medium,Smartphone,,5/21/2024,False,True,Need-based,Express,12.0
+22.0,Female,High,Single,High School,Middle,Groceries,,5.0,Online,2.0,1.0,1.0,,Not Sensitive,0.0,1.0,,Smartphone,Debit Card,1/10/2024,True,True,Impulsive,,6.0
+25.0,Female,High,Divorced,High School,Middle,Luxury Goods,$455.44 ,7.0,Mixed,4.0,2.0,1.0,Low,Very Sensitive,2.0,3.0,Low,Smartphone,Other,5/7/2024,False,False,Need-based,No Preference,3.0
+32.0,Female,,Divorced,Master's,Middle,Baby Products,$468.16 ,8.0,Online,3.0,,1.0,Low,Somewhat Sensitive,1.0,5.0,High,Desktop,Credit Card,1/22/2024,False,False,Planned,Standard,2.0
+,Female,High,Divorced,Bachelor's,High,Mobile Accessories,$463.67 ,5.0,Online,2.0,4.0,0.3,High,Not Sensitive,2.0,4.0,,Tablet,PayPal,7/7/2024,True,False,Need-based,Standard,5.0
+50.0,Female,High,Single,High School,Middle,Gardening & Outdoors,$69.78 ,9.0,Mixed,4.0,3.0,2.0,Low,Very Sensitive,0.0,6.0,Low,Tablet,Cash,,True,,Wants-based,No Preference,9.0
+26.0,Male,High,Married,Bachelor's,High,Food & Beverages,$453.37 ,10.0,Mixed,1.0,1.0,,Low,Very Sensitive,0.0,6.0,High,,Credit Card,3/11/2024,True,True,Wants-based,Express,
+21.0,Female,High,Widowed,Bachelor's,Middle,Baby Products,$106.15 ,12.0,In-Store,4.0,4.0,0.3,Low,Somewhat Sensitive,0.0,5.0,Medium,Desktop,Cash,3/30/2024,True,True,,Standard,8.0
+21.0,Female,Middle,Single,High School,High,Health Care,$378.47 ,6.0,Online,5.0,2.0,0.33,Medium,Not Sensitive,1.0,10.0,Low,Tablet,Other,12/8/2024,False,False,Planned,Express,2.0
